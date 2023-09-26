@@ -1,0 +1,34 @@
+.footer {
+    background-color: #393121;
+    color: #FFFCF1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 40px; /* Establece el tamaño del logotipo */
+    margin-right: 10px; /* Agrega un espacio entre el logo y el texto "HOSO" */
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .footer {
+    font-weight: bold;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
