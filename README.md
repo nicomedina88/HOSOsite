@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+<a href="http://www.unpaz.edu.ar"><img src="https://www.unpaz.edu.ar/sites/default/files/unpaz_0.png" title="FVCproductions" alt="UNPAZ"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Frontend
 
-## Available Scripts
+## Tabla de contenidos
+- [Introducción](#Introducción)
+- [Estructura](#Estructura)
+- [Sobre HOSO](#Estructura)
+- [Sumate](#Funcionalidades)
+- [Reseñas](#Reseñas)
+- [Formulario de contacto](#Formulario)
 
-In the project directory, you can run:
+## Introducción  
+El proyecto “HOSO. Abrazando a estudiantes del mundo” surge de la necesidad de responder ante la demanda de hospedaje solidario por parte de estudiantes, docentes, investigadores/as, graduados/as y/o gestores extranjeros interesados en realizar un período de intercambio en la UNPAZ.
+
+El hospedaje solidario (HS) se encuentra en el marco del programa “La UNPAZ en el mundo. El mundo en la UNPAZ” de la Dirección General de Relaciones Internacionales, y tiene como objetivo el enriquecimiento multicultural, ya que implica la convivencia con estudiantes de distintas partes de Latinoamérica, a quienes se les ofrece alojamiento ad honorem durante el período de estancia de la movilidad académica en la UNPAZ, promoviendo así la internacionalización en nuestra comunidad universitaria.
+
+En este marco, “HOSO”, la plataforma web multipantalla, viene a proponer un espacio donde almacenar, consultar y modificar los datos de los/as ANFITRIONES/AS de una forma eficiente, facilitando la búsqueda y el contacto de los mismos a fin de conocer su disponibilidad para recibir a un/a RESIDENTE en su hogar durante el período de intercambio.
+
+
+## Estructura
+
+Esta instancia del proyecto contempla las siguientes secciones:
+
+- INICIO tipo Landing Page con:
+  - Presentación/branding.
+  - Extracto “Sobre HOSO”, con CTA a más info.
+  - Extracto “Sumate”, con CTA a más info.
+  - Extracto “Reseñas”, con CTA a ver más.
+  - Formulario de contacto para consultas generales.
+
+- SOBRE HOSO con:
+  - Historia y objetivos del proyecto con:
+  - Redirección a “Términos de privacidad y condiciones de uso”.
+  - Bases de la convocatoria de Alojamiento Solidario.
+  - Presentación del equipo de trabajo.
+  - Redirección a la URL de Movilidad Internacional.
+  - Redirección al sitio oficial de la UNPAZ.
+  - Redirección a las URLs de la Tecnicatura en Comercio Electrónico y de la Licenciatura en Sistemas de la Información.
+  - Redirección a SUMATE.
+
+- SUMATE con:
+  - Formulario de contacto para la pre-inscripción de los anfitriones.
+  - Redirección a FAQ.
+  - Redirección automática a pop-up de agradecimiento.
+- RESEÑAS con:
+  - Reseñas expandidas de anfitriones.
+  - Reseñas expandidas de residentes.
+  - Redirección a SUMATE.
+
+- FAQ con:
+  - Selección de preguntas y respuestas relativas a la convocatoria y a la dinámica de la plataforma.
+  - Redirección a SUMATE.
+
+- CONTACTO con:
+  - Formulario de contacto.
+  - Vías de contacto con la DGRI.
+  - Vías de contacto con soporte técnico.
+
+
+
+## Funcionalidades
+
+## Tecnologias utilizadas
+
+- Node.js/React.js
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para ejecutar la app en modo desarrollo.\
+Abrir [http://localhost:3000](http://localhost:3000) para verlo en su browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+El sitio se recargará cuando realice algun cambio.\
+Se puede ver mensajes de error en la consola del browser.
 
-### `npm test`
+## Requerimientos 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - Nodejs  (v14) instalado
 
-### `npm run build`
+## Diagramas  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Casos de uso  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Pueden incluir aca algun diagrama si lo desean.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Variables de entorno 
 
-### `npm run eject`
+## Uso  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Ejecutar el programa en dev  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start dev   
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contacto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
