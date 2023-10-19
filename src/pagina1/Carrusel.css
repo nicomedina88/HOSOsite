@@ -1,0 +1,83 @@
+.carrusel-container {
+    display: flex;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #FAC1B8;
+    padding: 50px; /* Agregar relleno alrededor del carrusel */
+    max-width: 1290px; /* Ajustar el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centrar el carrusel horizontalmente */
+      
+      
+  }
+  
+  .carrusel-content {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .carrusel-text h2 {
+    font-size: 40px;
+    font-family: Montserrat;
+
+  }
+  
+  .carrusel-text p {
+    font-size: 20px;
+  }
+  
+  .carrusel-text button {
+    background-color: #0F8AA6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+
+  }
+  
+  .carrusel-text {
+    flex: 1;
+    padding: 10px;
+    max-width: 50%;
+    margin-right: 60px; /* Agregar margen a la derecha para separar el texto de la imagen */
+    text-align: left; /* Alinea el texto a la izquierda */
+    font-family: Montserrat;
+
+
+  }
+  
+  .carrusel-image {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .carrusel-image img {
+    max-width: 100%;
+    max-height: 300px; /* Ajusta la altura máxima según tus necesidades */
+    width: auto;
+    height: auto;
+  }
+  
+  /* Estilos para los indicadores */
+.carrusel-indicators {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .carrusel-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #0F8AA6; /* Color para el indicador activo */
+  }
+  
+  /* Puedes personalizar más estilos según tus necesidades */
+  

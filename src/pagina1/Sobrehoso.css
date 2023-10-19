@@ -1,0 +1,64 @@
+.landing-section {
+    background-color: #FAC1B8;
+  text-align: center;
+  padding: 30px;
+
+  }
+  
+  .landing-section h1 {
+    color: #424038;
+    text-align: center;
+    /* title/large */
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px; /* 126.667% */
+    letter-spacing: 0.5px;
+  }
+  
+  .landing-section p {
+    color: #424038;
+
+    text-align: center;
+    /* body/large */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: 0.5px;
+  }
+  
+  .landing-section button {
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #424038;
+    background: #424038;
+    color: var(--neutral-0, #FFF);
+    /* body/small */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px auto 30px; /* Centrar el botón vertical y agregar margen inferior */
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .landing-image {
+    width: 50%;
+    margin: 10px;
+    width: 547px;
+    height: 354px;
+    flex-shrink: 0;
+  }
+  
