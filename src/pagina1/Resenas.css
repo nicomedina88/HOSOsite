@@ -1,0 +1,44 @@
+.resenas-container {
+  background-color: #0F8AA6;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.opiniones {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.opinion {
+  background-color: white;
+  border: 1px solid #0F8AA6;
+  padding: 10px;
+  width: 400px; /* Ancho fijo para cada cuadro de opinión */
+  text-align: center;
+  border-radius: 10px; /* Ajusta el valor según la cantidad de redondeo deseada */
+  margin: 20px; /* Agregar un margen para separar los cuadros */
+  transition: transform 0.2s; /* Agregar una transición para un efecto suave */
+}
+
+.opinion:hover {
+  transform: scale(1.05); /* Escalar el cuadro ligeramente en hover */
+}
+
+.opinion p {
+  margin: 0;
+  font-size: 1em; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+}
+
+.nombre {
+  font-weight: bold; /* Hace que el nombre esté en negrita */
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.3em;
+}

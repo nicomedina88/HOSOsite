@@ -9,25 +9,25 @@ function Carrusel() {
 
   const data = [
     {
-      title: 'Proyecto HOSO',
+      title: 'Nuestro programa',
       text: 'El Hospedaje Solidario se encuentra en el marco del programa “La UNPAZ en el mundo, el mundo en la UNPAZ” y tiene como objetivo el intercambio intercultural.',
       image: foto1,
       buttonLabel: 'Más información',
-      link: '#seccion1', // Aquí proporciona la ruta de destino de tu página
+      link: '#seccion1',
     },
     {
       title: 'Sobre HOSO',
       text: 'El Proyecto surge de la necesidad de responder ante la demanda de Hospedaje Solidario por parte de estudiantes, docentes, investigadores y graduados/as interesandos en realizar un período de intercambio en la UNPAZ...',
       image: foto2,
       buttonLabel: 'Ver más',
-      link: '#seccion2', // Aquí proporciona la ruta de destino de tu página
+      link: '#seccion2',
     },
     {
       title: 'Sumate',
       text: '¿Querés ser parte de una experiencia enriquecedora y brindar un cálido alojamiento a académicos extranjeeros que vienen a nuestra universidad? ¡Unite a nosotros como anfitrión solidario y compartí tu hogar con personas de diferentes culturas!',
       image: foto3,
       buttonLabel: 'Más información',
-      link: '#seccion3', // Aquí proporciona la ruta de destino de tu página
+      link: '#seccion3',
     },
   ];
 
@@ -36,9 +36,25 @@ function Carrusel() {
   };
 
   useEffect(() => {
+    // Cuando currentIndex cambia, establece la opacidad en 1 después de un breve retraso
+    const items = document.querySelectorAll('.carrusel-item');
+    
+    items.forEach(item => {
+      item.style.opacity = 0;
+      
+      // Programa un cambio en la opacidad después de un breve retraso
+      setTimeout(() => {
+        item.style.opacity = 1;
+      }, 1000); // Cambiar la opacidad después de 1 segundo
+    });
+  }, [currentIndex]);
+  
+  
+
+  useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
-    }, 10000); // Cambiar de página cada 10 segundos
+    }, 10000);
 
     return () => {
       clearInterval(interval);
@@ -48,14 +64,14 @@ function Carrusel() {
   return (
     <div className="carrusel-container" style={{ backgroundColor: '#FAC1B8' }}>
       <div className="carrusel-content">
-        <div className="carrusel-text">
-          <h2 style={{ color: '#424038' }}>{data[currentIndex].title}</h2>
-          <p style={{ color: '#424038' }}>{data[currentIndex].text}</p>
+        <div className="carrusel-text carrusel-item">
+          <h2>{data[currentIndex].title}</h2>
+          <p>{data[currentIndex].text}</p>
           <a href={data[currentIndex].link}>
             <button style={{ backgroundColor: '#393121' }}>{data[currentIndex].buttonLabel}</button>
           </a>
         </div>
-        <div className="carrusel-image">
+        <div className="carrusel-image carrusel-item">
           <img src={data[currentIndex].image} alt={data[currentIndex].title} />
         </div>
       </div>
