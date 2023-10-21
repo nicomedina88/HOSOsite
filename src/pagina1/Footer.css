@@ -4,34 +4,60 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px 20px;
   position: relative;
   bottom: 0;
-  max-width: 100%; /* Cambia 100% a un valor específico si es necesario */
-  margin: 0 auto; /* Agregar margen automático izquierdo y derecho */
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif; /* Agrega la fuente deseada */
+}
+
+.info {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos de texto verticalmente */
+  align-items: flex-end; /* Alinea los elementos a la derecha */
+}
+
+.info p {
+  margin: 0;
+}
+
+.info a {
+  text-decoration: none;
+  color: #FFFCF1;
+  font-size: 14px; /* Ajusta el tamaño de fuente deseado */
+
+}
+
+.info a:hover {
+  text-decoration: underline; /* Subrayar los enlaces al pasar el ratón */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.logo p {
+  margin-left: 10px; /* Ajusta el valor según la separación deseada */
+  font-size: 14px; /* Ajusta el tamaño de fuente deseado */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+  font-weight: bold; /* Si deseas que el pie de página en su conjunto sea negrita */
+}
+
+.bold-text {
   font-weight: bold;
 }
 
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo img {
-    max-height: 40px; /* Establece el tamaño del logotipo */
-    margin-right: 10px; /* Agrega un espacio entre el logo y el texto "HOSO" */
-  }
-  
-  body {
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .footer {
-    font-weight: bold;
-  }
-  
-  .bold-text {
-    font-weight: bold;
-  }
   

@@ -50,6 +50,8 @@
   .nav a {
     color: #FFFCF1;
     text-decoration: none; /* Elimina la subrayado de los enlaces */
+    font-weight: bold;
+
   }
   
   /* Cambia el color del texto de los elementos de navegación cuando se les hace hover */

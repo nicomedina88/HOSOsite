@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="banner-text">
           <h1 className="big-text">Proyecto HOSO</h1>
           <p className="big-text">
-            El Hospedaje Solidario se encuentra en el marco del programa “La UNPAZ en el mundo, el mundo en la UNPAZ” y tiene como objetivo el intercambio intercultural.
+            Abrazando a estudiantes del mundo
           </p>
         </div>
         <div className="banner-image">

@@ -10,6 +10,11 @@
       
   }
   
+  .carrusel-item {
+    opacity: 0;
+    transition: opacity 1s; /* Agregar una transición de 1 segundo a la propiedad de opacidad */
+  }
+  
   .carrusel-content {
     display: flex;
     align-items: center;
@@ -33,9 +38,17 @@
     border: none;
     cursor: pointer;
     font-family: Montserrat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Ajusta el valor según la cantidad de redondeo deseada */
+    transition: transform 0.2s; /* Agregar una transición para un efecto suave */
+  }
 
+  .carrusel-text button:hover {
+  transform: scale(1.05); /* Escalar el cuadro ligeramente en hover */
   }
   
+  
+
   .carrusel-text {
     flex: 1;
     padding: 10px;
@@ -57,6 +70,8 @@
     max-height: 300px; /* Ajusta la altura máxima según tus necesidades */
     width: auto;
     height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
   }
   
   /* Estilos para los indicadores */
@@ -79,5 +94,5 @@
     background-color: #0F8AA6; /* Color para el indicador activo */
   }
   
-  /* Puedes personalizar más estilos según tus necesidades */
-  
+ 
+
