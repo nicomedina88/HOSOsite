@@ -4,10 +4,14 @@
     overflow: hidden;
     background-color: #FAC1B8;
     padding: 50px; /* Agregar relleno alrededor del carrusel */
-    max-width: 1290px; /* Ajustar el ancho máximo según tus necesidades */
     margin: 0 auto; /* Centrar el carrusel horizontalmente */
-      
-      
+    width: 100%; /* O podrías usar un porcentaje específico, por ejemplo, 100% */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y la altura total */
+  
+  
+
+    
+    
   }
   
   .carrusel-item {
@@ -61,8 +65,8 @@
   }
   
   .carrusel-image {
-    max-width: 50%;
     height: auto;
+    max-width: 100%; /* Ajusta la anchura máxima según tus necesidades */
   }
   
   .carrusel-image img {

@@ -1,0 +1,94 @@
+/* Contacto.css */
+
+.contacto-container {
+    display: flex;
+  }
+  
+  .contacto-info {
+    flex: 1;
+    background-color: #FAC1B8;
+    padding: 20px;
+  }
+  
+  .rosado {
+    margin-right: 20px;
+  }
+  
+  .formulario {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Puedes agregar estilos adicionales según tus necesidades */
+  /* Agrega estos estilos específicos a las casillas de llenado */
+
+/* Estilos específicos para las casillas de llenado (input y textarea) */
+
+.formulario form input,
+.formulario form textarea {
+  display: flex;
+  width: 631px;
+  height: 78.947px;
+  padding: 18px 26px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid #EEE;
+  background: #393121;
+  color: #FFF; /* Ajusta el color del texto según sea necesario */
+}
+
+/* Estilo adicional para el botón enviar si es necesario */
+.formulario form button {
+  display: flex;
+  width: 631px;
+  height: 78.947px;
+  padding: 18px 26px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid #EEE;
+  background: #393121;
+  color: #FFF; /* Ajusta el color del texto según sea necesario */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario form button:hover {
+  background-color: #5a4d41; /* Color de fondo al pasar el ratón */
+}
+
+/* Contacto.css */
+
+/* ... Otros estilos ... */
+
+.formulario form button {
+    display: flex;
+    width: 196px;
+    height: 75px;
+    padding: 18px 26px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #0F8AA6;
+    color: #fff; /* Color del texto */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formulario form button:hover {
+    background-color: #0c6e87; /* Color de fondo al pasar el ratón */
+  }
+  
+  /* ... Otros estilos ... */
+  

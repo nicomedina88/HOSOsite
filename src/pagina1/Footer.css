@@ -46,6 +46,8 @@
 .logo p {
   margin-left: 10px; /* Ajusta el valor según la separación deseada */
   font-size: 14px; /* Ajusta el tamaño de fuente deseado */
+  color: #FFFCF1; /* Aplica el mismo color que los enlaces */
+
 }
 
 body {
