@@ -1,6 +1,13 @@
 .banner {
   display: flex;
-  background-color: #fff; /* Si deseas un fondo de color detrás de la imagen */
+  opacity: 0.8;
+  background: url(../img/fondo1.png), lightgray 50%;
+  mix-blend-mode: darken;
+  width: 1440px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: contain; /* Ajusta el ancho de la imagen al 100% y permite que el alto se ajuste automáticamente */
+
 }
 
 .banner-content {
@@ -12,21 +19,25 @@
   flex: 1; /* El texto ocupará el 50% del ancho */
   padding: 20px; /* Espacio entre el texto y la imagen */
   text-align: left; /* Alinea el texto a la izquierda */
+  width: 685px;
 }
 
 .big-text {
   font-family: 'Montserrat', sans-serif;
+  color:  #FFFCF1;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76px; /* 126.667% */
+  letter-spacing: 0.5px;
 }
 
-.banner-image {
-  flex: 1; /* La imagen ocupará el 50% del ancho */
-  padding: 20px; /* Espacio entre la imagen y el texto */
-}
+
 
 .banner-image img {
-  
-  width: 551px;
-  height: 402px;
+  width: 1440px;
+  height: 479px;
   flex-shrink: 0;
 }
 
