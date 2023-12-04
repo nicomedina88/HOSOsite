@@ -1,20 +1,14 @@
 import './App.css';
-import Header from './componentes/Header.js';
-import Footer from './componentes/Footer.js';
-import Banner from './componentes/Banner.js';
-import Carrusel from './componentes/Carrusel.js';
-import Resenas from './componentes/Resenas.js.jsx';
-import Contacto from './componentes/Contacto.jsx';
+import Header from './componentes/Header.jsx';
+import Footer from './componentes/Footer.jsx';
+import Sobrehoso from './componentes/Sobrehoso.jsx';
 
 function App() {
   return (
     <div className="App">
       <header>
         <Header /> 
-        <Banner />
-        <Carrusel />
-        <Resenas />
-        <Contacto />
+        <Sobrehoso />
         <Footer /> 
       </header>
     </div>
