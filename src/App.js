@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './pagina1/Header.jsx';
-import Footer from './pagina1/Footer.jsx';
-import Banner from './pagina1/Banner.jsx';
-import Carrusel from './pagina1/Carrusel.jsx';
-import Resenas from './pagina1/Resenas.jsx';
-import Contacto from './pagina1/Contacto.jsx';
+import Header from './componentes/Header.js';
+import Footer from './componentes/Footer.js';
+import Banner from './componentes/Banner.js';
+import Carrusel from './componentes/Carrusel.js';
+import Resenas from './componentes/Resenas.js.jsx';
+import Contacto from './componentes/Contacto.jsx';
 
 function App() {
   return (
