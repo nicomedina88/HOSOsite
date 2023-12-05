@@ -6,6 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: left; /* Alinea el texto a la izquierda */
+
 }
 
 .title-container {
@@ -21,7 +23,7 @@
   width: 503px;
   height: 34px;
   flex-shrink: 0;
-  margin-left: 0;
+  padding-left: 15px;
 }
 
 
@@ -44,8 +46,8 @@
   font-family: DM Sans;
   font-size: 60px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 76px; /* 126.667% */
+  font-weight: 600;
+  line-height: 56px; /* 126.667% */
   letter-spacing: 0.5px;
   text-align: left; /* Alinea el texto a la izquierda */
 }
@@ -60,4 +62,16 @@
   font-weight: 400;
   line-height: 32px; /* 133.333% */
   letter-spacing: 0.5px;
+}
+
+.text-with-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-logo {
+  width: 500px; /* Ajusta el tamaño según sea necesario */
+  height: 300px; /* Esto mantiene la proporción de la imagen */
+  margin-left: 20px; /* Ajusta la distancia entre la imagen y el texto */
+  margin-right: 20px; /* Ajusta la distancia entre la imagen y el texto */
 }

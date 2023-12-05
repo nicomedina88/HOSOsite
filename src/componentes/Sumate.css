@@ -6,6 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left; /* Alinea el texto a la izquierda */
+  
   }
   
   .title-container {
@@ -21,7 +23,7 @@
     width: 503px;
     height: 34px;
     flex-shrink: 0;
-    margin-left: 0;
+    padding-left: 15px;
   }
   
   

@@ -2,6 +2,8 @@
 import foto from '../img/fondo1.png';
 import React from 'react';
 import './Sobrehoso.css'; // Asegúrate de importar tu archivo CSS
+import internacionales from '../img/internacionales.png';
+import logo6 from '../img/hoso6.png';
 
 const Sobrehoso = () => {
   return (
@@ -17,8 +19,6 @@ const Sobrehoso = () => {
           className="image"
         />
       </div>
-
-      {/* Contenido de texto */}
       <div className="text-container">
         <h2 className="section-title">Antecedentes</h2>
         <p className="paragraph">
@@ -30,7 +30,45 @@ const Sobrehoso = () => {
       <br />
        En esta etapa inicial del proyecto “HOSO. Abrazando a estudiantes del mundo” pretende cubrir las necesidades locales e institucionales de la UNPAZ, pero poniendo en perspectiva, con este desarrollo tecnológico, el beneficio común de todo el sistema universitario nacional e internacional, público y privado.
       <br />
-      <br />
+        </p>
+      </div>
+      <img src={internacionales} alt="logo internacionales" />
+      <div className="text-with-image-container">
+      <div className="text-container">
+        <h2 className="section-title">¿Qué es HOSO?</h2>
+        <p className="paragraph">
+        El proyecto “HOSO. Abrazando a estudiantes del mundo” surge de la necesidad de responder ante la demanda de hospedaje solidario por parte de estudiantes, docentes, investigadores/as, graduados/as y/o gestores extranjeros interesados en realizar un período de intercambio en la UNPAZ.
+        <br />
+        <br />
+        El hospedaje solidario (HS) se encuentra en el marco del programa “La UNPAZ en el mundo. El mundo en la UNPAZ” de la Dirección General de Relaciones Internacionales, y tiene como objetivo el enriquecimiento multicultural, ya que implica la convivencia con estudiantes de distintas partes de Latinoamérica, a quienes se les ofrece alojamiento ad honorem durante el período de estancia de la movilidad académica en la UNPAZ, promoviendo así la internacionalización en nuestra comunidad universitaria.
+        <br />
+        <br />
+        En este marco, “HOSO”, la plataforma web multipantalla, viene a proponer un espacio donde almacenar, consultar y modificar los datos de los/as ANFITRIONES/AS de una forma eficiente, facilitando la búsqueda y el contacto de los mismos a fin de conocer su disponibilidad para recibir a un/a RESIDENTE en su hogar durante el período de intercambio.
+        </p>
+      </div>
+      <img
+          src={logo6}
+          alt="Logo del proyecto HOSO"
+          className="project-logo"
+        />
+      </div>
+      <div className="text-container">
+        <h2 className="section-title">Nuestros objetivos</h2>
+        <p className="paragraph">
+        - Simplificar el ingreso, la consulta y modificación de la información de los/as ANFITRIONES/AS postulados para recibir a un/a RESIDENTE de intercambio.
+        <br />
+        <br />
+        - Difundir el programa de HS, “La UNPAZ en el mundo. El mundo en la UNPAZ”, a fin de cubrir las vacancias de ANFITRIONES/AS.
+        <br /> 
+        <br />
+        - Posicionar a la UNPAZ en el ámbito nacional e internacional mediante el diseño y desarrollo de una solución informática eficiente que se apegue a los estándares actuales de usabilidad y accesibilidad, y que sea susceptible de posicionar orgánicamente en los principales motores de búsqueda.
+        <br />
+        <br />
+        - Ampliar y fortalecer los vínculos de cooperación internacional atento a las sinergias y desafíos que presenta la virtualización y el contexto global mediante la promoción orgánica de “HOSO”.
+        <br />
+        <br />
+        - Establecer un círculo virtuoso de enriquecimiento cultural entre los actores vinculados y su entorno.
+        <br />
         </p>
       </div>
     </div>

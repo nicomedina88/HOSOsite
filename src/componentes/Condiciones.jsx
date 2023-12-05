@@ -9,7 +9,7 @@ const Condiciones = () => {
       {/* Mini banner */}
       <div className="mini-banner">
         <div className="title-container">
-          <h1 className="title">Terminos y Condiciones</h1>
+          <h1 className="title">Términos y Condiciones</h1>
         </div>
         <img
           src={foto}
