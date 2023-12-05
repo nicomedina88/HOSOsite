@@ -23,7 +23,7 @@ function Footer() {
       </div>
       <div className="info">
         <p>
-          <a href="/politicas-de-privacidad">Políticas de privacidad</a>
+          <a href="/politicas-de-privacidad">Política de privacidad</a>
           <span> | </span>
           <a href="/terminos-y-condiciones">Términos y condiciones</a>
         </p>

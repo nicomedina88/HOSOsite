@@ -9,7 +9,7 @@ const Privacidad = () => {
       {/* Mini banner */}
       <div className="mini-banner">
         <div className="title-container">
-          <h1 className="title">Politicas de Privacidad</h1>
+          <h1 className="title">Política de Privacidad</h1>
         </div>
         <img
           src={foto}

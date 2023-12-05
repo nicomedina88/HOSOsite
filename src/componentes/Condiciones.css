@@ -1,4 +1,4 @@
-/* Sobrehoso.css */
+/* Condiciones.css */
 
 
 .mini-banner {
@@ -6,22 +6,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left; /* Alinea el texto a la izquierda */
+  
   }
   
   .title-container {
     color: #000;
     font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 40px;
+    line-height: 60px;
     padding-top: 50px; /* Puedes ajustar esto según tus preferencias */
     padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
     width: 503px;
     height: 34px;
     flex-shrink: 0;
-    margin-left: 0;
+    padding-left: 15px;
   }
   
   
