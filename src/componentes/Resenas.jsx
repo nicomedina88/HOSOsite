@@ -4,8 +4,8 @@ import './Resenas.css';
 const Resenas = () => {
   return (
     <div className="resenas-container">
-      <h1>Reseñas</h1>
-      <p>¡Mira lo que tienen para contar quienes ya pasaron por la experiencia de hospedar a estudiantes de otros países...</p>
+      <h1 className='titulo1'>Reseñas</h1>
+      <p className='subtitulo'>¡Mira lo que tienen para contar quienes ya pasaron por la experiencia de hospedar a estudiantes de otros países...</p>
       <div className="opiniones">
         <div className="opinion">
           <p className="nombre"><strong>Nina Fraga</strong></p>

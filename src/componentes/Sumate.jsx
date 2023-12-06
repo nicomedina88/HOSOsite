@@ -2,6 +2,8 @@
 import foto from '../img/fondo1.png';
 import React from 'react';
 import './Sumate.css'; // Asegúrate de importar tu archivo CSS
+import logo6 from '../img/hoso6.png';
+
 
 const Sumate = () => {
   return (
@@ -17,13 +19,50 @@ const Sumate = () => {
           className="image"
         />
       </div>
-
-      {/* Contenido de texto */}
+ 
+      <div className="text-with-image-container">
       <div className="text-container">
-        <h2 className="section-title">Sé parte de HOSO como anfitrión</h2>
+        <h3 className="section-title">Sé parte de HOSO como anfitrión</h3>
         <p className="paragraph">
-          El Programa de Internacionalización Integral y Cooperación Internacional “La UNPAZ en el mundo...
-          {/* Resto del texto */}
+        <span>¡Unite Como anfitrión y brindá una experiencia inolvidable a estudiantes de Intercambio en la UNPAZ!</span>
+        <br />
+        ¿Te gustaría abrir las puertas de tu hogar y de tu corazón para recibir a estudiantes de Intercambio de todo el mundo? En UNPAZ creemos en la importancia de la diversidad cultural y enriquecimiento mutuo. Es por eso que lanzamos el proyecto HOSO para el hospedaje solidario: Una oportunidad única para vos de convertirte en anfitrión y participar activamente en la experiencia educativa de éstos jóvenes.
+        <br />
+        <br />
+        <span>¿Qué implica ser Anfitrión HOSO?</span>
+        <br />
+        Significa mucho mas que proporcionar alojamiento. Significa compartir tu cultura, tradiciones y estilo de vida. Crear relaciones duraderas y contribuir a la internacionalozacion de nuestra universidad.
+        </p>
+      </div>
+      <img
+          src={logo6}
+          alt="Logo del proyecto HOSO"
+          className="project-logo"
+        />
+      </div>
+      <div className="text-container">
+        <h2 className="section-title">Requisitos principales</h2>
+        <p className="paragraph">
+        - Espacio de alojamiento en tu hogar.
+        <br />
+        <br />
+        - Hospitalidad y buena comunicación.
+        <br /> 
+        <br />
+        - Respeto a la privacidad.
+        <br />
+        <br />
+        - Estar cerca de la UNPAZ.
+        </p>
+      </div>
+      <div className="text-container">
+        <h2 className="section-title">Postulate como anfitrión</h2>
+        <p className="paragraph">
+        Si estás interesado en abrir las puertas de tu hogar, dejanos tus datos de contacto.
+        <br />
+        ¡Nos encantaría conocerte más!
+        <br />
+        Luego te vamos a estar contactando!
         </p>
       </div>
     </div>
