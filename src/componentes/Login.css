@@ -1,0 +1,82 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .white-section {
+    background-color: #ffffff;
+    flex: 0.6;
+    padding: 20px;
+    width: 845px;
+    height: 724px;
+    flex-shrink: 0;
+  }
+  
+  .pink-section {
+    background-color: #FAC1B8;
+    flex: 0.4;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 845px;
+    justify-content: center; /* Añade esta línea para centrar contenido horizontalmente */
+  }
+  
+  .login-form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    width: 520px;
+    height: 426px;
+    padding: 24px 55px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+  }
+  
+  .additional-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .logo-container {
+  text-align: center; /* Añade esta línea para centrar el texto en el contenedor */
+  margin-top: 10px; /* Ajusta el margen inferior según tus preferencias */
+
+}
+
+  .slogan {
+    font-size: 14px;
+    color: var(--primary, #393121);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+  }
+  
+  .titulogo {
+    color: var(--primary, #393121);
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px; /* Ajusta el margen inferior según tus preferencias */
+  }
+
+  h2 {
+    max-width: 410px;
+    color: #000;
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+  }

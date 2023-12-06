@@ -77,7 +77,7 @@ const Contacto = () => {
       </div>
       <div className="formulario">
         <h2>¿Quieres recibir más información? ¿Tenés alguna consulta para hacernos?</h2>
-        <form onSubmit={validarFormulario}>
+        <form className='formi'   onSubmit={validarFormulario}>
           <input type="text" name="nombre" placeholder="Tu nombre" required />
           <input type="email" name="email" placeholder="Tu email" required />
           <textarea
