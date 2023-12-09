@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import logo from '../img/hoso1.png';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -23,9 +24,9 @@ function Footer() {
       </div>
       <div className="info">
         <p>
-          <a href="/politicas-de-privacidad">Política de privacidad</a>
+          <Link to="/politicas-de-privacidad">Política de privacidad</Link>
           <span> | </span>
-          <a href="/terminos-y-condiciones">Términos y condiciones</a>
+          <Link to="/terminos-y-condiciones">Términos y condiciones</Link>
         </p>
       </div>
     </footer>
