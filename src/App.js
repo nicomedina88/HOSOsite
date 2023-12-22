@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './componentes/Header.jsx';
 import Banner from './componentes/Banner.jsx';
 import Carrusel from './componentes/Carrusel.jsx';
-import CarrouselComponent from './componentes/CarrouselComponent.jsx';
+//import CarrouselComponent from './componentes/CarrouselComponent.jsx';
 import Resenas from './componentes/Resenas.jsx';
 import Contacto from './componentes/Contacto.jsx';
 import Footer from './componentes/Footer.jsx';
