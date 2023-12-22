@@ -7,11 +7,9 @@
     margin: 0 auto; /* Centrar el carrusel horizontalmente */
     width: 100%; /* O podrías usar un porcentaje específico, por ejemplo, 100% */
     box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y la altura total */
-  
-  
-
-    
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .carrusel-item {
@@ -84,11 +82,18 @@
     margin-top: 10px;
   }
   
+  .indicator-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alinea los indicadores en una columna */
+  }
+  
   .carrusel-indicator {
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+    width: 30px;
+    height: 5px;
+    /*border-radius: 50%;*/
     background-color: #ccc;
     margin: 0 5px;
     cursor: pointer;

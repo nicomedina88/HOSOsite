@@ -76,13 +76,15 @@ function Carrusel() {
         </div>
       </div>
       <div className="carrusel-indicators">
-        {data.map((_, index) => (
-          <span
-            key={index}
-            className={`carrusel-indicator ${index === currentIndex ? 'active' : ''}`}
-            onClick={() => handleIndicatorClick(index)}
-          ></span>
-        ))}
+        <div className="indicator-line">
+          {data.map((_, index) => (
+            <span
+              key={index}
+              className={`carrusel-indicator ${index === currentIndex ? 'active' : ''}`}
+              onClick={() => handleIndicatorClick(index)}
+            ></span>
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -5,6 +5,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
   }
   
   .logo {
