@@ -3,10 +3,10 @@
   opacity: 0.8;
   background: url(../img/fondo1.png), lightgray 50%;
   mix-blend-mode: darken;
-  width: 1340px;
+  width: 100%;
   flex-shrink: 0;
   background-repeat: no-repeat;
-  background-size: contain; /* Ajusta el ancho de la imagen al 100% y permite que el alto se ajuste automáticamente */
+  background-size: cover; /* Ajusta el ancho de la imagen al 100% y permite que el alto se ajuste automáticamente */
 
 }
 
