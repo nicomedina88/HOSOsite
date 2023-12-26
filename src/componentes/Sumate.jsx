@@ -1,8 +1,8 @@
 // Sumate.jsx
-import foto from '../img/fondo1.png';
+import foto from '../img/DGRI05.jpeg';
 import React from 'react';
 import './Sumate.css'; // Asegúrate de importar tu archivo CSS
-import logo6 from '../img/hoso6.png';
+import estudiantes from '../img/ESTUDIANTES11.jpeg';
 
 
 const Sumate = () => {
@@ -35,7 +35,7 @@ const Sumate = () => {
         </p>
       </div>
       <img
-          src={logo6}
+          src={estudiantes}
           alt="Logo del proyecto HOSO"
           className="project-logo"
         />
