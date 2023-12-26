@@ -1,6 +1,6 @@
 .footer {
   background-color: #393121;
-  color: #FFFCF1;
+  color: #fffcf1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,28 +9,38 @@
   bottom: 0;
   max-width: 100%;
   margin: 0 auto;
-  font-family: 'Montserrat', sans-serif; /* Agrega la fuente deseada */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .info {
   display: flex;
-  flex-direction: column; /* Alinea los elementos de texto verticalmente */
-  align-items: flex-end; /* Alinea los elementos a la derecha */
+  flex-direction: column;
+  align-items: flex-end;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+  font-weight: bold; /* Si deseas que el pie de página en su conjunto sea negrita */
+}
+
+.bold-text {
+  font-weight: bold;
+}
 .info p {
   margin: 0;
 }
 
 .info a {
   text-decoration: none;
-  color: #FFFCF1;
-  font-size: 14px; /* Ajusta el tamaño de fuente deseado */
-
+  color: #fffcf1;
+  font-size: 14px;
 }
 
 .info a:hover {
-  text-decoration: underline; /* Subrayar los enlaces al pasar el ratón */
+  text-decoration: underline;
 }
 
 .logo {
@@ -44,22 +54,16 @@
 }
 
 .logo p {
-  margin-left: 10px; /* Ajusta el valor según la separación deseada */
-  font-size: 14px; /* Ajusta el tamaño de fuente deseado */
-  color: #FFFCF1; /* Aplica el mismo color que los enlaces */
-
+  margin-left: 10px;
+  font-size: 14px;
+  color: #fffcf1;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
+.social {
+  display: flex;
+  align-items: center;
+  padding-left: 40px; /* Ajusta el valor según la separación deseada */
 
-.footer {
-  font-weight: bold; /* Si deseas que el pie de página en su conjunto sea negrita */
-}
-
-.bold-text {
-  font-weight: bold;
 }
 
   
