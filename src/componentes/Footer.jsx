@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css';
 import logo from '../img/hoso1.png';
-import { InstagramIcon, MailIcon } from '../constantes/IconosHoso';
+import logo2 from '../img/logo_unpaz_blanco.png';
+import { InstagramIcon } from '../constantes/IconosHoso';
 import { Link } from 'react-router-dom';
-
 
 function Footer() {
   return (
@@ -13,13 +13,19 @@ function Footer() {
         <span style={{ fontSize: '24px' }}>HOSO</span>
         <p>&copy;2023 UNPAZ. Todos los derechos reservados</p>
       </div>
-      <div>
+      <div className="social">
         {/* Agrega iconos de redes sociales aquí */}
         <InstagramIcon />
-        <MailIcon />
+      </div>
+      <div className="logo">
+        <img src={logo2} alt="Logo de UNPAZ" />
       </div>
       <div className="info">
         <p>
+          <Link to="/politicas-de-privacidad">Sobre HOSO</Link>
+          <span> | </span>
+          <Link to="/politicas-de-privacidad">Sumate</Link>
+          <span> | </span>
           <Link to="/politicas-de-privacidad">Política de privacidad</Link>
           <span> | </span>
           <Link to="/terminos-y-condiciones">Términos y condiciones</Link>

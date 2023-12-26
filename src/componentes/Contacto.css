@@ -15,9 +15,11 @@ h2 {
 }
 
 .titleform {
+  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 25px;
+  line-height: 1.2;
 
 }
 
@@ -63,6 +65,8 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center; /* Centra el formulario horizontalmente */
+  text-align: center; /* Alinea el texto en el centro (por defecto) */
+
 }
 
 /* Estilos específicos para las casillas de llenado (input y textarea) */
@@ -92,7 +96,12 @@ h2 {
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  align-items: flex-start; /* Alinea los elementos a la izquierda */
+
 }
+
+
+ 
 
 
 

@@ -3,8 +3,8 @@ import React from 'react';
 export const InstagramIcon = () => (
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
-      width="28" 
-      height="24" 
+      width="35" 
+      height="35" 
       viewBox="0 0 28 24" 
       fill="none">
     <ellipse 
@@ -22,22 +22,9 @@ export const InstagramIcon = () => (
   );
   
   export const MailIcon = () => (
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      width="24" 
-      height="24" 
-      viewBox="0 0 24 24" 
-      fill="none">
-    <ellipse 
-      cx="14" 
-      cy="12" 
-      rx="14" 
-      ry="12" 
-      fill="#424038"/>
-    <path 
-      d="M22 4H2V20H22V4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" 
-      fill="#FAC1B8"/>
-    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="43" height="34" viewBox="0 0 43 34" fill="none">
+  <ellipse cx="21.5" cy="17" rx="21.5" ry="17" fill="#424038"/>
+</svg>
   
   )
   
