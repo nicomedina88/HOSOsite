@@ -1,13 +1,15 @@
 /* Sobrehoso.css */
 
 
+/* Sobrehoso.css */
+
 .mini-banner {
   background-color: #FAC1B8;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: left; /* Alinea el texto a la izquierda */
-
+  height: 300px; /* Ajusta la altura según sea necesario */
 }
 
 .title-container {
@@ -18,24 +20,33 @@
   font-style: normal;
   font-weight: 600;
   line-height: 60px;
-  padding-top: 50px; /* Puedes ajustar esto según tus preferencias */
-  padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
+  padding-top: 50px;
+  padding-bottom: 0;
   width: 590px;
-  height: 50px;
   flex-shrink: 0;
   padding-left: 15px;
+}
+
+.image {
+  width: 773px;
+  height: 230px;
+  flex-shrink: 0;
 }
 
 
 .image {
   width: 773px;
-  height: 219px;
+  height: 230px;
   flex-shrink: 0;
 }
+
+/*  ///////////////////////////// */
 
 .text-container {
   background-color: #fff;
   padding: 20px;
+  margin: 0; /* Ajusta según sea necesario */
+
 }
 
 .section-title {
@@ -47,7 +58,6 @@
   font-size: 60px;
   font-style: normal;
   font-weight: 600;
-  line-height: 56px; /* 126.667% */
   letter-spacing: 0.5px;
   text-align: left; /* Alinea el texto a la izquierda */
   white-space: nowrap; /* Evita que el texto se divida en varias líneas */
@@ -77,3 +87,14 @@
   margin-left: 20px; /* Ajusta la distancia entre la imagen y el texto */
   margin-right: 20px; /* Ajusta la distancia entre la imagen y el texto */
 }
+
+.logoint {
+  width: 800px;
+  height: 400px;
+}
+
+.ediuni {
+  width: 800px;
+  height: 500px;
+  padding: 10px;
+} 
