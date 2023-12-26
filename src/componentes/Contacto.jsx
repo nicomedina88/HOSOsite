@@ -1,7 +1,5 @@
 import React from 'react';
 import './Contacto.css';
-import internacionales from '../img/internacionales.png';
-import TextField from '@material-ui/core/TextField';
 import {Telefono, MailContacto, Web, Ubicacion} from '../constantes/IconosHoso';
 
 
@@ -33,12 +31,7 @@ const Contacto = () => {
     return true;
   };
 
-  const actualizarContadorCaracteres = () => {
-    const textarea = document.querySelector('textarea[name="comentario"]');
-    //const contador = document.getElementById('contador-caracteres');
-    const caracteresRestantes = 50 - textarea.value.length;
-    //contador.textContent = `${caracteresRestantes} caracteres restantes`;
-  };
+  
 
   return (
     <div className="contacto-container">
@@ -64,10 +57,9 @@ const Contacto = () => {
             <p>Leandro N. Alem 4673, 2° piso (José C. Paz)</p>
           </div>
         </div>
-        <img src={internacionales} alt="logo rectangular" />
       </div>
       <div className="formulario">
-        <h2>¿Quieres recibir más información? ¿Tenés alguna consulta para hacernos?</h2>
+        <h1 className='titleform'>¿Quieres recibir más información? ¿Tenés alguna consulta para hacernos?</h1>
         <form className='formi'   onSubmit={validarFormulario}>
           <input type="text" name="nombre" placeholder="Tu nombre" required />
           <input type="email" name="email" placeholder="Tu email" required />
@@ -75,7 +67,6 @@ const Contacto = () => {
             name="comentario"
             placeholder="Tu mensaje"
             maxLength="50"
-            onInput={actualizarContadorCaracteres}
             required
           ></textarea>
          

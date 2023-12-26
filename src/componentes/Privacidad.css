@@ -7,6 +7,8 @@
     justify-content: space-between;
     align-items: center;
     text-align: left; /* Alinea el texto a la izquierda */
+    height: 200px;
+
   
   }
   
@@ -20,8 +22,8 @@
     line-height: 60px;
     padding-top: 50px; /* Puedes ajustar esto según tus preferencias */
     padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
-    width: 503px;
-    height: 34px;
+    width: 590px;
+    height: 50px;
     flex-shrink: 0;
     padding-left: 15px;
   }

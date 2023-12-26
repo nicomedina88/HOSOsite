@@ -55,7 +55,7 @@
     flex: 1;
     padding: 10px;
     max-width: 50%;
-    margin-right: 60px; /* Agregar margen a la derecha para separar el texto de la imagen */
+    margin-right: 90px; /* Agregar margen a la derecha para separar el texto de la imagen */
     text-align: left; /* Alinea el texto a la izquierda */
     font-family: Montserrat;
 
