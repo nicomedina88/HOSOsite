@@ -49,3 +49,24 @@ h1 {
 p {
   font-size: 1.3em;
 }
+
+.msj {
+  padding: 10px;
+
+}
+
+.icono-nombre-localidad {
+  display: flex;
+  align-items: center;
+  padding-left: 30px; /* Ajusta la cantidad de espacio a la izquierda según tus necesidades */
+}
+
+.icono-usuario {
+  max-width: 60px; /* Ajusta el tamaño máximo del icono según tus necesidades */
+  margin-right: 20px; /* Agrega un espacio entre el icono y la información del usuario */
+}
+
+.info-usuario {
+  display: flex;
+  flex-direction: column;
+}

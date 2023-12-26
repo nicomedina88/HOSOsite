@@ -1,9 +1,8 @@
 .banner {
   display: flex;
   opacity: 0.8;
-  background: url(../img/fondo1.png), lightgray 50%;
+  background: url(../img/BannerHome.jpg), lightgray 50%;
   mix-blend-mode: darken;
-  width: 1340px;
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-size: contain; /* Ajusta el ancho de la imagen al 100% y permite que el alto se ajuste automáticamente */

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Carrusel.css';
-import foto1 from '../img/foto1.jpeg';
-import foto2 from '../img/foto2.jpeg';
-import foto3 from '../img/foto3.jpeg';
+import foto1 from '../img/HOSOPresentaciónoficial.jpg';
+import foto2 from '../img/DGRI01.png';
+import foto3 from '../img/ESTUDIANTES11.jpeg';
 
 function Carrusel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -10,7 +10,7 @@ function Carrusel() {
   const data = [
     {
       title: 'Nuestro programa',
-      text: 'El Hospedaje Solidario se encuentra en el marco del programa “La UNPAZ en el mundo, el mundo en la UNPAZ” y tiene como objetivo el intercambio intercultural.',
+      text: 'El Hospedaje Solidario se encuentra en el marco del programa “La UNPAZ en el mundo, el mundo en la UNPAZ” y tiene como objetivo el intercambio intercultural,  promoviendo así la internacionalización en nuestra comunidad universitaria.',
       image: foto1,
       buttonLabel: 'Más información',
       link: '#seccion1',
