@@ -100,11 +100,29 @@ h2 {
 
 }
 
-
- 
-
-
-
 .formulario form button:hover {
 background-color: #0c6e87; /* Color de fondo al pasar el ratón */
+}
+
+
+/* Agrega una media query para dispositivos con un ancho máximo de 768px (puedes ajustar este valor según tus necesidades) */
+@media screen and (max-width: 768px) {
+  .contacto-container {
+    flex-direction: column; /* Cambia la dirección del contenedor principal a columna en dispositivos móviles */
+  }
+
+  .rosado {
+    order: 2; /* Cambia el orden para que la sección rosa aparezca después del formulario en dispositivos móviles */
+  }
+
+  .formulario {
+    order: 1; /* Cambia el orden para que el formulario aparezca primero en dispositivos móviles */
+  }
+
+  .contacto-info {
+    margin-right: 0; /* Elimina el margen derecho en dispositivos móviles */
+    padding: 20px; /* Ajusta el padding para dispositivos móviles */
+  }
+
+  /* Ajusta otros estilos según sea necesario para dispositivos móviles */
 }

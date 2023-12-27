@@ -66,4 +66,65 @@ body {
 
 }
 
-  
+
+
+/* Agrega una media query para estilos específicos de dispositivos móviles */
+@media (max-width: 600px) {
+  .footer {
+    padding: 10px; /* Ajusta el valor según la separación deseada en dispositivos móviles */
+  }
+
+  .social {
+    padding-left: 0; /* Elimina el padding izquierdo en dispositivos móviles */
+  }
+
+  /* Footer.css */
+.footer {
+  background-color: #393121;
+  color: #fffcf1;
+  display: flex;
+  flex-direction: column; /* Cambia a dirección de columna para dispositivos móviles */
+  align-items: center;
+  padding: 5px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinea el contenido al centro en dispositivos móviles */
+  margin-top: 10px; /* Agrega un margen superior para separar del contenido superior */
+}
+
+.logo {
+  display: flex;
+  flex-direction: column; /* Alinea el contenido de la logo en columna para dispositivos móviles */
+  align-items: center; /* Alinea el contenido al centro en dispositivos móviles */
+  margin-bottom: 10px; /* Agrega un margen inferior para separar del contenido inferior */
+}
+
+.logo img {
+  max-height: 40px;
+  margin-bottom: 5px; /* Ajusta el valor según la separación deseada */
+}
+
+.logo p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  padding: 10px 0; /* Ajusta el valor según la separación deseada */
+}
+
+.info a {
+  text-decoration: none;
+  color: #fffcf1;
+  font-size: 14px;
+  margin: 5px 0; /* Ajusta el valor según la separación deseada */
+}
+
+}
+
