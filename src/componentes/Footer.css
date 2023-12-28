@@ -12,7 +12,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.info {
+.info2 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -66,7 +66,9 @@ body {
 
 }
 
-
+.footermobile {
+  display: none;
+}
 
 /* Agrega una media query para estilos específicos de dispositivos móviles */
 @media (max-width: 600px) {
@@ -79,7 +81,7 @@ body {
   }
 
   /* Footer.css */
-.footer {
+.footermobile {
   background-color: #393121;
   color: #fffcf1;
   display: flex;
@@ -87,18 +89,19 @@ body {
   align-items: center;
   padding: 5px 20px;
   font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
+} 
+
+.info2 {
+  flex-direction: column;
 }
 
-.info {
-  display: flex;
+.info2 link {
   flex-direction: column;
-  align-items: center; /* Alinea el contenido al centro en dispositivos móviles */
-  margin-top: 10px; /* Agrega un margen superior para separar del contenido superior */
 }
 
 .logo {
   display: flex;
-  flex-direction: column; /* Alinea el contenido de la logo en columna para dispositivos móviles */
   align-items: center; /* Alinea el contenido al centro en dispositivos móviles */
   margin-bottom: 10px; /* Agrega un margen inferior para separar del contenido inferior */
 }
@@ -106,6 +109,7 @@ body {
 .logo img {
   max-height: 40px;
   margin-bottom: 5px; /* Ajusta el valor según la separación deseada */
+  flex-direction: column;
 }
 
 .logo p {
@@ -119,11 +123,14 @@ body {
   padding: 10px 0; /* Ajusta el valor según la separación deseada */
 }
 
-.info a {
+.info2 a {
   text-decoration: none;
   color: #fffcf1;
   font-size: 14px;
   margin: 5px 0; /* Ajusta el valor según la separación deseada */
+}
+.footer {
+  display: none
 }
 
 }

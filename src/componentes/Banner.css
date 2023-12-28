@@ -6,7 +6,6 @@
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-size: contain; /* Ajusta el ancho de la imagen al 100% y permite que el alto se ajuste automáticamente */
-
 }
 
 .banner-content {
@@ -32,8 +31,6 @@
   letter-spacing: 0.5px;
 }
 
-
-
 .banner-image img {
   width: 1440px;
   height: 479px;
@@ -42,24 +39,20 @@
 
 h1 {
   color: #424038;
-
   font-family: Montserrat;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
-  line-height: 76px; /* 118.75% */
+  line-height: 76px;
   letter-spacing: 0.5px;
 }
 
-/* Estilo para el texto de abajo (medium) */
 p {
   color: #424038;
-
   font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
   letter-spacing: 0.5px;
-
 }

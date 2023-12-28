@@ -26,7 +26,6 @@
   .carrusel-text h2 {
     font-size: 40px;
     font-family: Montserrat;
-
   }
   
   .carrusel-text p {
@@ -49,8 +48,6 @@
   transform: scale(1.05); /* Escalar el cuadro ligeramente en hover */
   }
   
-  
-
   .carrusel-text {
     flex: 1;
     padding: 10px;
@@ -58,8 +55,6 @@
     margin-right: 90px; /* Agregar margen a la derecha para separar el texto de la imagen */
     text-align: left; /* Alinea el texto a la izquierda */
     font-family: Montserrat;
-
-
   }
   
   .carrusel-image {
@@ -76,25 +71,23 @@
 
   }
   
-  /* Estilos para los indicadores */
 .carrusel-indicators {
-    text-align: center;
+    text-align:left;
     margin-top: 10px;
   }
   
   .indicator-line {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; /* Alinea los indicadores en una columna */
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row; /* Alinea los indicadores en una columna */
   }
   
   .carrusel-indicator {
     display: inline-block;
-    width: 30px;
-    height: 5px;
-    /*border-radius: 50%;*/
-    background-color: #ccc;
+    width: 100px;
+    height: 10px;
+    background-color: #fff;
     margin: 0 5px;
     cursor: pointer;
   }

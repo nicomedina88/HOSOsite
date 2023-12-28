@@ -20,35 +20,31 @@ const Login = () => {
         <div className="login-form">
           <h2>¡Hola, bienvenido de nuevo!</h2>
           <form onSubmit={handleSubmit}>
-            <label>
+            <label className='casilla'>
               <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder='Nombre de usuario o correo electrónico:'/>
             </label>
             <br />
-            <label>
+            <label className='casilla'>
               <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Contraseña:'/>
             </label>
             <br />
             <div className="additional-info">
-              <div>
+              <div className="checkbox-container">
                 <input type="checkbox" />
-                <span>Mantenme conectado</span>
+                <span className='info'>Mantenme conectado</span>
               </div>
               <div>
-                <span>¿Contraseña olvidada?</span>
+                <span  className='info'>¿Contraseña olvidada?</span>
               </div>
             </div>
             <br />
-            <button type="submit">Acceder</button>
+            <button type="submit"  className='boton'>Acceder</button>
           </form>
         </div>
       </div>
       <div className="pink-section">
         <div className="logo-container">
-          <img
-          src={logo2}
-          alt="Logo del proyecto HOSO"
-          className="project-logo"
-          />
+          <img src={logo2} alt="Logo del proyecto HOSO" className="logologin"/>
           <h1 className='titulogo'>HOSO</h1>
           <p className="slogan">Abrazando a estudiantes del mundo</p>
         </div>

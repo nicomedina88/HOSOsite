@@ -21,10 +21,10 @@
   font-weight: 600;
   line-height: 60px;
   padding-top: 50px;
-  padding-bottom: 0;
   width: 590px;
-  flex-shrink: 0;
   padding-left: 15px;
+  padding-top: 10px; /* Ajusta esto para acercar el título al borde inferior */
+
 }
 
 .image {
