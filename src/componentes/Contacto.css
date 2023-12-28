@@ -29,6 +29,7 @@ h2 {
   position: relative; /* Necesario para posicionar la imagen dentro del contenedor .rosado */
   padding: 50px;
   padding-bottom: 10px; /* Ajusta esto para acercar el título al borde inferior */
+  font-family: 'Montserrat', sans-serif;
 
 }
 

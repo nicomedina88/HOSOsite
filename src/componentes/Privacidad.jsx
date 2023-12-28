@@ -6,7 +6,7 @@ const Privacidad = () => {
   return (
     <div className="sumate-container">
       {/* Mini banner */}
-      <div className="mini-banner">
+      <div className="mini-banner2">
         <div className="title-container">
           <h1 className="title">Política de Privacidad</h1>
         </div>

@@ -3,8 +3,6 @@ import './Header.css';
 import logo from '../img/hoso1.png';
 import { Link } from 'react-router-dom';
 
-// ... Importaciones y otros códigos ...
-
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 

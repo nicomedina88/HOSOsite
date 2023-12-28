@@ -6,7 +6,7 @@ const Condiciones = () => {
   return (
     <div className="sumate-container">
       {/* Mini banner */}
-      <div className="mini-banner">
+      <div className="mini-banner2">
         <div className="title-container">
           <h1 className="title">Términos y Condiciones</h1>
         </div>

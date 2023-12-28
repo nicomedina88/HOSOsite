@@ -49,8 +49,6 @@ function Carrusel() {
     });
   }, [currentIndex]);
   
-  
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
