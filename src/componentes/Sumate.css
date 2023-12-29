@@ -7,29 +7,29 @@
   justify-content: space-between;
   align-items: center;
   text-align: left; /* Alinea el texto a la izquierda */
-
+  height: 900px;
 }
 
-.title-container {
+.title-container2 {
   color: #000;
   font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 40px;
-  padding-top: 50px; /* Puedes ajustar esto según tus preferencias */
+  line-height: 60px;
+  padding-top: 130px; /* Puedes ajustar esto según tus preferencias */
   padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
-  width: 503px;
-  height: 34px;
+  width: 590px;
+  height: 50px;
   flex-shrink: 0;
   padding-left: 15px;
 }
 
 
-.image {
-  width: 773px;
-  height: 219px;
+.image2 {
+  width: 653px;
+  height: 300px;
   flex-shrink: 0;
 }
 
@@ -38,8 +38,7 @@
   padding: 20px;
 }
 
-.section-title {
-  /* Estilos del título "Antecedentes" */
+.section-title2 {
   color: #424038;
   align-self: stretch;
   /* title/large */
@@ -47,9 +46,10 @@
   font-size: 60px;
   font-style: normal;
   font-weight: 600;
-  line-height: 56px; /* 126.667% */
   letter-spacing: 0.5px;
   text-align: left; /* Alinea el texto a la izquierda */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+
 }
 
 .paragraph {
@@ -62,6 +62,7 @@
   font-weight: 400;
   line-height: 32px; /* 133.333% */
   letter-spacing: 0.5px;
+  
 }
 
 .text-with-image-container {
@@ -70,8 +71,63 @@
 }
 
 .project-logo {
-  width: 500px; /* Ajusta el tamaño según sea necesario */
+  width: 100px; /* Ajusta el tamaño según sea necesario */
   height: 300px; /* Esto mantiene la proporción de la imagen */
   margin-left: 20px; /* Ajusta la distancia entre la imagen y el texto */
   margin-right: 20px; /* Ajusta la distancia entre la imagen y el texto */
+}
+
+.requirements-and-application-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.requirements-container {
+  width: 45%; /* Ajusta el ancho según tus necesidades */
+}
+
+.application-container {
+  width: 45%; /* Ajusta el ancho según tus necesidades */
+}
+
+.application-form {
+  background-color: #0F8AA6;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff; /* Color del texto */
+  text-align: left; /* Alineación del texto a la izquierda */
+  font-family: 'DM Sans', sans-serif; /* Establecer la fuente */
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  color: #fff; /* Ajusta el color del texto según sea necesario */
+  text-align: left; /* Alineación del texto a la izquierda */
+  font-family: 'DM Sans', sans-serif; /* Establecer la fuente */
+  font-weight: bold; /* Aplicar negrita */
+
+}
+
+button {
+  background-color: #0F8AA6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

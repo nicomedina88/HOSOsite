@@ -7,7 +7,6 @@
     padding: 10px 20px;
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
   }
@@ -51,7 +50,6 @@
     border-radius: 20px; /* Botón más redondeado */
   }
   
-  /* Cambia el color del texto de los elementos de navegación a blanco */
   .nav a {
     color: #FFFCF1;
     text-decoration: none; /* Elimina la subrayado de los enlaces */
@@ -59,7 +57,6 @@
 
   }
   
-  /* Cambia el color del texto de los elementos de navegación cuando se les hace hover */
   .nav a:hover {
     color: #0F8AA6;
   }
@@ -76,3 +73,81 @@
     font-weight: bold;
   }
   
+  .menu-button {
+    display: none; /* Oculta el botón de menú en la versión de escritorio por defecto */
+    cursor: pointer;
+  }
+
+  .close-button {
+    display: none;
+  }
+
+  /* Estilos para la versión móvil */
+@media screen and (max-width: 768px) {
+  
+  .header .menu-open {
+    width: 10px;
+    padding: 10px 15px; /* Ajusta el padding según sea necesario */
+
+  }
+
+  .nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #393121;
+    z-index: 999;
+    overflow: visible;
+  }
+
+
+  .nav.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav li {
+    margin: 10px 0;
+    text-align: center;
+    width: 100%; /* Añade esta regla para forzar que ocupen todo el ancho disponible */
+
+  }
+
+  .menu-button {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .close-button {
+    color: #FFFCF1;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .menu-button.active .bar:nth-child(1),
+  .menu-button.active .bar:nth-child(3) {
+    transform: translateY(7px) rotate(45deg); /* Ajusta la animación del icono de hamburguesa */
+  }
+
+  .menu-button.active .bar:nth-child(2) {
+    opacity: 0; /* Desvanece el segundo trazo del icono de hamburguesa cuando está abierto */
+  }
+
+  .menu-button.active .bar {
+    background-color: #FFFCF1; /* Color de las barras del icono de hamburguesa cuando está activo */
+  }
+  
+  .bar {
+    height: 5px;
+    width: 30px;
+    background-color: #FFFCF1; /* Color de las barras del icono de hamburguesa */
+    margin: 6px 0;
+    transition: 0.4s; /* Agrega una transición suave a las barras del icono de hamburguesa */
+  }
+}

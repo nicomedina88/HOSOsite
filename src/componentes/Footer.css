@@ -1,6 +1,6 @@
 .footer {
   background-color: #393121;
-  color: #FFFCF1;
+  color: #fffcf1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,45 +9,13 @@
   bottom: 0;
   max-width: 100%;
   margin: 0 auto;
-  font-family: 'Montserrat', sans-serif; /* Agrega la fuente deseada */
+  font-family: 'Montserrat', sans-serif;
 }
 
-.info {
+.info2 {
   display: flex;
-  flex-direction: column; /* Alinea los elementos de texto verticalmente */
-  align-items: flex-end; /* Alinea los elementos a la derecha */
-}
-
-.info p {
-  margin: 0;
-}
-
-.info a {
-  text-decoration: none;
-  color: #FFFCF1;
-  font-size: 14px; /* Ajusta el tamaño de fuente deseado */
-
-}
-
-.info a:hover {
-  text-decoration: underline; /* Subrayar los enlaces al pasar el ratón */
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  max-height: 40px;
-  margin-right: 10px;
-}
-
-.logo p {
-  margin-left: 10px; /* Ajusta el valor según la separación deseada */
-  font-size: 14px; /* Ajusta el tamaño de fuente deseado */
-  color: #FFFCF1; /* Aplica el mismo color que los enlaces */
-
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 body {
@@ -61,5 +29,109 @@ body {
 .bold-text {
   font-weight: bold;
 }
+.info p {
+  margin: 0;
+}
 
-  
+.info a {
+  text-decoration: none;
+  color: #fffcf1;
+  font-size: 14px;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.logo p {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #fffcf1;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  padding-left: 40px; /* Ajusta el valor según la separación deseada */
+
+}
+
+.footermobile {
+  display: none;
+}
+
+/* Agrega una media query para estilos específicos de dispositivos móviles */
+@media (max-width: 600px) {
+  .footer {
+    padding: 10px; /* Ajusta el valor según la separación deseada en dispositivos móviles */
+  }
+
+  .social {
+    padding-left: 0; /* Elimina el padding izquierdo en dispositivos móviles */
+  }
+
+  /* Footer.css */
+.footermobile {
+  background-color: #393121;
+  color: #fffcf1;
+  display: flex;
+  flex-direction: column; /* Cambia a dirección de columna para dispositivos móviles */
+  align-items: center;
+  padding: 5px 20px;
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
+} 
+
+.info2 {
+  flex-direction: column;
+}
+
+.info2 link {
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Alinea el contenido al centro en dispositivos móviles */
+  margin-bottom: 10px; /* Agrega un margen inferior para separar del contenido inferior */
+}
+
+.logo img {
+  max-height: 40px;
+  margin-bottom: 5px; /* Ajusta el valor según la separación deseada */
+  flex-direction: column;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  padding: 10px 0; /* Ajusta el valor según la separación deseada */
+}
+
+.info2 a {
+  text-decoration: none;
+  color: #fffcf1;
+  font-size: 14px;
+  margin: 5px 0; /* Ajusta el valor según la separación deseada */
+}
+.footer {
+  display: none
+}
+
+}
+

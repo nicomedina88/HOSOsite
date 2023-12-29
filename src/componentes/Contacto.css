@@ -14,12 +14,22 @@ h2 {
   padding-top: 20px;
 }
 
+.titleform {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  line-height: 1.2;
+
+}
+
 .contacto-info {
   margin-right: 20px;
   text-align: left; /* Alinea el texto a la izquierda */
   position: relative; /* Necesario para posicionar la imagen dentro del contenedor .rosado */
-  padding: 20px;
+  padding: 50px;
   padding-bottom: 10px; /* Ajusta esto para acercar el título al borde inferior */
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -43,6 +53,8 @@ h2 {
 .formulario {
   flex: 1;
   background-color: #ffffff;
+  align-items: center; /* Centra el contenido horizontalmente */
+
 }
 
 .formi {
@@ -50,50 +62,68 @@ h2 {
 
 }
 
-/* Puedes agregar estilos adicionales según tus necesidades */
-/* Agrega estos estilos específicos a las casillas de llenado */
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el formulario horizontalmente */
+  text-align: center; /* Alinea el texto en el centro (por defecto) */
+
+}
 
 /* Estilos específicos para las casillas de llenado (input y textarea) */
 
 .formulario form input,
 .formulario form textarea {
-  display: flex;
-  width: 651px;
-  height: 78.947px;
+  width: 100%; /* Haz que los campos ocupen todo el ancho disponible */
+  max-width: 551px; /* Establece un ancho máximo para mantener la legibilidad */
   padding: 18px 46px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-  flex-shrink: 0;
   border-radius: 30px;
+  height: 70px; /* Ajusta la altura según tus necesidades */
   border: 1px solid #EEE;
   margin-bottom: 30px;
-  background: #393121; /* Establece el color de fondo */
-  color: #FFF; /* Establece el color del texto */
+  background: #393121;
+  color: #FFF;
 }
+
 
 
 
 .formulario form button {
-display: flex;
-width: 196px;
-height: 75px;
-padding: 18px 26px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 30px;
-background: #0F8AA6;
-color: #fff; /* Color del texto */
-cursor: pointer;
-transition: background-color 0.3s ease;
+  width: 100%; /* Haz que el botón ocupe todo el ancho disponible */
+  max-width: 196px; /* Establece un ancho máximo para mantener el diseño */
+  padding: 18px 26px;
+  border-radius: 30px;
+  background: #0F8AA6;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-items: flex-start; /* Alinea los elementos a la izquierda */
+
 }
-
-
 
 .formulario form button:hover {
 background-color: #0c6e87; /* Color de fondo al pasar el ratón */
+}
+
+
+/* Agrega una media query para dispositivos con un ancho máximo de 768px (puedes ajustar este valor según tus necesidades) */
+@media screen and (max-width: 768px) {
+  .contacto-container {
+    flex-direction: column; /* Cambia la dirección del contenedor principal a columna en dispositivos móviles */
+  }
+
+  .rosado {
+    order: 2; /* Cambia el orden para que la sección rosa aparezca después del formulario en dispositivos móviles */
+  }
+
+  .formulario {
+    order: 1; /* Cambia el orden para que el formulario aparezca primero en dispositivos móviles */
+  }
+
+  .contacto-info {
+    margin-right: 0; /* Elimina el margen derecho en dispositivos móviles */
+    padding: 20px; /* Ajusta el padding para dispositivos móviles */
+  }
+
+  /* Ajusta otros estilos según sea necesario para dispositivos móviles */
 }

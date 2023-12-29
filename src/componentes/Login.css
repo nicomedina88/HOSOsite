@@ -17,66 +17,91 @@
   .pink-section {
     background-color: #FAC1B8;
     flex: 0.4;
-    padding: 20px;
+    padding: 60px;
     display: flex;
     align-items: center;
     width: 845px;
     justify-content: center; /* Añade esta línea para centrar contenido horizontalmente */
+
   }
   
   .login-form {
-    max-width: 400px;
+    max-width: 420px;
     margin: auto;
     display: flex;
     width: 520px;
-    height: 426px;
-    padding: 24px 55px;
+    height: 426px; 
+    padding: 26px 59px;
+    padding-top: 100px;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-    flex-shrink: 0;
+    font-size: 20px;
+    flex-shrink: 0; /* Establece el valor que desees para que .additional-info se encoga */
+
   }
   
+  .casilla {
+    width: 500px;
+  }
+
   .additional-info {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    flex-shrink: 0; /* Establece el valor que desees para que .additional-info se encoga */
+
+
+  }
+
+  .info {
+    font-size: 15px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
   }
   
   .logo-container {
   text-align: center; /* Añade esta línea para centrar el texto en el contenedor */
-  margin-top: 10px; /* Ajusta el margen inferior según tus preferencias */
+  text-align: center;
+  margin: 15px 0; /* Ajusta el margen superior e inferior */
+  line-height: 0%;
 
 }
 
   .slogan {
     font-size: 14px;
     color: var(--primary, #393121);
-    font-family: Poppins;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 0%;
+    margin-bottom: 40px; /* Ajusta el margen inferior según tus preferencias */
 
   }
   
   .titulogo {
     color: var(--primary, #393121);
-    font-family: Poppins;
+    font-family: 'Montserrat', sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    margin-bottom: 10px; /* Ajusta el margen inferior según tus preferencias */
+    line-height: 0%;
   }
 
   h2 {
     max-width: 410px;
     color: #000;
-
-    font-family: Roboto;
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
   }
+
+  
