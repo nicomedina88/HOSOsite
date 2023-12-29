@@ -4,9 +4,10 @@
   background: url(../img/BannerHome.jpg), lightgray 50%;
   mix-blend-mode: darken;
   width: 100%;
-  height: 600px;
+  flex-shrink: 0;
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover; /* Ajusta el ancho de la imagen al 100% y permite que el alto se ajuste automáticamente */
+
 }
 
 .banner-content {
