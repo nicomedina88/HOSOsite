@@ -66,3 +66,22 @@
     letter-spacing: 0.5px;
   }
   
+  @media (max-width: 600px) {
+
+    .title-container {
+      color: #000;
+      font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 60px;
+      padding-top: 50px; /* Puedes ajustar esto según tus preferencias */
+      padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
+      width: 590px;
+      height: 50px;
+      flex-shrink: 0;
+      padding-left: 15px;
+    }
+
+  }

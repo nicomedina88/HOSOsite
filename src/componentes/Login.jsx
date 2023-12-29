@@ -1,9 +1,7 @@
 // Login.jsx
-
 import React, { useState } from 'react';
 import './Login.css';
 import logo2 from '../img/hoso2.png';
-
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -11,7 +9,6 @@ const Login = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Lógica de autenticación aquí
   };
 
   return (
@@ -46,7 +43,7 @@ const Login = () => {
         <div className="logo-container">
           <img src={logo2} alt="Logo del proyecto HOSO" className="logologin"/>
           <h1 className='titulogo'>HOSO</h1>
-          <p className="slogan">Abrazando a estudiantes del mundo</p>
+          <h3 className="slogan">Abrazando a estudiantes del mundo</h3>
         </div>
       </div>
     </div>

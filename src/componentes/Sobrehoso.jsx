@@ -11,14 +11,14 @@ const Sobrehoso = () => {
     <div className="sobrehoso-container">
       {/* Mini banner */}
       <div className="mini-banner">
-        <div className="title-container">
+        <div className="title-container1">
           <h1 className="title">Sobre HOSO</h1>
         </div>
-        <img src={foto} alt="Imagen relacionada con Sobre HOSO" className="image"/>
+        <img src={foto} alt="Imagen relacionada con Sobre HOSO" className="image1"/>
       </div>
       <div className="text-with-image-container">
       <div className="text-container">
-        <h2 className="section-title">Antecedentes</h2>
+        <h2 className="section-title1">Antecedentes</h2>
         <p className="paragraph">
         El Programa de Internacionalización Integral y Cooperación Internacional “La UNPAZ en el mundo. El mundo en la UNPAZ” (PIIyCI) -aprobado por resolución N° 38/2022- enmarca al REGLAMENTO DE ALOJAMIENTO SOLIDARIO -aprobado por Resolución CS N°154/2019 y su modificatoria R. CS N°53/2023 que prevé el pago de un “aporte para gastos de servicios básicos”-, institucionalizando el ofrecimiento de un hospedaje solidario (HS) para estudiantes, docentes, investigadores/as y gestores/as que realicen una estancia académica en la Universidad Nacional de José C. Paz.
        <br />
@@ -41,7 +41,7 @@ const Sobrehoso = () => {
       <div className="text-with-image-container">
       <img src={logo6} alt="Logo del proyecto HOSO" className="project-logo" />
       <div className="text-container">
-        <h2 className="section-title">¿Qué es HOSO?</h2>
+        <h2 className="section-title1">¿Qué es HOSO?</h2>
         <p className="paragraph">
         El proyecto “HOSO. Abrazando a estudiantes del mundo” surge de la necesidad de responder ante la demanda de hospedaje solidario por parte de estudiantes, docentes, investigadores/as, graduados/as y/o gestores extranjeros interesados en realizar un período de intercambio en la UNPAZ.
         <br />
@@ -55,7 +55,7 @@ const Sobrehoso = () => {
       </div>
       <div className="text-with-image-container">
       <div className="text-container">
-        <h2 className="section-title">Nuestros objetivos</h2>
+        <h2 className="section-title1">Nuestros objetivos</h2>
         <p className="paragraph">
         - Simplificar el ingreso, la consulta y modificación de la información de los/as ANFITRIONES/AS postulados para recibir a un/a RESIDENTE de intercambio.
         <br />
