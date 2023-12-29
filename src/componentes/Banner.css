@@ -38,16 +38,6 @@
   flex-shrink: 0;
 }
 
-h1 {
-  color: #424038;
-  font-family: Montserrat;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 76px;
-  letter-spacing: 0.5px;
-}
-
 p {
   color: #424038;
   font-family: Montserrat;
@@ -56,4 +46,36 @@ p {
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0.5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    height: 400px; /* Ajuste de altura para dispositivos móviles */
+    background-size: cover;
+
+  }
+
+  .big-text {
+    font-size: 60px; /* Tamaño de fuente aún más reducido para dispositivos móviles */
+    line-height: 40px; /* Ajuste de línea para dispositivos móviles */
+    overflow-wrap: break-word; /* Utiliza overflow-wrap para permitir que el texto se divida en varias líneas */
+  }
+  
+  .banner-text {
+    flex: 1; /* El texto ocupará el 50% del ancho */
+    padding: 20px; /* Espacio entre el texto y la imagen */
+    text-align: left; /* Alinea el texto a la izquierda */
+    width: 350px;
+  }
+
+  p {
+    color: #424038;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+  }
 }

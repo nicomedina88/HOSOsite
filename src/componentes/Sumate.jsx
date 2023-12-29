@@ -37,7 +37,7 @@ const Sumate = () => {
       <img
           src={estudiantes}
           alt="Logo del proyecto HOSO"
-          className="project-logo"
+          className="estudi"
         />
       </div>
       <div className="requirements-and-application-container">
