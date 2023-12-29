@@ -78,8 +78,8 @@
   
   .indicator-line {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: row; /* Alinea los indicadores en una columna */
   }
   
