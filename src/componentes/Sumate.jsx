@@ -10,19 +10,19 @@ const Sumate = () => {
     <div className="sumate-container">
       {/* Mini banner */}
       <div className="mini-banner">
-        <div className="title-container">
+        <div className="title-container2">
           <h1 className="title">Sumate</h1>
         </div>
         <img
           src={foto}
           alt="Imagen relacionada con Sobre HOSO"
-          className="image"
+          className="image2"
         />
       </div>
  
       <div className="text-with-image-container">
       <div className="text-container">
-        <h3 className="section-title">Sé parte de HOSO como anfitrión</h3>
+        <h3 className="section-title2">Sé parte de HOSO como anfitrión</h3>
         <p className="paragraph">
         <span>¡Unite Como anfitrión y brindá una experiencia inolvidable a estudiantes de Intercambio en la UNPAZ!</span>
         <br />
@@ -43,7 +43,7 @@ const Sumate = () => {
       <div className="requirements-and-application-container">
         {/* Bloque de "Requisitos principales" */}
         <div className="text-container requirements-container">
-        <h2 className="section-title">Postulate como anfitrión</h2>
+        <h2 className="section-title2">Postulate como anfitrión</h2>
           <p className="paragraph">
           Si estás interesado en abrir las puertas de tu hogar, dejanos tus datos de contacto.
         <br />
@@ -88,7 +88,7 @@ const Sumate = () => {
         </div>
            {/* Bloque de "Postulate como anfitrión" */}
         <div className="text-container application-container">
-        <h4 className="section-title">Requisitos principales</h4>
+        <h4 className="section-title2">Requisitos principales</h4>
           <p className="paragraph">
           - Espacio de alojamiento en tu hogar.
           <br />

@@ -23,9 +23,9 @@ function Footer() {
       </div>
       <div className="info">
         <p>
-          <Link to="/politicas-de-privacidad">Sobre HOSO</Link>
+          <Link to="/sobre-hoso">Sobre HOSO</Link>
           <span> | </span>
-          <Link to="/politicas-de-privacidad">Sumate</Link>
+          <Link to="/sumate">Sumate</Link>
           <span> | </span>
           <Link to="/politicas-de-privacidad">Política de privacidad</Link>
           <span> | </span>
@@ -44,9 +44,9 @@ function Footer() {
       </div>
       <div className="info2">
         <p>
-          <Link to="/politicas-de-privacidad">Sobre HOSO</Link>
+          <Link to="/sobre-hoso">Sobre HOSO</Link>
           <span> | </span>
-          <Link to="/politicas-de-privacidad">Sumate</Link>
+          <Link to="/sumate">Sumate</Link>
           <span> | </span>
           <Link to="/politicas-de-privacidad">Política de privacidad</Link>
           <span> | </span>

@@ -12,7 +12,7 @@
   height: 300px; /* Ajusta la altura según sea necesario */
 }
 
-.title-container {
+.title-container1 {
   color: #000;
   font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
   font-family: 'Montserrat', sans-serif;
@@ -20,25 +20,20 @@
   font-style: normal;
   font-weight: 600;
   line-height: 60px;
-  padding-top: 50px;
+  padding-top: 130px; /* Puedes ajustar esto según tus preferencias */
+  padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
   width: 590px;
+  height: 50px;
+  flex-shrink: 0;
   padding-left: 15px;
-  padding-top: 10px; /* Ajusta esto para acercar el título al borde inferior */
-
 }
-
-.image {
+ 
+.image1 {
   width: 773px;
-  height: 230px;
+  height: 300px;
   flex-shrink: 0;
 }
 
-
-.image {
-  width: 773px;
-  height: 230px;
-  flex-shrink: 0;
-}
 
 /*  ///////////////////////////// */
 
@@ -49,8 +44,7 @@
 
 }
 
-.section-title {
-  /* Estilos del título "Antecedentes" */
+.section-title1 {
   color: #424038;
   align-self: stretch;
   /* title/large */
@@ -79,6 +73,7 @@
 .text-with-image-container {
   display: flex;
   align-items: center;
+  
 }
 
 .project-logo {
