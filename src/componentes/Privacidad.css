@@ -12,7 +12,7 @@
   
   }
   
-  .title-container {
+  .title-container3 {
     color: #000;
     font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
     font-family: 'Montserrat', sans-serif;
@@ -26,13 +26,8 @@
     height: 50px;
     flex-shrink: 0;
     padding-left: 15px;
-  }
-  
-  
-  .image {
-    width: 773px;
-    height: 219px;
-    flex-shrink: 0;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+
   }
   
   .text-container {
@@ -40,19 +35,7 @@
     padding: 20px;
   }
 
-  .section-title {
-    /* Estilos del título "Antecedentes" */
-    color: #424038;
-    align-self: stretch;
-    /* title/large */
-    font-family: DM Sans;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 76px; /* 126.667% */
-    letter-spacing: 0.5px;
-    text-align: left; /* Alinea el texto a la izquierda */
-  }
+  
   
   .paragraph {
     /* Estilos del párrafo de texto */
@@ -66,22 +49,27 @@
     letter-spacing: 0.5px;
   }
   
-  @media (max-width: 600px) {
 
-    .title-container {
-      color: #000;
-      font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 60px;
-      padding-top: 50px; /* Puedes ajustar esto según tus preferencias */
-      padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
-      width: 590px;
-      height: 50px;
-      flex-shrink: 0;
-      padding-left: 15px;
+
+  @media screen and (max-width: 768px) {
+    .paragraph {
+      font-size: 20px; /* Puedes ajustar el tamaño según tus preferencias */
+      line-height: 28px; /* Puedes ajustar la altura de línea según tus preferencias */
     }
 
-  }
+    .text-container {
+      padding: 15px; /* Puedes ajustar el relleno según tus preferencias */
+    }
+   
+    .title-container3 {
+      font-size: 15px; /* Puedes ajustar el tamaño según tus preferencias */
+      line-height: 30px; /* Puedes ajustar la altura de línea según tus preferencias */
+      padding-left: 10px;
+      padding-bottom: 0px;
+      width: 100%;
+    }
+
+    .mini-banner2 {
+      height: 150px; /* Puedes ajustar la altura según tus preferencias */
+    }
+}

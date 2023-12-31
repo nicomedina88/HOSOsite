@@ -20,7 +20,7 @@ function Header() {
         <Link to="/">
           <img src={logo} alt="Logo de HOSO" />
         </Link>
-        <span style={{ fontSize: '24px' }}>HOSO</span>
+        <span style={{ fontSize: '28px' }}>HOSO</span>
       </div>
       <div className={`menu-button ${menuOpen ? 'active' : ''}`} onClick={handleMenuClick}>
         <div className="bar"></div>

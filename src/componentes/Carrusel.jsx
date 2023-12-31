@@ -3,7 +3,6 @@ import './Carrusel.css';
 import foto1 from '../img/HOSOPresentaciónoficial.jpg';
 import foto2 from '../img/DGRI01.png';
 import foto3 from '../img/ESTUDIANTES11.jpeg';
-import { Link } from 'react-router-dom';
 
 
 function Carrusel() {
@@ -26,7 +25,7 @@ function Carrusel() {
     },
     {
       title: 'Sumate',
-      text: '¿Querés ser parte de una experiencia enriquecedora y brindar un cálido alojamiento a académicos extranjeeros que vienen a nuestra universidad? ¡Unite a nosotros como anfitrión solidario y compartí tu hogar con personas de diferentes culturas!',
+      text: '¿Querés ser parte de una experiencia enriquecedora y brindar un cálido alojamiento a académicos extranjeros que vienen a nuestra universidad? ¡Unite a nosotros como anfitrión solidario y compartí tu hogar con personas de diferentes culturas!',
       image: foto3,
       buttonLabel: 'Más información',
       link: 'sumate',

@@ -7,7 +7,7 @@ const Privacidad = () => {
     <div className="sumate-container">
       {/* Mini banner */}
       <div className="mini-banner2">
-        <div className="title-container">
+        <div className="title-container3">
           <h1 className="title">Política de Privacidad</h1>
         </div>
       </div>
@@ -20,7 +20,7 @@ const Privacidad = () => {
         Mientras no nos comunique lo contrario, entenderemos que sus datos no han sido modificados, que usted se compromete a notificarnos cualquier variación y que tenemos su consentimiento para utilizarlos para las finalidades que a ambas partes les sean beneficiosas.
         HOSO informa que procederá a tratar los datos de manera lícita, leal, transparente, adecuada, pertinente, limitada, exacta y actualizada. Es por ello que HOSO se compromete a adoptar todas las medidas razonables para que estos se supriman o rectifiquen sin dilación cuando sean inexactos.
         <br /> <br />
-        De acuerdo con los derechos que le confiere el la normativa vigente en protección de datos podrá ejercer los derechos de acceso, rectificación, limitación de tratamiento, supresión, portabilidad y oposición al tratamiento de sus datos de carácter personal así como del consentimiento prestado para el tratamiento de los mismos, dirigiendo su petición a la dirección de correo electrónico info@almasveganas.org
+        De acuerdo con los derechos que le confiere el la normativa vigente en protección de datos podrá ejercer los derechos de acceso, rectificación, limitación de tratamiento, supresión, portabilidad y oposición al tratamiento de sus datos de carácter personal así como del consentimiento prestado para el tratamiento de los mismos, dirigiendo su petición a la dirección de correo electrónico movilidadinternacional@unpaz.edu.ar
         <br /> <br />
         Le informamos que podrá revocar en cualquier momento el consentimiento prestado a la recepción de comunicaciones comerciales enviando un e-mail a la dirección de correo electrónico: movilidadinternacional@unpaz.edu.ar
         <br />

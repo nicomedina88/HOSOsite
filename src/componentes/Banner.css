@@ -4,10 +4,11 @@
   background: url(../img/BannerHome.jpg), lightgray 50%;
   mix-blend-mode: darken;
   width: 100%;
+  height: 500px;
   flex-shrink: 0;
   background-repeat: no-repeat;
-  background-size: cover; /* Ajusta el ancho de la imagen al 100% y permite que el alto se ajuste automáticamente */
-
+  background-size: auto; /* Ajusta el ancho de la imagen al 100% y permite que el alto se ajuste automáticamente */
+  background-position: center;
 }
 
 .banner-content {
@@ -52,8 +53,9 @@ p {
 
 @media only screen and (max-width: 768px) {
   .banner {
-    height: 400px; /* Ajuste de altura para dispositivos móviles */
+    height: 350px; /* Ajuste de altura para dispositivos móviles */
     background-size: cover;
+    background-position: center;
 
   }
 
@@ -67,7 +69,7 @@ p {
     flex: 1; /* El texto ocupará el 50% del ancho */
     padding: 20px; /* Espacio entre el texto y la imagen */
     text-align: left; /* Alinea el texto a la izquierda */
-    width: 350px;
+    width: 300px;
   }
 
   p {
