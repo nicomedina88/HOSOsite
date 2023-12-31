@@ -37,7 +37,7 @@ const Sumate = () => {
       <img
           src={estudiantes}
           alt="Logo del proyecto HOSO"
-          className="project-logo"
+          className="estudi"
         />
       </div>
       <div className="requirements-and-application-container">
@@ -45,7 +45,7 @@ const Sumate = () => {
         <div className="text-container requirements-container">
         <h2 className="section-title2">Postulate como anfitrión</h2>
           <p className="paragraph">
-          Si estás interesado en abrir las puertas de tu hogar, dejanos tus datos de contacto.
+        Si estás interesado en abrir las puertas de tu hogar, dejanos tus datos de contacto.
         <br />
         ¡Nos encantaría conocerte más!
         <br />

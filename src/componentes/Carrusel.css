@@ -99,15 +99,26 @@
   @media only screen and (max-width: 768px) {
     .carrusel-content {
       flex-direction: column; /* Cambia la dirección del flex a columna en dispositivos móviles */
+      padding-bottom: 25px;
+      margin-top: 0px;
+    }
+
+    .carrusel-container {
+      display: flex;
+      background-color: #FAC1B8;
+      width: 100%; /* O podrías usar un porcentaje específico, por ejemplo, 100% */
+      
     }
   
     .carrusel-text {
       max-width: 100%; /* Ocupa el ancho completo en dispositivos móviles */
+      padding-bottom: 10px;
       margin-right: 0; /* Elimina el margen a la derecha en dispositivos móviles */
     }
   
     .carrusel-image {
-      margin-top: 20px; /* Agrega un espacio superior entre el texto y la imagen en dispositivos móviles */
+      margin-top: 25px; /* Agrega un espacio superior entre el texto y la imagen en dispositivos móviles */
     }
   } 
 
+ 

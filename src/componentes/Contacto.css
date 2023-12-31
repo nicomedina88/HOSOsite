@@ -33,12 +33,6 @@ h2 {
 
 }
 
-.rosado img {
-  width: 100%; /* La imagen ocupa el 100% del ancho del contenedor .rosado */
-  height: 40%; /* La imagen ocupa el 25% de la altura del contenedor .rosado */
-  padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
-}
-
 .telefono-container,
 .email-container, .web-container, .ubi-container {
   display: flex;
@@ -123,6 +117,7 @@ background-color: #0c6e87; /* Color de fondo al pasar el ratón */
   .contacto-info {
     margin-right: 0; /* Elimina el margen derecho en dispositivos móviles */
     padding: 20px; /* Ajusta el padding para dispositivos móviles */
+    padding-top: 0px;
   }
 
   /* Ajusta otros estilos según sea necesario para dispositivos móviles */

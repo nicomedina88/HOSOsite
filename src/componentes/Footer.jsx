@@ -34,9 +34,9 @@ function Footer() {
       </div>
       </div>
       <div className='footermobile'>
-      <div className="logo">
+      <div className="logo-mob">
         <img src={logo} alt="Logo de HOSO" />
-        <span style={{ fontSize: '24px' }}>HOSO</span>
+        <span style={{ fontSize: '40px' }}>HOSO</span>
       </div>
       <div className="social">
         {/* Agrega iconos de redes sociales aquí */}
@@ -45,15 +45,12 @@ function Footer() {
       <div className="info2">
         <p>
           <Link to="/sobre-hoso">Sobre HOSO</Link>
-          <span> | </span>
           <Link to="/sumate">Sumate</Link>
-          <span> | </span>
           <Link to="/politicas-de-privacidad">Política de privacidad</Link>
-          <span> | </span>
           <Link to="/terminos-y-condiciones">Términos y condiciones</Link>
         </p>
       </div>
-      <div className="logo">
+      <div className="logo2">
         <img src={logo2} alt="Logo de UNPAZ" />
         <p>&copy;2023 UNPAZ. Todos los derechos reservados</p>
       </div>
