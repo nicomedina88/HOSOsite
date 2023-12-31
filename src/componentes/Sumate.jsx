@@ -19,7 +19,12 @@ const Sumate = () => {
           className="image2"
         />
       </div>
- 
+      <div className='mini-ban'>
+      <img src={foto} alt="Imagen relacionada con Sobre HOSO" className="image2"/>
+      <div className="title-container4">
+          <h1 className="title">Sumate</h1>
+        </div>
+      </div>
       <div className="text-with-image-container">
       <div className="text-container">
         <h3 className="section-title2">Sé parte de HOSO como anfitrión</h3>
@@ -45,9 +50,10 @@ const Sumate = () => {
         <div className="text-container requirements-container">
         <h2 className="section-title2">Postulate como anfitrión</h2>
           <p className="paragraph">
-        Si estás interesado en abrir las puertas de tu hogar, dejanos tus datos de contacto.
+        Si estás interesado en abrir las puertas de tu hogar...
         <br />
         ¡Nos encantaría conocerte más!
+        Dejanos tus datos de contacto.
         <br />
         Luego te vamos a estar contactando!
           </p>

@@ -130,16 +130,24 @@ button {
   cursor: pointer;
 }
 
+.mini-ban {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   /* Estilos para dispositivos móviles */
  
+  .mini-banner {
+    display: none;
+  }
+
   .text-with-image-container {
     flex-direction: column;
   }
   .image2 {
     width: 100%;
-    height: auto;
+    height: 200px;
+
   }
 
   .estudi {
@@ -154,7 +162,32 @@ button {
   .requirements-container, .application-container {
     width: 100%;
   }
+  .paragraph {
+    font-size: 20px; /* Puedes ajustar el tamaño según tus preferencias */
+    line-height: 28px; /* Puedes ajustar la altura de línea según tus preferencias */
+  }
 
+  .text-container {
+    padding: 15px; /* Puedes ajustar el relleno según tus preferencias */
+  }
+ 
+  .mini-ban {
+    background-color: #FAC1B8;
+    align-items: center;
+    height: 300px; /* Ajusta la altura según sea necesario */
+    flex-direction: column;
+    display: block;
+  }
+
+  .title-container4 {
+    font-size: 15px; /* Puedes ajustar el tamaño según tus preferencias */
+    line-height: 30px; /* Puedes ajustar la altura de línea según tus preferencias */
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    width: 100%;
+    text-align: left;
+  }
   .section-title2 {
     color: #424038;
     align-self: stretch;
@@ -172,7 +205,24 @@ button {
     color: #fff; /* Color del texto */
     text-align: left; /* Alineación del texto a la izquierda */
     font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    box-sizing: border-box;
+    
   }
+
+  .label,
+.input,
+.textarea {
+  font-size: 16px; /* Ajusta según tus preferencias */
+  padding: 8px;
+}
+
+label {
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
   
   }
 

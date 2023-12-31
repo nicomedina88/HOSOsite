@@ -13,6 +13,7 @@ const Login = () => {
 
   return (
     <div className="login-container">
+      <div className='login-desktop'>
       <div className="white-section">
         <div className="login-form">
           <h2>¡Hola, bienvenido de nuevo!</h2>
@@ -44,6 +45,33 @@ const Login = () => {
           <img src={logo2} alt="Logo del proyecto HOSO" className="logologin"/>
           <h1 className='titulogo'>HOSO</h1>
           <h3 className="slogan">Abrazando a estudiantes del mundo</h3>
+        </div>
+      </div>
+      </div>
+      <div className='login-mobile'>
+        <div className="login-form">
+          <h2>¡Hola, bienvenido de nuevo!</h2>
+          <form onSubmit={handleSubmit}>
+            <label className='casilla'>
+              <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder='Nombre de usuario o correo electrónico:'/>
+            </label>
+            <br />
+            <label className='casilla'>
+              <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Contraseña:'/>
+            </label>
+            <br />
+            <div className="additional-info">
+              <div className="checkbox-container">
+                <input type="checkbox" />
+                <span className='infol'>Mantenme conectado</span>
+              </div>
+              <div>
+                <span  className='infol1'>¿Contraseña olvidada?</span>
+              </div>
+            </div>
+            <br />
+            <button type="submit"  className='boton'>Acceder</button>
+          </form>
         </div>
       </div>
     </div>
