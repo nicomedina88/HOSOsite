@@ -4,7 +4,15 @@
     display: flex;
     width: 100%;
   }
-  
+
+.login-desktop {
+  display: flex;
+  width: 100%;
+}
+
+.login-mobile {
+  display: none;
+}
   .white-section {
     background-color: #ffffff;
     flex: 0.6;
@@ -50,11 +58,11 @@
     justify-content: space-between;
     margin-bottom: 10px;
     flex-shrink: 0; /* Establece el valor que desees para que .additional-info se encoga */
-
+  
 
   }
 
-  .info {
+  .infol {
     font-size: 15px;
     white-space: nowrap; /* Evita que el texto se divida en varias líneas */
 
@@ -104,4 +112,40 @@
     line-height: 32px;
   }
 
+ 
+  @media screen and (max-width: 768px) {
+  .login-desktop {
+    display: none;
+  }
+
+  .login-mobile {
+    display: block;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .login-form {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .casilla {
+    width: 100%;
+  }
   
+  .infol {
+    font-size: 15px;
+  }
+  
+  .additional-info {
+    flex-direction: row; /* Mantén la dirección en fila */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  }
+
+  .checkbox-container {
+    margin-right: 40px; /* Agrega espacio a la derecha del checkbox */
+  }
+
+
+}
