@@ -84,14 +84,16 @@ Se puede ver mensajes de error en la consola del browser.
 Pueden incluir aca algun diagrama si lo desean.
 
 ## Variables de entorno 
+No posee
 
 ## Uso  
+Sitio institucional del Proyecto HOSO.
 
 ### Ejecutar el programa en dev  
-
-npm start dev   
+npm start   
 
 ## Contacto
-
+Matias Rios - matias.rios@docentes.unpaz.edu.ar
+(+54) 11 3039 7909
 
 
