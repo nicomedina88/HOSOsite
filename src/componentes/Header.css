@@ -93,7 +93,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    width: 90%;
+    width: 100%;
   }
 
   .nav {
@@ -115,18 +115,25 @@
     align-items: center;
   }
 
+  .nav ul {
+    flex-direction: column;
+  }
+
   .nav ul li {
     margin: 10px 0;
     text-align: center;
     width: 100%; /* Añade esta regla para forzar que ocupen todo el ancho disponible */
-    flex-direction: column;
+  
   }
 
   .menu-button {
     display: block;
     cursor: pointer;
+    margin-right: 30px;
   }
-  
+  .menu-button ul{
+    flex-direction: column;
+  }
   .close-button {
     color: #FFFCF1;
     font-size: 24px;
@@ -138,6 +145,7 @@
   .menu-button.active .bar:nth-child(1),
   .menu-button.active .bar:nth-child(3) {
     transform: translateY(7px) rotate(45deg); /* Ajusta la animación del icono de hamburguesa */
+    display: none;
   }
 
   .menu-button.active .bar:nth-child(2) {
