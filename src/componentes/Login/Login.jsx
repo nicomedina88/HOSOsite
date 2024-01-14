@@ -1,7 +1,7 @@
 // Login.jsx
 import React, { useState } from 'react';
 import './Login.css';
-import logo2 from '../img/hoso2.png';
+import logo2 from '../../img/hoso2.png';
 
 const Login = () => {
   const [username, setUsername] = useState('');
