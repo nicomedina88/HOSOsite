@@ -1,10 +1,10 @@
 // Sobrehoso.jsx
-import foto from '../img/DGRI01.png';
+import foto from '../../img/DGRI01.png';
 import React from 'react';
 import './Sobrehoso.css'; // Asegúrate de importar tu archivo CSS
-import internacionales from '../img/HOSOPresentaciónoficial.jpg';
-import logo6 from '../img/hoso6.png';
-import edificio from '../img/UNPAZ.jpeg'
+import internacionales from '../../img/HOSOPresentaciónoficial.jpg';
+import logo6 from '../../img/hoso6.png';
+import edificio from '../../img/UNPAZ.jpeg';
 
 const Sobrehoso = () => {
   return (

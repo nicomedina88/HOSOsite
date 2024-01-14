@@ -1,8 +1,8 @@
 // Sumate.jsx
-import foto from '../img/DGRI05.jpeg';
+import foto from '../../img/DGRI05.jpeg';
 import React from 'react';
 import './Sumate.css'; // Asegúrate de importar tu archivo CSS
-import estudiantes from '../img/ESTUDIANTES11.jpeg';
+import estudiantes from '../../img/ESTUDIANTES11.jpeg';
 
 
 const Sumate = () => {

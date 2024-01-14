@@ -1,17 +1,16 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './componentes/Header.jsx';
-import Banner from './componentes/Banner.jsx';
-import Carrusel from './componentes/Carrusel.jsx';
-//import CarrouselComponent from './componentes/CarrouselComponent.jsx';
-import Resenas from './componentes/Resenas.jsx';
-import Contacto from './componentes/Contacto.jsx';
-import Footer from './componentes/Footer.jsx';
-import Sumate from './componentes/Sumate.jsx';
-import Sobrehoso from './componentes/Sobrehoso.jsx';
-import Condiciones from './componentes/Condiciones.jsx';
-import Privacidad from './componentes/Privacidad.jsx';
-import Login from './componentes/Login.jsx';
+import Header from './componentes/Header/Header.jsx';
+import Banner from './componentes/Banner/Banner.jsx';
+import Carrusel from './componentes/Carrusel/Carrusel.jsx';
+import Resenas from './componentes/Reseñas/Resenas.jsx';
+import Contacto from './componentes/Contacto/Contacto.jsx';
+import Footer from './componentes/Footer/Footer.jsx';
+import Sumate from './componentes/Sumate/Sumate.jsx';
+import Sobrehoso from './componentes/Sobrehoso/Sobrehoso.jsx';
+import Condiciones from './componentes/Condiciones/Condiciones.jsx';
+import Privacidad from './componentes/Privacidad/Privacidad.jsx';
+import Login from './componentes/Login/Login.jsx';
 
 
 function App() {
