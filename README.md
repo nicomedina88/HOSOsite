@@ -81,7 +81,7 @@ Se puede ver mensajes de error en la consola del browser.
 
 ### Casos de uso  
 
-(src/img/Casodeuso.jpg)
+<a href="https://drive.google.com/file/d/1FfBHnOiMKWgxE8HZvx__92Dfl0ImUjb_/view?usp=sharing"><img src="https://drive.google.com/file/d/1FfBHnOiMKWgxE8HZvx__92Dfl0ImUjb_/view?usp=sharing" title="Caso de uso" alt="Diagrama"></a>
 
 ## Variables de entorno 
 No posee
