@@ -81,7 +81,7 @@ Se puede ver mensajes de error en la consola del browser.
 
 ### Casos de uso  
 
-<a href="https://drive.google.com/file/d/1FfBHnOiMKWgxE8HZvx__92Dfl0ImUjb_/view?usp=sharing"><img src="https://drive.google.com/file/d/1FfBHnOiMKWgxE8HZvx__92Dfl0ImUjb_/view?usp=sharing" title="Caso de uso" alt="Diagrama"></a>
+<a href="https://photos.google.com/share/AF1QipNvjfE8N4RWiprPAGLgd-K0ltA6_ChoFbN8sTxX8JnTV2Kbp3CHZNVWnYiDB9Hk9A/photo/AF1QipNaa2q_-2Zc1Xe5R_-h2kUtD8LTKSlsF7Ws0KbJ?key=NGRxZ2loRGFYbUpXaElxRzdsXzJJa1MzblRDc2Zn"><img src="https://lh3.googleusercontent.com/pw/ABLVV87dkWH31Nvd2G4vb3r-kcKxoabc46-ZBC8zBMkgu33wK0jPy5y8tXT9NSCzNXyOLzpjnKmpnIRjNKwEfjxNyjI-cLRLiWVKCidDhcauVrgVN85lYEs5EehAd4iWMMLAdGmDILuPtCbIgN0ijtFYnfvZ=w710-h919-s-no-gm?authuser=0" title="Caso de uso" alt="Diagrama"></a>
 
 ## Variables de entorno 
 No posee
