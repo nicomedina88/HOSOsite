@@ -14,21 +14,21 @@ function Carrusel() {
       text: 'El Hospedaje Solidario se encuentra en el marco del programa “La UNPAZ en el mundo, el mundo en la UNPAZ” y tiene como objetivo el intercambio intercultural,  promoviendo así la internacionalización en nuestra comunidad universitaria.',
       image: foto1,
       buttonLabel: 'Más información',
-      link: 'sobre-hoso',
+      link: '/sobre-hoso',
     },
     {
       title: 'Sobre HOSO',
       text: 'El Proyecto surge de la necesidad de responder ante la demanda de Hospedaje Solidario por parte de estudiantes, docentes, investigadores y graduados/as interesandos en realizar un período de intercambio en la UNPAZ...',
       image: foto2,
       buttonLabel: 'Ver más',
-      link: 'sobre-hoso',
+      link: '/sobre-hoso',
     },
     {
       title: 'Sumate',
       text: '¿Querés ser parte de una experiencia enriquecedora y brindar un cálido alojamiento a académicos extranjeros que vienen a nuestra universidad? ¡Unite a nosotros como anfitrión solidario y compartí tu hogar con personas de diferentes culturas!',
       image: foto3,
       buttonLabel: 'Más información',
-      link: 'sumate',
+      link: '/sumate',
     },
   ];
 

@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import './Login.css';
 import logo2 from '../../img/hoso2.png';
+import { Link } from 'react-router-dom';
+
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -36,7 +38,9 @@ const Login = () => {
               </div>
             </div>
             <br />
-            <button type="submit"  className='boton'>Acceder</button>
+            <Link to="alojamiento">
+                <button type="submit" className='boton'>Acceder</button>
+              </Link>
           </form>
         </div>
       </div>
@@ -70,7 +74,9 @@ const Login = () => {
               </div>
             </div>
             <br />
-            <button type="submit"  className='boton'>Acceder</button>
+            <Link to="alojamiento">
+                <button type="submit" className='boton'>Acceder</button>
+              </Link>
           </form>
         </div>
       </div>
