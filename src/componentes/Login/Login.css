@@ -30,7 +30,6 @@
     align-items: center;
     width: 845px;
     justify-content: center; /* Añade esta línea para centrar contenido horizontalmente */
-
   }
   
   .login-form {
@@ -46,11 +45,11 @@
     gap: 32px;
     font-size: 20px;
     flex-shrink: 0; /* Establece el valor que desees para que .additional-info se encoga */
-
   }
   
   .casilla {
     width: 500px;
+    color: #000; /* Cambia el color a negro */
   }
 
   .additional-info {
@@ -58,14 +57,12 @@
     justify-content: space-between;
     margin-bottom: 10px;
     flex-shrink: 0; /* Establece el valor que desees para que .additional-info se encoga */
-  
-
   }
 
   .infol {
     font-size: 15px;
     white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-
+    color: #000; /* Cambia el color a negro */
   }
   
   .checkbox-container {
@@ -78,7 +75,6 @@
   text-align: center;
   margin: 15px 0; /* Ajusta el margen superior e inferior */
   line-height: 0%;
-
 }
 
   .slogan {
@@ -90,7 +86,6 @@
     font-weight: 500;
     line-height: 0%;
     margin-bottom: 40px; /* Ajusta el margen inferior según tus preferencias */
-
   }
   
   .titulogo {

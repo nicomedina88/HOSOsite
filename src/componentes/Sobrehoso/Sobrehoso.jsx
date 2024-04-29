@@ -39,7 +39,6 @@ const Sobrehoso = () => {
       <br />
       <br />
        En esta etapa inicial del proyecto “HOSO. Abrazando a estudiantes del mundo” pretende cubrir las necesidades locales e institucionales de la UNPAZ, pero poniendo en perspectiva, con este desarrollo tecnológico, el beneficio común de todo el sistema universitario nacional e internacional, público y privado.
-      <br />
         </p>
       </div>
       <img src={internacionales} alt="logo internacionales" className='logoint'/>
@@ -91,7 +90,6 @@ const Sobrehoso = () => {
         <br />
         <br />
         - Establecer un círculo virtuoso de enriquecimiento cultural entre los actores vinculados y su entorno.
-        <br />
         </p>
       </div>
       <img
