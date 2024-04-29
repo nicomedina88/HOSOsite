@@ -1,6 +1,5 @@
 /* Sobrehoso.css */
 
-
 .mini-banner {
   background-color: #FAC1B8;
   display: flex;
@@ -114,7 +113,7 @@ input, textarea {
   border-radius: 5px;
   margin-top: 5px;
   box-sizing: border-box;
-  color: #fff; /* Ajusta el color del texto según sea necesario */
+  color: #000; /* Cambia el color a negro */
   text-align: left; /* Alineación del texto a la izquierda */
   font-family: 'Montserrat', sans-serif;
   font-weight: bold; /* Aplicar negrita */
@@ -133,6 +132,36 @@ button {
 .mini-ban {
   display: none;
 }
+
+button[type="submit"] {
+  border: 2px solid #D9D9D9; /* Color marrón */
+  transition: transform 0.2s ease-in-out; /* Transición suave */
+}
+
+button[type="submit"]:hover {
+  transform: translateY(-3px); /* Desplaza el botón hacia arriba 3 píxeles */
+}
+
+.pdf-button {
+  background-color: #0F8AA6;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* Transición suave */
+  font-size: 18px; /* Ajusta el tamaño del texto según prefieras */
+  border: 2px solid #424038; 
+  font-weight: bold;
+
+  /* Agrega otros estilos según sea necesario */
+}
+
+.pdf-button:hover {
+  transform: translateY(-3px); /* Desplaza el botón hacia arriba 3 píxeles */
+
+}
+
 
 @media only screen and (max-width: 600px) {
   /* Estilos para dispositivos móviles */
@@ -222,9 +251,7 @@ label {
   display: block;
   margin-bottom: 5px;
 }
-
-  
-  }
+}
 
 
   

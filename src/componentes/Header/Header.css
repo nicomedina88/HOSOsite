@@ -30,7 +30,7 @@
   }
   
   .nav li {
-    margin-left: 10px; /* Agrega espacio entre elementos de navegación */
+    margin-left: 20px; /* Agrega espacio entre elementos de navegación */
   }
   
   .nav li:last-child {
@@ -54,7 +54,6 @@
     color: #FFFCF1;
     text-decoration: none; /* Elimina la subrayado de los enlaces */
     font-weight: bold;
-
   }
   
   .nav a:hover {

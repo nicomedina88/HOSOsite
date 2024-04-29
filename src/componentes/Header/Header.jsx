@@ -40,13 +40,8 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="reseñas" onClick={handleMenuClick}>
-              Reseñas
-            </Link>
-          </li>
-          <li>
-            <Link to="contacto" onClick={handleMenuClick}>
-              Contacto
+            <Link to="alojamientos" onClick={handleMenuClick}>
+              Nuestros alojamientos
             </Link>
           </li>
           <li>

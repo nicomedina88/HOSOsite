@@ -3,19 +3,17 @@ import './Resenas.css';
 import UserIcon from '../../img/201634.png'; // Reemplaza con la ruta correcta
 import UserIcon2 from '../../img/male_man_people_person_avatar_white_tone_icon_159363.png'; // Reemplaza con la ruta correcta
 
-
-
 const Resenas = () => {
   return (
     <div className="resenas-container">
       <h1 className='titulo1'>Reseñas</h1>
-      <p className='subtitulo'>¡Mira lo que tienen para contar quienes ya pasaron por la experiencia de hospedar a estudiantes de otros países...</p>
+      <p className='subtitulo'>¡Mirá lo que tienen para contar quienes ya pasaron por la experiencia de hospedar a estudiantes de otros países!</p>
       <div className="opiniones">
         <div className="opinion">
           <div className="icono-nombre-localidad">
             <img src={UserIcon} alt="Icono de Usuario" className="icono-usuario" />
             <div className="info-usuario">
-              <p className="nombre"><strong>Nina Fraga</strong></p>
+              <p className="nombre"><strong>Nina Fraga (anfitrión)</strong></p>
               <p className="localidad">José C. Paz</p>
             </div>
           </div>
@@ -26,7 +24,7 @@ const Resenas = () => {
         <div className="icono-nombre-localidad">
             <img src={UserIcon2} alt="Icono de Usuario" className="icono-usuario" />
             <div className="info-usuario">
-              <p className="nombre"><strong>Rubén Castro</strong></p>
+              <p className="nombre"><strong>Rubén Castro (anfitrión)</strong></p>
               <p className="localidad">Malvinas Arg.</p>
             </div>
           </div>
@@ -36,7 +34,7 @@ const Resenas = () => {
         <div className="icono-nombre-localidad">
             <img src={UserIcon} alt="Icono de Usuario" className="icono-usuario" />
             <div className="info-usuario">
-              <p className="nombre"><strong>Susana Lopéz</strong></p>
+              <p className="nombre"><strong>Susana Lopéz (anfitrión)</strong></p>
               <p className="localidad">Muñiz</p>
             </div>
           </div>

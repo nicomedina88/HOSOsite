@@ -1,7 +1,7 @@
 // Sumate.jsx
 import foto from '../../img/DGRI05.jpeg';
 import React from 'react';
-import './Sumate.css'; // Asegúrate de importar tu archivo CSS
+import './Sumate.css'; 
 import estudiantes from '../../img/ESTUDIANTES11.jpeg';
 
 
@@ -46,7 +46,6 @@ const Sumate = () => {
         />
       </div>
       <div className="requirements-and-application-container">
-        {/* Bloque de "Requisitos principales" */}
         <div className="text-container requirements-container">
         <h2 className="section-title2">Postulate como anfitrión</h2>
           <p className="paragraph">
@@ -55,40 +54,33 @@ const Sumate = () => {
         ¡Nos encantaría conocerte más!
         Dejanos tus datos de contacto.
         <br />
-        Luego te vamos a estar contactando!
+        ¡Luego te vamos a estar contactando!
           </p>
-           {/* Formulario */}
           <form className="application-form">
             <div className="form-group">
               <label htmlFor="name">Nombre y Apellido</label>
               <input type="text" id="name" name="name" />
             </div>
-
             <div className="form-group">
               <label htmlFor="phone">Teléfono de contacto</label>
               <input type="text" id="phone" name="phone" />
             </div>
-
             <div className="form-group">
               <label htmlFor="email">Email</label>
               <input type="email" id="email" name="email" />
             </div>
-
             <div className="form-group">
               <label htmlFor="address">Domicilio</label>
               <input type="text" id="address" name="address" />
             </div>
-
             <div className="form-group">
               <label htmlFor="city">Localidad</label>
               <input type="text" id="city" name="city" />
             </div>
-
             <div className="form-group">
               <label htmlFor="comments">Comentarios</label>
               <textarea id="comments" name="comments"></textarea>
             </div>
-
             <button type="submit">Enviar</button>
           </form>
         </div>
@@ -107,6 +99,9 @@ const Sumate = () => {
           <br />
           - Estar cerca de la UNPAZ.
           </p>
+          <a href="/ruta/al/pdf/documento.pdf" target="_blank" rel="noopener noreferrer">
+          <button className="pdf-button">Normas de convivencia del programa</button>
+          </a>
         </div>
     </div>
     </div>
