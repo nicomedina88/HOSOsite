@@ -1,9 +1,8 @@
 // Sobrehoso.jsx
-import foto from '../../img/DGRI01.png';
 import React from 'react';
 import './Sobrehoso.css'; // Asegúrate de importar tu archivo CSS
 import internacionales from '../../img/HOSOPresentaciónoficial.jpg';
-import logo6 from '../../img/hoso6.png';
+import logo6 from '../../img/hoso7.jpg';
 import edificio from '../../img/UNPAZ.jpeg';
 
 const Sobrehoso = () => {
@@ -12,13 +11,6 @@ const Sobrehoso = () => {
       {/* Mini banner */}
       <div className="mini-banner">
         <div className="title-container1">
-          <h1 className="title">Sobre HOSO</h1>
-        </div>
-        <img src={foto} alt="Imagen relacionada con Sobre HOSO" className="image1"/>
-      </div>
-      <div className='mini-ban'>
-      <img src={foto} alt="Imagen relacionada con Sobre HOSO" className="image1"/>
-      <div className="title-container4">
           <h1 className="title">Sobre HOSO</h1>
         </div>
       </div>

@@ -1,9 +1,7 @@
 // Sumate.jsx
-import foto from '../../img/DGRI05.jpeg';
 import React from 'react';
 import './Sumate.css'; 
 import estudiantes from '../../img/ESTUDIANTES11.jpeg';
-
 
 const Sumate = () => {
   return (
@@ -11,17 +9,6 @@ const Sumate = () => {
       {/* Mini banner */}
       <div className="mini-banner">
         <div className="title-container2">
-          <h1 className="title">Sumate</h1>
-        </div>
-        <img
-          src={foto}
-          alt="Imagen relacionada con Sobre HOSO"
-          className="image2"
-        />
-      </div>
-      <div className='mini-ban'>
-      <img src={foto} alt="Imagen relacionada con Sobre HOSO" className="image2"/>
-      <div className="title-container4">
           <h1 className="title">Sumate</h1>
         </div>
       </div>

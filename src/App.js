@@ -16,6 +16,7 @@ import { useState } from "react";
 import Cards from "./componentes/Cards/Cards.js";
 import Filter from "./componentes/Filter/Filter.js";
 import { list, list2 } from "./assets/cards-list";
+import Alojamientos from "./componentes/Alojamientos/Alojamientos.jsx";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sobre-hoso" element={<SobreHosoPage />} />
           <Route path="/sumate" element={<SumatePage />} />
+          <Route path="/alojamientos" element={<AlojamientosPage />} />
           <Route path="/terminos-y-condiciones" element={<CondicionesPage />} />
           <Route path="/politicas-de-privacidad" element={<PrivacidadPage />} />
           <Route path="/login" element={<LoginPage />} />
@@ -65,6 +67,13 @@ function SumatePage() {
   );
 }
 
+function AlojamientosPage() {
+  return (
+    <div>
+      <Alojamientos />
+    </div>
+  );
+}
 
 function LoginPage() {
   return (
