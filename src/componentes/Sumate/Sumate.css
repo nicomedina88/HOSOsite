@@ -1,4 +1,4 @@
-/* Sobrehoso.css */
+/* Sumate.css */
 
 .mini-banner {
   background-color: #FAC1B8;
@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: left; /* Alinea el texto a la izquierda */
-  height: 900px;
+  height: 500px;
 }
 
 .title-container2 {
@@ -24,7 +24,6 @@
   flex-shrink: 0;
   padding-left: 15px;
 }
-
 
 .image2 {
   width: 653px;
@@ -153,22 +152,15 @@ button[type="submit"]:hover {
   font-size: 18px; /* Ajusta el tamaño del texto según prefieras */
   border: 2px solid #424038; 
   font-weight: bold;
-
-  /* Agrega otros estilos según sea necesario */
 }
 
 .pdf-button:hover {
   transform: translateY(-3px); /* Desplaza el botón hacia arriba 3 píxeles */
-
 }
 
 
 @media only screen and (max-width: 600px) {
   /* Estilos para dispositivos móviles */
- 
-  .mini-banner {
-    display: none;
-  }
 
   .text-with-image-container {
     flex-direction: column;
@@ -176,7 +168,6 @@ button[type="submit"]:hover {
   .image2 {
     width: 100%;
     height: 200px;
-
   }
 
   .estudi {
@@ -199,14 +190,6 @@ button[type="submit"]:hover {
   .text-container {
     padding: 15px; /* Puedes ajustar el relleno según tus preferencias */
   }
- 
-  .mini-ban {
-    background-color: #FAC1B8;
-    align-items: center;
-    height: 300px; /* Ajusta la altura según sea necesario */
-    flex-direction: column;
-    display: block;
-  }
 
   .title-container4 {
     font-size: 15px; /* Puedes ajustar el tamaño según tus preferencias */
@@ -220,7 +203,6 @@ button[type="submit"]:hover {
   .section-title2 {
     color: #424038;
     align-self: stretch;
-    /* title/large */
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-style: normal;
@@ -235,8 +217,7 @@ button[type="submit"]:hover {
     text-align: left; /* Alineación del texto a la izquierda */
     font-family: 'Montserrat', sans-serif;
     width: 90%;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
   }
 
   .label,
@@ -251,7 +232,4 @@ label {
   display: block;
   margin-bottom: 5px;
 }
-}
-
-
-  
+}  

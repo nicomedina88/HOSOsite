@@ -1,5 +1,3 @@
-
-
 .mini-banner2 {
   background-color: #FAC1B8;
   display: flex;
@@ -7,8 +5,6 @@
   align-items: center;
   text-align: left; /* Alinea el texto a la izquierda */
   height: 200px;
-
-
 }
 
 .title-container3 {
@@ -26,7 +22,6 @@
   flex-shrink: 0;
   padding-left: 15px;
   white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-
 }
 
 .text-container {
@@ -34,10 +29,7 @@
   padding: 20px;
 }
 
-
-
 .paragraph {
-  /* Estilos del párrafo de texto */
   color: #424038;
   text-align: left; /* Alinea el texto a la izquierda */
   font-family: DM Sans;
@@ -47,7 +39,6 @@
   line-height: 32px; /* 133.333% */
   letter-spacing: 0.5px;
 }
-
 
 @media screen and (max-width: 768px) {
   .paragraph {
@@ -65,7 +56,6 @@
     padding-left: 10px;
     padding-bottom: 0px;
     width: 100%;
-
   }
 
   .mini-banner2 {

@@ -10,16 +10,19 @@ function Footer() {
     <footer>
       <div className="footer">
       <div className="logo">
-        <img src={logo} alt="Logo de HOSO" />
+        <Link to="/">
+          <img src={logo} alt="Logo de HOSO" />
+        </Link>
         <span style={{ fontSize: '24px' }}>HOSO</span>
         <p>&copy;2023 UNPAZ. Todos los derechos reservados</p>
       </div>
       <div className="social">
-        {/* Agrega iconos de redes sociales aquí */}
         <InstagramIcon />
       </div>
       <div className="logo">
-        <img src={logo2} alt="Logo de UNPAZ" />
+        <a href="https://www.unpaz.edu.ar" target="_blank" rel="noopener noreferrer">
+            <img src={logo2} alt="Logo de UNPAZ" />
+        </a>
       </div>
       <div className="info">
         <p>
@@ -35,11 +38,12 @@ function Footer() {
       </div>
       <div className='footermobile'>
       <div className="logo-mob">
-        <img src={logo} alt="Logo de HOSO" />
+        <Link to="/">
+          <img src={logo} alt="Logo de HOSO" />
+        </Link>
         <span style={{ fontSize: '40px' }}>HOSO</span>
       </div>
       <div className="social">
-        {/* Agrega iconos de redes sociales aquí */}
         <InstagramIcon />
       </div>
       <div className="info2">
@@ -51,7 +55,9 @@ function Footer() {
         </p>
       </div>
       <div className="logo2">
-        <img src={logo2} alt="Logo de UNPAZ" />
+        <a href="https://www.unpaz.edu.ar" target="_blank" rel="noopener noreferrer">
+            <img src={logo2} alt="Logo de UNPAZ" />
+        </a>
         <p>&copy;2023 UNPAZ. Todos los derechos reservados</p>
       </div>
       </div>

@@ -1,6 +1,6 @@
 // Condiciones.jsx
 import React from 'react';
-import './Condiciones.css'; // Asegúrate de importar tu archivo CSS
+import './Condiciones.css'; 
 
 const Condiciones = () => {
   return (
@@ -11,7 +11,6 @@ const Condiciones = () => {
           <h1 className="title">Términos y Condiciones</h1>
         </div>
       </div>
-
       {/* Contenido de texto */}
       <div className="text-container">
         <p className="paragraph">

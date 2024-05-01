@@ -107,7 +107,10 @@
     line-height: 32px;
   }
 
- 
+  .boton {
+    font-weight: bold;
+  }
+  
   @media screen and (max-width: 768px) {
   .login-desktop {
     display: none;

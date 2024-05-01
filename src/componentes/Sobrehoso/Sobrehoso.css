@@ -3,7 +3,6 @@
   display: none;
 }
 
-
 .mini-banner {
   background-color: #FAC1B8;
   display: flex;
@@ -100,9 +99,6 @@
   padding: 10px;
 } 
 
-.mini-ban {
-  display: none;
-}
 
 @media screen and (max-width: 768px) {
 
@@ -110,17 +106,6 @@
   display: none;
 }
 
-.mini-banner {
-  display: none;
-}
-
-.mini-ban {
-  background-color: #FAC1B8;
-  align-items: center;
-  height: 300px; /* Ajusta la altura según sea necesario */
-  flex-direction: column;
-  display: block;
-}
 
 .image1 {
   width: 100%;
