@@ -141,22 +141,6 @@ button[type="submit"]:hover {
   transform: translateY(-3px); /* Desplaza el botón hacia arriba 3 píxeles */
 }
 
-.pdf-button {
-  background-color: #0F8AA6;
-  color: #fff;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out; /* Transición suave */
-  font-size: 18px; /* Ajusta el tamaño del texto según prefieras */
-  border: 2px solid #424038; 
-  font-weight: bold;
-}
-
-.pdf-button:hover {
-  transform: translateY(-3px); /* Desplaza el botón hacia arriba 3 píxeles */
-}
 
 
 @media only screen and (max-width: 600px) {

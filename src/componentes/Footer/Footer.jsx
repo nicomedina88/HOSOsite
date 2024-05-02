@@ -30,6 +30,8 @@ function Footer() {
           <span> | </span>
           <Link to="/sumate">Sumate</Link>
           <span> | </span>
+          <Link to="/programa">Nuestro Programa</Link>
+          <span> | </span>
           <Link to="/politicas-de-privacidad">Política de privacidad</Link>
           <span> | </span>
           <Link to="/terminos-y-condiciones">Términos y condiciones</Link>
@@ -50,6 +52,7 @@ function Footer() {
         <p>
           <Link to="/sobre-hoso">Sobre HOSO</Link>
           <Link to="/sumate">Sumate</Link>
+          <Link to="/programa">Nuestro Programa</Link>
           <Link to="/politicas-de-privacidad">Política de privacidad</Link>
           <Link to="/terminos-y-condiciones">Términos y condiciones</Link>
         </p>
