@@ -10,13 +10,6 @@ function Carrusel() {
 
   const data = [
     {
-      title: 'Nuestro programa',
-      text: 'El Hospedaje Solidario se encuentra en el marco del programa “La UNPAZ en el mundo, el mundo en la UNPAZ” y tiene como objetivo el intercambio intercultural,  promoviendo así la internacionalización en nuestra comunidad universitaria.',
-      image: foto1,
-      buttonLabel: 'Más información',
-      link: '/sobre-hoso',
-    },
-    {
       title: 'Sobre HOSO',
       text: 'El Proyecto surge de la necesidad de responder ante la demanda de Hospedaje Solidario por parte de estudiantes, docentes, investigadores y graduados/as interesandos en realizar un período de intercambio en la UNPAZ...',
       image: foto2,
@@ -29,6 +22,13 @@ function Carrusel() {
       image: foto3,
       buttonLabel: 'Más información',
       link: '/sumate',
+    },
+    {
+      title: 'Nuestro programa',
+      text: 'El Hospedaje Solidario se encuentra en el marco del programa “La UNPAZ en el mundo, el mundo en la UNPAZ” y tiene como objetivo el intercambio intercultural,  promoviendo así la internacionalización en nuestra comunidad universitaria.',
+      image: foto1,
+      buttonLabel: 'Más información',
+      link: '/programa',
     },
   ];
 

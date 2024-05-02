@@ -86,9 +86,6 @@ const Sumate = () => {
           <br />
           - Estar cerca de la UNPAZ.
           </p>
-          <a href="/ruta/al/pdf/documento.pdf" target="_blank" rel="noopener noreferrer">
-          <button className="pdf-button">Normas de convivencia del programa</button>
-          </a>
         </div>
     </div>
     </div>
