@@ -63,7 +63,6 @@ body {
   display: flex;
   align-items: center;
   padding-left: 40px; /* Ajusta el valor según la separación deseada */
-
 }
 
 .footermobile {
@@ -90,7 +89,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   flex-direction: column;
   font-weight: bold;
-
 } 
 
 .logo-mob {
@@ -114,6 +112,11 @@ body {
   align-items: center;
 }
 
+.social svg {
+  width: 50px;
+  height: 50px;
+}
+
 
 .info2 {
   display: flex;
@@ -134,18 +137,18 @@ body {
 }
 
 .logo2 {
+  display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .logo2 p {
-  margin-left: 10px;
   font-size: 14px;
   color: #fffcf1;
+  white-space: nowrap;
 }
 
 .logo2 img {
   max-height: 40px;
 }
-
 }
-

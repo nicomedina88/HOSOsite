@@ -1,18 +1,14 @@
-// Privacidad.jsx
 import React from 'react';
-import './Privacidad.css'; // Asegúrate de importar tu archivo CSS
+import './Privacidad.css';
 
 const Privacidad = () => {
   return (
     <div className="sumate-container">
-      {/* Mini banner */}
       <div className="mini-banner2">
         <div className="title-container3">
-          <h1 className="title">Política de Privacidad</h1>
+          <h1 className="title">Políticas de Privacidad</h1>
         </div>
       </div>
-
-      {/* Contenido de texto */}
       <div className="text-container">
         <p className="paragraph">
         Con base a lo establecido en la normativa vigente en Protección de Datos de Carácter Personal, le comunicamos que sus datos serán incorporados al sistema de tratamiento de datos del Proyecto HOSO y con la finalidad de atender sus consultas. En cumplimiento con la normativa vigente, Proyecto HOSO informa que los datos serán conservados durante el plazo estrictamente necesario para cumplir con los preceptos mencionados con anterioridad.

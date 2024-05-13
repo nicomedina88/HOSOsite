@@ -1,5 +1,4 @@
 /* Login.css */
-
 .login-container {
     display: flex;
     width: 100%;
@@ -144,6 +143,4 @@
   .checkbox-container {
     margin-right: 40px; /* Agrega espacio a la derecha del checkbox */
   }
-
-
 }

@@ -56,11 +56,10 @@ p {
     height: 350px; /* Ajuste de altura para dispositivos móviles */
     background-size: cover;
     background-position: center;
-
   }
 
   .big-text {
-    font-size: 60px; /* Tamaño de fuente aún más reducido para dispositivos móviles */
+    font-size: 40px; /* Tamaño de fuente aún más reducido para dispositivos móviles */
     line-height: 40px; /* Ajuste de línea para dispositivos móviles */
     overflow-wrap: break-word; /* Utiliza overflow-wrap para permitir que el texto se divida en varias líneas */
   }

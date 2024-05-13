@@ -1,12 +1,11 @@
 /* Sumate.css */
-
 .mini-banner {
   background-color: #FAC1B8;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: left; /* Alinea el texto a la izquierda */
-  height: 500px;
+  height: 250px;
 }
 
 .title-container2 {
@@ -17,18 +16,12 @@
   font-style: normal;
   font-weight: 600;
   line-height: 60px;
-  padding-top: 130px; /* Puedes ajustar esto según tus preferencias */
+  padding-top: 100px; /* Puedes ajustar esto según tus preferencias */
   padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
   width: 590px;
   height: 50px;
   flex-shrink: 0;
   padding-left: 15px;
-}
-
-.image2 {
-  width: 653px;
-  height: 300px;
-  flex-shrink: 0;
 }
 
 .text-container {
@@ -39,28 +32,34 @@
 .section-title2 {
   color: #424038;
   align-self: stretch;
-  /* title/large */
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 600;
   letter-spacing: 0.5px;
   text-align: left; /* Alinea el texto a la izquierda */
-  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
 
+.section-titlemini {
+  color: #424038;
+  align-self: stretch;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: left; /* Alinea el texto a la izquierda */
 }
 
 .paragraph {
-  /* Estilos del párrafo de texto */
   color: #424038;
   text-align: left; /* Alinea el texto a la izquierda */
   font-family: DM Sans;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 133.333% */
   letter-spacing: 0.5px;
-  
 }
 
 .text-with-image-container {
@@ -69,22 +68,27 @@
 }
 
 .estudi {
-  width: 800px; /* Ajusta el tamaño según sea necesario */
-  height: 400px; /* Esto mantiene la proporción de la imagen */
+  width: 100%; /* Cambia el ancho para que ocupe todo el ancho disponible */
+  max-width: 600px; /* Establece un ancho máximo para evitar que la imagen se expanda demasiado en pantallas grandes */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  padding: 20px; /* Agrega un espacio alrededor de la imagen */
+  margin-top: 40px;
+  margin-right: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.requirements-and-application-container {
+.requirements {
   display: flex;
   justify-content: space-between;
 }
 
-.requirements-container {
-  width: 45%; /* Ajusta el ancho según tus necesidades */
+.application-container {
+  width: 100%; /* Cambia el ancho del contenedor para que ocupe todo el ancho disponible */
+  max-width: 800px; /* Establece un ancho máximo para evitar que el formulario se extienda demasiado en pantallas grandes */
+  margin: 50px; /* Centra el contenedor horizontalmente */
+  margin-top: 80px;
 }
 
-.application-container {
-  width: 45%; /* Ajusta el ancho según tus necesidades */
-}
 
 .application-form {
   background-color: #0F8AA6;
@@ -93,7 +97,6 @@
   color: #fff; /* Color del texto */
   text-align: left; /* Alineación del texto a la izquierda */
   font-family: 'Montserrat', sans-serif;
-
 }
 
 .form-group {
@@ -116,7 +119,6 @@ input, textarea {
   text-align: left; /* Alineación del texto a la izquierda */
   font-family: 'Montserrat', sans-serif;
   font-weight: bold; /* Aplicar negrita */
-
 }
 
 button {
@@ -141,79 +143,83 @@ button[type="submit"]:hover {
   transform: translateY(-3px); /* Desplaza el botón hacia arriba 3 píxeles */
 }
 
-
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   /* Estilos para dispositivos móviles */
-
   .text-with-image-container {
     flex-direction: column;
   }
-  .image2 {
-    width: 100%;
-    height: 200px;
-  }
 
   .estudi {
-    width: 100%;
+    width: auto;
+    max-width: 90%;
     height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 200px; /* Ajusta este valor según sea necesario */
   }
 
-  .requirements-and-application-container {
+  .requirements {
     flex-direction: column;
   }
 
-  .requirements-container, .application-container {
+  .application-container {
     width: 100%;
   }
   .paragraph {
-    font-size: 20px; /* Puedes ajustar el tamaño según tus preferencias */
+    font-size: 16px; /* Puedes ajustar el tamaño según tus preferencias */
     line-height: 28px; /* Puedes ajustar la altura de línea según tus preferencias */
   }
 
   .text-container {
-    padding: 15px; /* Puedes ajustar el relleno según tus preferencias */
+    background-color: #fff;
+    margin: 0; /* Ajusta según sea necesario */
   }
 
-  .title-container4 {
-    font-size: 15px; /* Puedes ajustar el tamaño según tus preferencias */
-    line-height: 30px; /* Puedes ajustar la altura de línea según tus preferencias */
-    padding-left: 10px;
-    padding-bottom: 0px;
-    padding-top: 15px;
-    width: 100%;
-    text-align: left;
+  .title-container2 {
+    font-size: 20px; /* Ajusta el tamaño del título según sea necesario */
+    line-height: 26px; /* Ajusta la altura de línea del título según sea necesario */
+    padding-top: 20px; /* Ajusta el espaciado superior del título según sea necesario */
+    width: 100%; /* Ajusta el ancho del contenedor para que se ajuste automáticamente */
+  }
+
+  .application-container {
+  margin: 0 auto;
   }
   .section-title2 {
     color: #424038;
     align-self: stretch;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-align: left; /* Alinea el texto a la izquierda */
   }
+
+  .section-titlemini {
+    font-size: 20px;
+  }
+
   .application-form {
     background-color: #0F8AA6;
     border-radius: 10px;
     color: #fff; /* Color del texto */
     text-align: left; /* Alineación del texto a la izquierda */
     font-family: 'Montserrat', sans-serif;
-    width: 90%;
+    width: 100%;
     box-sizing: border-box; 
   }
 
   .label,
-.input,
-.textarea {
-  font-size: 16px; /* Ajusta según tus preferencias */
-  padding: 8px;
-}
+  .input,
+  .textarea {
+     font-size: 16px; /* Ajusta según tus preferencias */
+    padding: 8px;
+   }
 
-label {
-  text-align: left;
-  display: block;
-  margin-bottom: 5px;
-}
+  label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+  }
 }  

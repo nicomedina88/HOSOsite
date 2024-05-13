@@ -11,7 +11,6 @@ import Sobrehoso from './componentes/Sobrehoso/Sobrehoso.jsx';
 import Condiciones from './componentes/Condiciones/Condiciones.jsx';
 import Privacidad from './componentes/Privacidad/Privacidad.jsx';
 import Login from './componentes/Login/Login.jsx';
-import Programa from "./componentes/Alojamientos/Alojamientos.jsx";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sobre-hoso" element={<SobreHosoPage />} />
           <Route path="/sumate" element={<SumatePage />} />
-          <Route path="/programa" element={<ProgramaPage />} />
           <Route path="/terminos-y-condiciones" element={<CondicionesPage />} />
           <Route path="/politicas-de-privacidad" element={<PrivacidadPage />} />
           <Route path="/login" element={<LoginPage />} />
@@ -57,14 +55,6 @@ function SumatePage() {
   return (
     <div>
       <Sumate />
-    </div>
-  );
-}
-
-function ProgramaPage() {
-  return (
-    <div>
-      <Programa />
     </div>
   );
 }

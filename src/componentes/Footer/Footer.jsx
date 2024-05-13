@@ -14,7 +14,7 @@ function Footer() {
           <img src={logo} alt="Logo de HOSO" />
         </Link>
         <span style={{ fontSize: '24px' }}>HOSO</span>
-        <p>&copy;2023 UNPAZ. Todos los derechos reservados</p>
+        <p>&copy;2024 UNPAZ. Todos los derechos reservados</p>
       </div>
       <div className="social">
         <InstagramIcon />
@@ -26,13 +26,13 @@ function Footer() {
       </div>
       <div className="info">
         <p>
+          <Link to="/">Inicio</Link>
+          <span> | </span>
           <Link to="/sobre-hoso">Sobre HOSO</Link>
           <span> | </span>
           <Link to="/sumate">Sumate</Link>
           <span> | </span>
-          <Link to="/programa">Nuestro Programa</Link>
-          <span> | </span>
-          <Link to="/politicas-de-privacidad">Política de privacidad</Link>
+          <Link to="/politicas-de-privacidad">Políticas de privacidad</Link>
           <span> | </span>
           <Link to="/terminos-y-condiciones">Términos y condiciones</Link>
         </p>
@@ -50,10 +50,10 @@ function Footer() {
       </div>
       <div className="info2">
         <p>
+          <Link to="/">Inicio</Link>
           <Link to="/sobre-hoso">Sobre HOSO</Link>
           <Link to="/sumate">Sumate</Link>
-          <Link to="/programa">Nuestro Programa</Link>
-          <Link to="/politicas-de-privacidad">Política de privacidad</Link>
+          <Link to="/politicas-de-privacidad">Políticas de privacidad</Link>
           <Link to="/terminos-y-condiciones">Términos y condiciones</Link>
         </p>
       </div>
@@ -61,7 +61,7 @@ function Footer() {
         <a href="https://www.unpaz.edu.ar" target="_blank" rel="noopener noreferrer">
             <img src={logo2} alt="Logo de UNPAZ" />
         </a>
-        <p>&copy;2023 UNPAZ. Todos los derechos reservados</p>
+        <p>&copy;2024 UNPAZ. Todos los derechos reservados</p>
       </div>
       </div>
     </footer>

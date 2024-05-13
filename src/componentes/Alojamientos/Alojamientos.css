@@ -4,10 +4,10 @@
     justify-content: space-between;
     align-items: center;
     text-align: left; /* Alinea el texto a la izquierda */
-    height: 300px; /* Ajusta la altura según sea necesario */
+    height: 250px; /* Ajusta la altura según sea necesario */
   }
   
-  .title-container1 {
+  .title-container5 {
     color: #000;
     font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
     font-family: 'Montserrat', sans-serif;
@@ -15,7 +15,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 60px;
-    padding-top: 130px; /* Puedes ajustar esto según tus preferencias */
+    padding-top: 100px; /* Puedes ajustar esto según tus preferencias */
     padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
     width: 590px;
     height: 50px;
@@ -31,7 +31,6 @@
   .section-title2 {
     color: #424038;
     align-self: stretch;
-    /* title/large */
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-style: normal;
@@ -39,7 +38,6 @@
     letter-spacing: 0.5px;
     text-align: left; /* Alinea el texto a la izquierda */
     white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-  
   }
   
   .paragraph {
@@ -47,14 +45,12 @@
     color: #424038;
     text-align: left; /* Alinea el texto a la izquierda */
     font-family: DM Sans;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px; /* 133.333% */
     letter-spacing: 0.5px;
-    
   }
-
 
   .pdf-button {
     background-color: #0F8AA6;
@@ -73,3 +69,38 @@
     transform: translateY(-3px); /* Desplaza el botón hacia arriba 3 píxeles */
   }
   
+  .logoint {
+    width: 100%; /* Cambia el ancho para que ocupe todo el ancho disponible */
+    max-width: 600px; /* Establece un ancho máximo para evitar que la imagen se expanda demasiado en pantallas grandes */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    padding: 20px; /* Agrega un espacio alrededor de la imagen */
+    margin-top: 40px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  @media screen and (max-width: 768px) {
+    .mini-banner {
+      height: 150px !important; /* Añade !important para dar prioridad a esta regla en dispositivos móviles */
+    }
+
+    .title-container5 {
+      font-size: 20px; /* Ajusta el tamaño del título según sea necesario */
+      line-height: 26px; /* Ajusta la altura de línea del título según sea necesario */
+      padding-top: 20px; /* Ajusta el espaciado superior del título según sea necesario */
+      width: 100%; /* Ajusta el ancho del contenedor para que se ajuste automáticamente */
+    }
+
+    .paragraph {
+      font-size: 16px;
+    }
+
+    .logoint {
+      width: auto;
+      max-width: 90%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      max-height: 200px; /* Ajusta este valor según sea necesario */
+    }
+  }

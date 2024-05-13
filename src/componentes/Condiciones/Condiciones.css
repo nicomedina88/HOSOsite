@@ -33,7 +33,7 @@
   color: #424038;
   text-align: left; /* Alinea el texto a la izquierda */
   font-family: DM Sans;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 133.333% */
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 768px) {
   .paragraph {
-    font-size: 20px; /* Puedes ajustar el tamaño según tus preferencias */
+    font-size: 16px; /* Puedes ajustar el tamaño según tus preferencias */
     line-height: 28px; /* Puedes ajustar la altura de línea según tus preferencias */
   }
 
@@ -51,11 +51,10 @@
   }
  
   .title-container3 {
-    font-size: 15px; /* Puedes ajustar el tamaño según tus preferencias */
-    line-height: 30px; /* Puedes ajustar la altura de línea según tus preferencias */
-    padding-left: 10px;
-    padding-bottom: 0px;
-    width: 100%;
+    font-size: 15px; /* Ajusta el tamaño del título según sea necesario */
+    line-height: 26px; /* Ajusta la altura de línea del título según sea necesario */
+    padding-top: 30px; /* Ajusta el espaciado superior del título según sea necesario */
+    width: 100%; /* Ajusta el ancho del contenedor para que se ajuste automáticamente */
   }
 
   .mini-banner2 {

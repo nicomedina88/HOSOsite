@@ -107,7 +107,6 @@
     overflow: visible;
   }
 
-
   .nav.open {
     display: flex;
     flex-direction: column;
@@ -121,8 +120,7 @@
   .nav ul li {
     margin: 10px 0;
     text-align: center;
-    width: 100%; /* Añade esta regla para forzar que ocupen todo el ancho disponible */
-  
+    width: 100%; /* Añade esta regla para forzar que ocupen todo el ancho disponible */  
   }
 
   .menu-button {

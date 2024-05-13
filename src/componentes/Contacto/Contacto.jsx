@@ -2,13 +2,11 @@ import React from 'react';
 import './Contacto.css';
 import {Telefono, MailContacto, Web, Ubicacion} from '../../constantes/IconosHoso';
 
-
 const Contacto = () => {
   const validarFormulario = () => {
     const nombre = document.querySelector('input[name="nombre"]').value;
     const email = document.querySelector('input[name="email"]').value;
     const comentario = document.querySelector('textarea[name="comentario"]').value;
-
     const nombreValido = /^[a-zA-Z\s]+$/.test(nombre);
     const emailValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     const comentarioValido = comentario.length >= 5 && comentario.length <= 50;
@@ -31,17 +29,14 @@ const Contacto = () => {
     return true;
   };
 
-  
-
   return (
     <div className="contacto-container">
       <div className="rosado">
         <div className="contacto-info">
-          <h2>CONTACTANOS</h2>
-          <h4>DIRECCIÓN GENERAL DE RELACIONES INTERNACIONALES</h4>
+          <h2 className='contactanos'>CONTACTANOS</h2>
+          <h4 className='direccion'>DIRECCIÓN GENERAL DE RELACIONES INTERNACIONALES</h4>
           <div className="telefono-container">
-            <Telefono />
-        
+            <Telefono />        
             <p>(+54 2320) 696998</p>
           </div>
           <div className="email-container">
@@ -68,8 +63,7 @@ const Contacto = () => {
             placeholder="Tu mensaje"
             maxLength="50"
             required
-          ></textarea>
-         
+          ></textarea> 
           <button type="submit">Enviar</button>
         </form>
       </div>
@@ -78,5 +72,3 @@ const Contacto = () => {
 };
 
 export default Contacto;
-
-

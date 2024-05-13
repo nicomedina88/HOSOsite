@@ -30,6 +30,11 @@ function Header() {
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>
         <ul>
           <li>
+            <Link to="/" onClick={handleMenuClick}>
+              Inicio
+            </Link>
+          </li>
+          <li>
             <Link to="sobre-hoso" onClick={handleMenuClick}>
               Sobre HOSO
             </Link>
@@ -37,11 +42,6 @@ function Header() {
           <li>
             <Link to="sumate" onClick={handleMenuClick}>
               Sumate
-            </Link>
-          </li>
-          <li>
-            <Link to="programa" onClick={handleMenuClick}>
-              Nuestro Programa
             </Link>
           </li>
           <li>

@@ -4,7 +4,6 @@ import foto1 from '../../img/HOSOPresentaciónoficial.jpg';
 import foto2 from '../../img/RGDI3.jpg';
 import foto3 from '../../img/ESTUDIANTES11.jpeg';
 
-
 function Carrusel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -28,7 +27,7 @@ function Carrusel() {
       text: 'El Hospedaje Solidario se encuentra en el marco del programa “La UNPAZ en el mundo, el mundo en la UNPAZ” y tiene como objetivo el intercambio intercultural,  promoviendo así la internacionalización en nuestra comunidad universitaria.',
       image: foto1,
       buttonLabel: 'Más información',
-      link: '/programa',
+      link: '/sobre-hoso',
     },
   ];
 

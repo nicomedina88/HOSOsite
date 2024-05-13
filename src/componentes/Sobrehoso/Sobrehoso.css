@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: left; /* Alinea el texto a la izquierda */
-  height: 300px; /* Ajusta la altura según sea necesario */
+  height: 250px; /* Ajusta la altura según sea necesario */
 }
 
 .title-container1 {
@@ -20,133 +20,50 @@
   font-style: normal;
   font-weight: 600;
   line-height: 60px;
-  padding-top: 130px; /* Puedes ajustar esto según tus preferencias */
+  padding-top: 100px; /* Puedes ajustar esto según tus preferencias */
   padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
   width: 590px;
   height: 50px;
   flex-shrink: 0;
   padding-left: 15px;
 }
- 
-.image1 {
-  width: 773px;
-  height: 300px;
-  flex-shrink: 0;
+
+.logo-container1 {
+  text-align: center; /* Añade esta línea para centrar el texto en el contenedor */
+  line-height: 0%;
+  margin-left: 60px; /* Agrega un margen a la izquierda del contenedor de logo */
 }
 
+.logo-container1 img {
+  max-width: 300px; /* Establecer un ancho máximo para la imagen del logo */
+  height: auto; /* Permitir que la altura se ajuste automáticamente para mantener la proporción */
+}
 
-/*  ///////////////////////////// */
+.slogan1 {
+    color: var(--primary, #393121);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0%;
+  }
+  
+  .titulogo1 {
+    color: var(--primary, #393121);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%;
+    margin-top: 15px;
+
+  }
 
 .text-container {
   background-color: #fff;
-  padding: 20px;
   margin: 0; /* Ajusta según sea necesario */
-
 }
 
-.section-title1 {
-  color: #424038;
-  align-self: stretch;
-  /* title/large */
-  font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-align: left; /* Alinea el texto a la izquierda */
-  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-
-}
-
-.paragraph {
-  /* Estilos del párrafo de texto */
-  color: #424038;
-  text-align: left; /* Alinea el texto a la izquierda */
-  font-family: DM Sans;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 133.333% */
-  letter-spacing: 0.5px;
-}
-
-.text-with-image-container {
-  display: flex;
-  align-items: center;
-  
-}
-
-.text-with-image-container1 {
-  display: flex;
-  align-items: center;
-}
-
-.project-logo {
-  width: 500px; /* Ajusta el tamaño según sea necesario */
-  height: 300px; /* Esto mantiene la proporción de la imagen */
-  margin-left: 20px; /* Ajusta la distancia entre la imagen y el texto */
-  margin-right: 20px; /* Ajusta la distancia entre la imagen y el texto */
-}
-
-.logoint {
-  width: 800px;
-  height: 400px;
-}
-
-.ediuni {
-  width: 800px;
-  height: 500px;
-  padding: 10px;
-} 
-
-
-@media screen and (max-width: 768px) {
-
-.text-with-image-container1 {
-  display: none;
-}
-
-
-.image1 {
-  width: 100%;
-  height: 200px;
-  padding-bottom: 10px;
-}
-
-.paragraph {
-  font-size: 20px; /* Puedes ajustar el tamaño según tus preferencias */
-  line-height: 28px; /* Puedes ajustar la altura de línea según tus preferencias */
-}
-
-.text-container {
-  padding: 15px; /* Puedes ajustar el relleno según tus preferencias */
-}
-
-.title-container4 {
-  font-size: 15px; /* Puedes ajustar el tamaño según tus preferencias */
-  line-height: 30px; /* Puedes ajustar la altura de línea según tus preferencias */
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-top: 15px;
-  width: 100%;
-  text-align: left;
-
-}
-
-.ediuni {
-  width: 100%;
-  height: 200px;
-}
-
-.logoint {
-  width: 100%;
-  height: 200px;
-}
-
-.project-logo {
-  width: 70%;
-  height: 150px;
-}
 .section-title1 {
   color: #424038;
   align-self: stretch;
@@ -157,10 +74,110 @@
   font-weight: 600;
   letter-spacing: 0.5px;
   text-align: left; /* Alinea el texto a la izquierda */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.paragraph {
+  /* Estilos del párrafo de texto */
+  color: #424038;
+  text-align: left; /* Alinea el texto a la izquierda */
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.5px;
+}
+
+.text-with-image-container {
+  display: flex;
+  align-items: center; 
+}
+
+.text-with-image-container1 {
+  display: flex;
+  align-items: center;
+}
+
+.ediuni {
+  width: 100%; /* Cambia el ancho para que ocupe todo el ancho disponible */
+  max-width: 600px; /* Establece un ancho máximo para evitar que la imagen se expanda demasiado en pantallas grandes */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  padding: 20px; /* Agrega un espacio alrededor de la imagen */
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 40px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .mini-banner {
+    height: 150px !important; /* Añade !important para dar prioridad a esta regla en dispositivos móviles */
+  }
+
+.text-with-image-container1 {
+  display: none;
+}
+
+.paragraph {
+  font-size: 16px; /* Puedes ajustar el tamaño según tus preferencias */
+  line-height: 28px; /* Puedes ajustar la altura de línea según tus preferencias */
+}
+
+.text-container {
+  padding: 15px; /* Puedes ajustar el relleno según tus preferencias */
+}
+
+.title-container1 {
+  font-size: 20px; /* Ajusta el tamaño del título según sea necesario */
+  line-height: 26px; /* Ajusta la altura de línea del título según sea necesario */
+  padding-top: 20px; /* Ajusta el espaciado superior del título según sea necesario */
+  width: 100%; /* Ajusta el ancho del contenedor para que se ajuste automáticamente */
+  white-space: rap; /* Evita que el texto se divida en varias líneas */
+}
+
+.ediuni {
+  width: auto;
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-height: 200px; /* Ajusta este valor según sea necesario */
+}
+
+.section-title1 {
+  color: #424038;
+  align-self: stretch;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: left; /* Alinea el texto a la izquierda */
 }
 
 .text-with-image-container-mob {
   display: block;
   flex-direction: column;
+}
+
+.logo-container1 {
+  margin-left: 15px; /* Ajusta el margen izquierdo del contenedor del logo */
+}
+
+.logo-container1 img {
+  max-width: 150px; /* Establecer un ancho máximo para la imagen del logo */
+  height: auto; /* Permitir que la altura se ajuste automáticamente para mantener la proporción */
+  margin-top: 0px;
+}
+.titulogo1 {
+  font-size: 60px; /* Ajustar el tamaño del título del logo */
+  margin-bottom: 5px; /* Ajusta el margen inferior del titulologo */
+  margin-top: 15px;
+}
+
+.slogan1 {
+  font-size: 14px; /* Ajustar el tamaño del slogan */
+  margin-top: 50px; /* Ajusta el margen superior del slogan */
 }
 }

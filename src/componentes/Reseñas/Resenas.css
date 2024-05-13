@@ -72,7 +72,6 @@ p {
   flex-direction: column;
 }
 
-
 @media screen and (max-width: 768px) {
   .opiniones {
     flex-direction: column;
@@ -81,11 +80,11 @@ p {
   .opinion {
     background-color: white;
     border: 1px solid #0F8AA6;
-    padding: 10px;
     width: 300px; /* Ancho fijo para cada cuadro de opinión */
     text-align: center;
     border-radius: 10px; /* Ajusta el valor según la cantidad de redondeo deseada */
-    margin: 20px; /* Agregar un margen para separar los cuadros */
+    margin: 0px; /* Agregar un margen para separar los cuadros */
+    margin-top: 20px;
     transition: transform 0.2s; /* Agregar una transición para un efecto suave */
   }
 }
