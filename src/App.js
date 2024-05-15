@@ -12,11 +12,11 @@ import Condiciones from './componentes/Condiciones/Condiciones.jsx';
 import Privacidad from './componentes/Privacidad/Privacidad.jsx';
 import Login from './componentes/Login/Login.jsx';
 
-
 function App() {
   return (
     <Router>
       <div className="App">
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre-hoso" element={<SobreHosoPage />} />
@@ -24,7 +24,8 @@ function App() {
           <Route path="/terminos-y-condiciones" element={<CondicionesPage />} />
           <Route path="/politicas-de-privacidad" element={<PrivacidadPage />} />
           <Route path="/login" element={<LoginPage />} />
-       </Routes>
+        </Routes>
+        <Footer />
       </div>
     </Router>
   );
@@ -33,12 +34,10 @@ function App() {
 function Home() {
   return (
     <div>
-      <Header />
       <Banner />
       <Carrusel />
       <Resenas />
       <Contacto />
-      <Footer />
     </div>
   );
 }
@@ -46,19 +45,16 @@ function Home() {
 function SobreHosoPage() {
   return (
     <div>
-      <Header />
       <Sobrehoso />
-      <Footer />
     </div>
   );
 }
 
+
 function SumatePage() {
   return (
     <div>
-      <Header />
       <Sumate />
-      <Footer />
     </div>
   );
 }
@@ -66,9 +62,7 @@ function SumatePage() {
 function LoginPage() {
   return (
     <div>
-      <Header />
       <Login />
-      <Footer />
     </div>
   );
 }
@@ -76,9 +70,7 @@ function LoginPage() {
 function CondicionesPage() {
   return (
     <div>
-      <Header />
       <Condiciones />
-      <Footer />
     </div>
   );
 }
@@ -86,10 +78,9 @@ function CondicionesPage() {
 function PrivacidadPage() {
   return (
     <div>
-      <Header />
       <Privacidad />
-      <Footer />
     </div>
   );
 }
+
 export default App;
