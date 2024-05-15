@@ -35,9 +35,7 @@ const Login = () => {
               </div>
             </div>
             <br />
-            <Link to="hoso">
                 <button type="submit" className='boton'>Acceder</button>
-              </Link>
           </form>
         </div>
       </div>
@@ -71,9 +69,7 @@ const Login = () => {
               </div>
             </div>
             <br />
-            <Link to="hoso">
-                <button type="submit" className='boton'>Acceder</button>
-              </Link>
+            <button type="submit" className='boton'>Acceder</button>
           </form>
         </div>
       </div>
