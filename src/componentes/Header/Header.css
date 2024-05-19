@@ -1,126 +1,81 @@
+/* Header.css */
 .header {
-    background-color: #393121;
-    color: #FFFCF1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo img {
-    max-height: 40px; /* Establece el tamaño del logotipo */
-    margin-right: 10px; /* Agrega un espacio entre el logo y el texto "HOSO" */
-  }
-  
-  .nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center; /* Alinea verticalmente los elementos */
-  }
-  
-  .nav li {
-    margin-left: 20px; /* Agrega espacio entre elementos de navegación */
-  }
-  
-  .nav li:last-child {
-    margin-right: 20px; /* Añade un margen derecho al último elemento para separarlo del botón */
-  }
+  background-color: #393121;
+  color: #FFFCF1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+}
 
-  .nav {
-    margin-left: auto; /* Alinear a la derecha */
-  }
-  
-  .login-button {
-    background-color: #0F8AA6;
-    color: #FFFCF1;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 20px; /* Botón más redondeado */
-  }
-  
-  .nav a {
-    color: #FFFCF1;
-    text-decoration: none; /* Elimina la subrayado de los enlaces */
-    font-weight: bold;
-  }
-  
-  .nav a:hover {
-    color: #0F8AA6;
-  }
-  
-  body {
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .header {
-    font-weight: bold;
-  }
-  
-  .bold-text {
-    font-weight: bold;
-  }
-  
-  .menu-button {
-    display: none; /* Oculta el botón de menú en la versión de escritorio por defecto */
-    cursor: pointer;
-  }
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
 
-  .close-button {
-    display: none;
-  }
+}
 
-  /* Estilos para la versión móvil */
+.logo img {
+  max-height: 40px; /* Establece el tamaño del logotipo */
+  margin-right: 10px; /* Agrega un espacio entre el logo y el texto "HOSO" */
+}
+
+.desktop-nav {
+  display: none; /* Oculta la navegación de escritorio por defecto en móvil */
+}
+
+.desktop-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.desktop-nav li {
+  margin-left: 20px; /* Agrega espacio entre elementos de navegación */
+}
+
+.desktop-nav li:last-child {
+  margin-right: 20px; /* Añade un margen derecho al último elemento para separarlo del botón */
+}
+
+.desktop-nav a {
+  color: #FFFCF1;
+  text-decoration: none; /* Elimina la subrayado de los enlaces */
+  font-weight: bold;
+}
+
+.desktop-nav a:hover {
+  color: #0F8AA6;
+}
+
+.login-button {
+  background-color: #0F8AA6;
+  color: #FFFCF1;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px; /* Botón más redondeado */
+}
+
+.menu-button {
+  display: none; /* Oculta el botón de menú en la versión de escritorio por defecto */
+  cursor: pointer;
+}
+
+.close-button {
+  display: none;
+}
+
+/* Estilos para la versión móvil */
 @media screen and (max-width: 768px) {
-  
-  .header {
-    background-color: #393121;
-    color: #FFFCF1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    width: 100%;
-  }
-
-  .nav {
-    display: none;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 95%;
-    height: 100%;
-    background-color: #393121;
-    z-index: 999;
-    overflow: visible;
-  }
-
-  .nav.open {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav ul {
-    flex-direction: column;
-  }
-
-  .nav ul li {
-    margin: 10px 0;
-    text-align: center;
-    width: 100%; /* Añade esta regla para forzar que ocupen todo el ancho disponible */  
+  .desktop-nav {
+    display: none; /* Asegura que la navegación de escritorio no se muestre en móvil */
   }
 
   .menu-button {
@@ -128,36 +83,79 @@
     cursor: pointer;
     margin-right: 30px;
   }
-  .menu-button ul{
-    flex-direction: column;
-  }
+
   .close-button {
+    display: block;
     color: #FFFCF1;
     font-size: 24px;
     cursor: pointer;
-    margin-top: 20px;
-    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
   }
 
-  .menu-button.active .bar:nth-child(1),
-  .menu-button.active .bar:nth-child(3) {
-    transform: translateY(7px) rotate(45deg); /* Ajusta la animación del icono de hamburguesa */
+  .nav {
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #393121;
+    z-index: 999;
+    overflow: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .menu-button.active .bar:nth-child(2) {
-    opacity: 0; /* Desvanece el segundo trazo del icono de hamburguesa cuando está abierto */
+  .nav.open {
+    display: flex;
   }
 
-  .menu-button.active .bar {
-    background-color: #FFFCF1; /* Color de las barras del icono de hamburguesa cuando está activo */
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
   }
-  
-  .bar {
-    height: 5px;
-    width: 30px;
-    background-color: #FFFCF1; /* Color de las barras del icono de hamburguesa */
-    margin: 6px 0;
-    transition: 0.4s; /* Agrega una transición suave a las barras del icono de hamburguesa */
+
+  .nav ul li {
+    margin: 20px 0;
+  }
+
+  .nav a {
+    color: #FFFCF1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .nav a:hover {
+    color: #0F8AA6;
+  }
+
+  .login-button {
+    background-color: #0F8AA6;
+    color: #FFFCF1;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+}
+
+/* Estilos para la versión de escritorio */
+@media screen and (min-width: 769px) {
+  .desktop-nav {
+    display: flex; /* Muestra la navegación de escritorio en pantallas grandes */
+  }
+
+  .menu-button {
+    display: none; /* Oculta el botón de menú en la versión de escritorio */
+  }
+
+  .nav {
+    display: none; /* Oculta el menú hamburguesa en pantallas grandes */
   }
 }

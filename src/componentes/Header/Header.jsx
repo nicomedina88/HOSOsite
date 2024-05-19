@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Header.css';
 import logo from '../../img/hoso1.png';
 import { Link } from 'react-router-dom';
+import HamburgerMenu from './HamburgerMenu';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,33 +28,23 @@ function Header() {
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
-      <nav className={`nav ${menuOpen ? 'open' : ''}`}>
+      <nav className="desktop-nav">
         <ul>
           <li>
-            <Link to="/" onClick={handleMenuClick}>
-              Inicio
-            </Link>
+            <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="sobre-hoso" onClick={handleMenuClick}>
-              Sobre HOSO
-            </Link>
+            <Link to="/sobre-hoso">Sobre HOSO</Link>
           </li>
           <li>
-            <Link to="sumate" onClick={handleMenuClick}>
-              Sumate
-            </Link>
+            <Link to="/sumate">Sumate</Link>
           </li>
           <li>
-            <Link to="login" onClick={handleMenuClick} className="login-button">
-              Iniciar Sesión
-            </Link>
+            <Link to="/login" className="login-button">Iniciar Sesión</Link>
           </li>
         </ul>
-        <div className="close-button" onClick={closeMenu}>
-          &times; {/* Esto es una 'X' para cerrar el menú */}
-        </div>
       </nav>
+      <HamburgerMenu menuOpen={menuOpen} handleMenuClick={handleMenuClick} closeMenu={closeMenu} />
     </header>
   );
 }
