@@ -5,7 +5,7 @@ const Condiciones = () => {
   return (
     <div className="sumate-container">
       <div className="mini-banner2">
-        <div className="title-container3">
+        <div className="title-container4">
           <h1 className="title">Términos y Condiciones</h1>
         </div>
       </div>

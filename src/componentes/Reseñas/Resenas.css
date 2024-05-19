@@ -15,6 +15,8 @@
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+  align-items: center;
+  align-items: stretch;
 }
 
 .opinion {
@@ -24,8 +26,10 @@
   width: 400px; /* Ancho fijo para cada cuadro de opinión */
   text-align: center;
   border-radius: 10px; /* Ajusta el valor según la cantidad de redondeo deseada */
-  margin: 20px; /* Agregar un margen para separar los cuadros */
+  margin: 15px; /* Agregar un margen para separar los cuadros */
   transition: transform 0.2s; /* Agregar una transición para un efecto suave */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos de manera uniforme */
+
 }
 
 .opinion:hover {
@@ -52,7 +56,7 @@ p {
 
 .msj {
   padding: 10px;
-
+  flex-grow: 1
 }
 
 .icono-nombre-localidad {

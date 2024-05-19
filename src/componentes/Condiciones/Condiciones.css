@@ -7,7 +7,7 @@
   height: 200px;
 }
 
-.title-container3 {
+.title-container4 {
   color: #000;
   font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
   font-family: 'Montserrat', sans-serif;
@@ -50,10 +50,10 @@
     padding: 15px; /* Puedes ajustar el relleno según tus preferencias */
   }
  
-  .title-container3 {
-    font-size: 15px; /* Ajusta el tamaño del título según sea necesario */
+  .title-container4 {
+    font-size: 10px; /* Ajusta el tamaño del título según sea necesario */
     line-height: 26px; /* Ajusta la altura de línea del título según sea necesario */
-    padding-top: 30px; /* Ajusta el espaciado superior del título según sea necesario */
+    padding-top: 60px; /* Ajusta el espaciado superior del título según sea necesario */
     width: 100%; /* Ajusta el ancho del contenedor para que se ajuste automáticamente */
   }
 

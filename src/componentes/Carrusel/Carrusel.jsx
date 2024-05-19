@@ -7,7 +7,6 @@ import foto3 from '../../img/ESTUDIANTES11.jpeg';
 function Carrusel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   
-
   const data = [
     {
       title: 'Sobre HOSO',
@@ -88,7 +87,6 @@ function Carrusel() {
     </div>
     
   );
-
 }
 
 export default Carrusel;

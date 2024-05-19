@@ -26,6 +26,8 @@ h2 {
   position: relative; /* Necesario para posicionar la imagen dentro del contenedor .rosado */
   padding: 50px;
   font-family: 'Montserrat', sans-serif;
+  align-items: center;
+
 }
 
 .contactanos {
@@ -102,6 +104,7 @@ background-color: #0c6e87; /* Color de fondo al pasar el ratón */
 
   .rosado {
     order: 2; /* Cambia el orden para que la sección rosa aparezca después del formulario en dispositivos móviles */
+    align-items: center;
   }
 
   .formulario {
@@ -120,6 +123,8 @@ background-color: #0c6e87; /* Color de fondo al pasar el ratón */
   .contacto-info {
     padding: 20px; /* Reducir el relleno para adaptarse mejor a dispositivos móviles */
     max-width: 300px; /* Limita la anchura del contenedor para evitar que el texto se desborde */
+    align-items: center;
+    margin: 0px;
   }
 
   .telefono-container svg,
