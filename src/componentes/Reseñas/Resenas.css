@@ -79,6 +79,8 @@ p {
 @media screen and (max-width: 768px) {
   .opiniones {
     flex-direction: column;
+    align-items: center;
+
   }
 
   .opinion {
