@@ -1,4 +1,5 @@
 /* Login.css */
+
 .login-container {
     display: flex;
     width: 100%;
@@ -32,17 +33,16 @@
   
   .login-form {
     max-width: 420px;
-    margin: auto;
     display: flex;
     width: 520px;
     height: 426px; 
-    padding: 26px 59px;
-    padding-top: 100px;
+    padding: 30px 50px;
     flex-direction: column;
+    margin-top: 100px;
+    margin-left: 180px;
     align-items: flex-start;
     gap: 32px;
-    font-size: 20px;
-    flex-shrink: 0; /* Establece el valor que desees para que .additional-info se encoga */
+    font-size: 16px;
   }
   
   .casilla {
@@ -54,18 +54,25 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    flex-shrink: 0; /* Establece el valor que desees para que .additional-info se encoga */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+
   }
 
-  .infol {
-    font-size: 15px;
-    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  .infol2 {
+    font-size: 16px;
     color: #000; /* Cambia el color a negro */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+
+  }
+
+  .infol1 {
+    font-size: 16px;
   }
   
   .checkbox-container {
     display: flex;
     align-items: center;
+    width: 30px;
   }
   
   .logo-container {
@@ -99,7 +106,7 @@
     max-width: 410px;
     color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 32px;
@@ -115,14 +122,16 @@
   }
 
   .login-mobile {
+    display: block;
     width: 100%;
     flex-direction: column;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .login-form {
     width: 90%;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     margin: 20px;
 
@@ -132,12 +141,18 @@
     width: 100%;
   }
   
-  .infol {
-    font-size: 15px;
+  .infol2 {
+    font-size: 10px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+
+  }
+
+  .infol1 {
+    font-size: 10px;
+    margin-left: 140px;
   }
   
   .additional-info {
-    flex-direction: row; /* Mantén la dirección en fila */
     justify-content: space-between; /* Distribuye el espacio entre los elementos */
   }
 

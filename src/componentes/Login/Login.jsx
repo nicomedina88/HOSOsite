@@ -61,7 +61,7 @@ const Login = () => {
             <div className="additional-info">
               <div className="checkbox-container">
                 <input type="checkbox" />
-                <span className='infol'>Mantenme conectado</span>
+                <span className='infol2'>Mantenme conectado</span>
               </div>
               <div>
                 <span  className='infol1'>¿Contraseña olvidada?</span>
