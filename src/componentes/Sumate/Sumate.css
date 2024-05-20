@@ -20,7 +20,6 @@
   padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
   width: 590px;
   height: 50px;
-  flex-shrink: 0;
   padding-left: 15px;
 }
 
@@ -176,10 +175,9 @@ button[type="submit"]:hover {
   }
 
   .title-container2 {
-    font-size: 16px; /* Ajusta el tamaño del título según sea necesario */
-    line-height: 45px; /* Ajusta la altura de línea del título según sea necesario */
+    font-size: 14px; /* Ajusta el tamaño del título según sea necesario */
     padding-top: 20px; /* Ajusta el espaciado superior del título según sea necesario */
-    width: 100%; /* Ajusta el ancho del contenedor para que se ajuste automáticamente */
+    max-width: 100%; /* Ajusta el ancho del contenedor para que se ajuste automáticamente */
   }
 
   .application-container {

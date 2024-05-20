@@ -33,7 +33,7 @@
     color: #FFFCF1;
     text-decoration: none;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
   }
   
   .nav a:hover {
@@ -44,9 +44,12 @@
     background-color: #0F8AA6;
     color: #FFFCF1;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: pointer;
+    margin-top: 10px;
     border-radius: 20px;
+    text-align: flex-start;
+
   }
   
   .close-button {

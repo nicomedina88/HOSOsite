@@ -19,7 +19,6 @@
   padding-bottom: 0; /* Ajusta esto para acercar el título al borde inferior */
   width: 590px;
   height: 50px;
-  flex-shrink: 0;
   padding-left: 15px;
   white-space: nowrap; /* Evita que el texto se divida en varias líneas */
 }
