@@ -200,7 +200,7 @@ button[type="submit"]:hover {
 
   .application-form {
     background-color: #0F8AA6;
-    border-radius: 10px;
+    border-radius: 0px;
     color: #fff; /* Color del texto */
     text-align: left; /* Alineación del texto a la izquierda */
     font-family: 'Montserrat', sans-serif;
@@ -221,3 +221,87 @@ button[type="submit"]:hover {
     margin-bottom: 5px;
   }
 }  
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+  .application-form {
+    background-color: #0F8AA6;
+    border-radius: 20px;
+    color: #fff; /* Color del texto */
+    text-align: left; /* Alineación del texto a la izquierda */
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    box-sizing: border-box; 
+  }
+
+  .application-container {
+    width: 100%; /* Cambia el ancho del contenedor para que ocupe todo el ancho disponible */
+    max-width: 600px; /* Establece un ancho máximo para evitar que el formulario se extienda demasiado en pantallas grandes */
+    margin: 10px; /* Centra el contenedor horizontalmente */
+    margin-top: 80px;
+  }
+}
+
+
+@media (min-width: 1099px) and (max-width: 1999px) {
+
+  .application-form {
+    width: 90%;
+  }
+
+  .application-container {
+    width: 100%; /* Cambia el ancho del contenedor para que ocupe todo el ancho disponible */
+    max-width: 500px; /* Establece un ancho máximo para evitar que el formulario se extienda demasiado en pantallas grandes */
+  }
+
+  .estudi {
+    max-width: 100%;
+    max-height: 250px; /* Ajusta este valor según sea necesario */
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1098px) {
+
+  .application-form {
+    width: 90%;
+  }
+
+  .application-container {
+    width: 100%; /* Cambia el ancho del contenedor para que ocupe todo el ancho disponible */
+    max-width: 400px; /* Establece un ancho máximo para evitar que el formulario se extienda demasiado en pantallas grandes */
+  }
+
+  .estudi {
+    max-width: 100%;
+    max-height: 250px; /* Ajusta este valor según sea necesario */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+.text-with-image-container {
+  flex-direction: column;
+}
+
+.requirements {
+  flex-direction: column;
+}
+
+.application-container {
+  width: 100%; /* Cambia el ancho del contenedor para que ocupe todo el ancho disponible */
+  max-width: 800px; /* Establece un ancho máximo para evitar que el formulario se extienda demasiado en pantallas grandes */
+  margin: 20px; /* Centra el contenedor horizontalmente */
+  margin-top: 80px;
+}
+
+
+.application-form {
+  background-color: #0F8AA6;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff; /* Color del texto */
+  text-align: left; /* Alineación del texto a la izquierda */
+  font-family: 'Montserrat', sans-serif;
+}
+
+}

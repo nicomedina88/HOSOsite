@@ -94,6 +94,46 @@
     background-color: #0F8AA6; /* Color para el indicador activo */
   }
   
+  @media (min-width: 1250px) and (max-width: 1326px) {
+    
+    .carrusel-text {
+      margin-right: 150px; /* Agregar margen a la derecha para separar el texto de la imagen */
+      
+    }
+  }
+
+  @media (min-width: 1050px) and (max-width: 1249px) {
+    
+    .carrusel-text {
+      margin-right: 100px; /* Agregar margen a la derecha para separar el texto de la imagen */
+      
+    }
+  }
+
+  @media (min-width: 950px) and (max-width: 1049px) {
+    
+    .carrusel-text {
+      margin-right: 50px; /* Agregar margen a la derecha para separar el texto de la imagen */
+      
+    }
+
+    .carrusel-image img {
+      max-height: 250px; /* Ajusta la altura máxima según tus necesidades */
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 950px) {
+    
+    .carrusel-text {
+      margin-right: 0px; /* Agregar margen a la derecha para separar el texto de la imagen */
+      
+    }
+
+    .carrusel-image img {
+      max-height: 200px; /* Ajusta la altura máxima según tus necesidades */
+    }
+  }
+
   @media only screen and (max-width: 768px) {
     
     .carrusel-content {

@@ -1,24 +1,24 @@
 /* Login.css */
-
-.login-container {
+  .login-container {
     display: flex;
     width: 100%;
   }
 
-.login-desktop {
+  .login-desktop {
   display: flex;
   width: 100%;
-}
+  }
 
-.login-mobile {
+  .login-mobile {
   display: none;
-}
+  }
+  
   .white-section {
     background-color: #ffffff;
     flex: 0.6;
     padding: 20px;
     width: 845px;
-    height: 724px;
+    height: 784px;
   }
   
   .pink-section {
@@ -55,14 +55,12 @@
     justify-content: space-between;
     margin-bottom: 10px;
     white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-
   }
 
   .infol2 {
     font-size: 16px;
     color: #000; /* Cambia el color a negro */
     white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-
   }
 
   .infol1 {
@@ -80,7 +78,7 @@
   text-align: center;
   margin: 15px 0; /* Ajusta el margen superior e inferior */
   line-height: 0%;
-}
+  }
 
   .slogan {
     font-size: 14px;
@@ -134,7 +132,6 @@
     padding: 10px;
     box-sizing: border-box;
     margin: 20px;
-
   }
 
   .casilla {
@@ -144,7 +141,6 @@
   .infol2 {
     font-size: 10px;
     white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-
   }
 
   .infol1 {
@@ -158,5 +154,112 @@
 
   .checkbox-container {
     margin-right: 40px; /* Agrega espacio a la derecha del checkbox */
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1000px) {
+  .white-section {
+    background-color: #ffffff;
+    flex: 0.6;
+    padding: 20px;
+    width: 645px;
+    height: 724px;
+  } 
+
+  .login-form {
+    max-width: 420px;
+    display: flex;
+    width: 520px;
+    height: 426px; 
+    padding: 20px 20px;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 10px;
+    align-items: flex-start;
+    gap: 30px;
+    font-size: 16px;
+  }
+
+  .casilla {
+    width: 400px;
+    color: #000; /* Cambia el color a negro */
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1300px) {
+
+  .login-form {
+    max-width: 420px;
+    display: flex;
+    width: 520px;
+    height: 426px; 
+    padding: 20px 20px;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 40px;
+    align-items: flex-start;
+    gap: 30px;
+    font-size: 16px;
+  }
+
+  .casilla {
+    width: 400px;
+    color: #000; /* Cambia el color a negro */
+  }
+
+  .white-section {
+    
+    height: 854px;
+  } 
+}
+
+@media (min-width: 1301px) and (max-width: 1700px) {
+
+  .login-form {
+    max-width: 100%;
+    display: flex;
+    width: 520px;
+    height: 426px; 
+    padding: 20px 20px;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 90px;
+    align-items: flex-start;
+    gap: 30px;
+    font-size: 16px;
+  }
+  .white-section {
+    
+    height: 854px;
+  } 
+}
+
+
+@media (min-width: 930px) and (max-width: 978px) {
+
+  .slogan {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 929px) {
+
+  .pink-section {
+    display: none;
+  }
+
+  .login-form {
+    max-width: 100%;
+    display: flex;
+    width: 520px;
+    height: 426px; 
+    padding: 20px 20px;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 190px;
+    align-items: flex-start;
+    gap: 30px;
+    font-size: 16px;
   }
 }

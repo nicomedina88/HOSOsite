@@ -146,6 +146,18 @@ background-color: #0c6e87; /* Color de fondo al pasar el ratón */
   .email-container p {
     font-size: 13px;
   }
+}
 
+@media (min-width: 769px) and (max-width: 1060px) {
+  .contacto-container {
+    flex-direction: column; /* Cambia la dirección del contenedor principal a columna en dispositivos móviles */
+  }
+  
+  .formulario {
+    order: 1; /* Cambia el orden para que el formulario aparezca primero en dispositivos móviles */
+  }
 
+  .rosado {
+    order: 2; /* Cambia el orden para que la sección rosa aparezca después del formulario en dispositivos móviles */
+  }
 }

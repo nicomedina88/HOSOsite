@@ -13,7 +13,7 @@ function Footer() {
         <Link to="/">
           <img src={logo} alt="Logo de HOSO" />
         </Link>
-        <span style={{ fontSize: '24px' }}>HOSO</span>
+        <span style={{ fontSize: '20px' }}>HOSO</span>
         <p>&copy;2024 UNPAZ. Todos los derechos reservados</p>
       </div>
       <div className="social">

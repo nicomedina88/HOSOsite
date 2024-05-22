@@ -69,15 +69,51 @@ body {
   display: none;
 }
 
+@media (min-width: 1116px) and (max-width: 1326px) {
+  
+  .logo img {
+    max-height: 30px;
+    margin-right: 10px;
+  }
 
-@media (min-width: 768px) and (max-width: 1280px) {
+  .logo p {
+    font-size: 12px;
+
+  }
+
+  .info a {
+    align-items: center;
+    font-size: 12px;
+  }  
   
-  /* CSS */
-  
+  .social {
+    padding-left: 0px; /* Ajusta el valor según la separación deseada */
+  }
 }
 
-/* Agrega una media query para estilos específicos de dispositivos móviles */
-@media (max-width: 768px) {
+@media (min-width: 1000px) and (max-width: 1116px) {
+  
+  .logo img {
+    max-height: 30px;
+    margin-right: 10px;
+  }
+
+  .logo p {
+    font-size: 10px;
+  }
+
+  .info a {
+    align-items: center;
+    font-size: 10px;
+  }  
+
+  .social {
+    padding-left: 0px; /* Ajusta el valor según la separación deseada */
+  }
+}
+
+
+@media (max-width: 999px) {
   .footer {
     padding: 10px; /* Ajusta el valor según la separación deseada en dispositivos móviles */
   }
@@ -123,7 +159,6 @@ body {
   width: 50px;
   height: 50px;
 }
-
 
 .info2 {
   display: flex;

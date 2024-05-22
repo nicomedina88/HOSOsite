@@ -76,6 +76,32 @@ p {
   flex-direction: column;
 }
 
+@media (min-width: 769px) and (max-width: 889px) {
+  .opiniones {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .opinion {
+    background-color: white;
+    border: 1px solid #0F8AA6;
+    width: 500px; /* Ancho fijo para cada cuadro de opinión */
+    text-align: center;
+    border-radius: 10px; /* Ajusta el valor según la cantidad de redondeo deseada */
+    margin: 0px; /* Agregar un margen para separar los cuadros */
+    margin-top: 20px;
+    transition: transform 0.2s; /* Agregar una transición para un efecto suave */
+  }
+
+  .icono-nombre-localidad {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 90px; /* Ajusta la cantidad de espacio a la izquierda según tus necesidades */
+  }
+}
+
 @media screen and (max-width: 768px) {
   .opiniones {
     flex-direction: column;
