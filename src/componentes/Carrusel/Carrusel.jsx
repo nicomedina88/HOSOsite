@@ -41,7 +41,6 @@ function Carrusel() {
     
     items.forEach(item => {
       item.style.opacity = 0;
-      
       // Programa un cambio en la opacidad después de un breve retraso
       setTimeout(() => {
         item.style.opacity = 1;
@@ -85,7 +84,6 @@ function Carrusel() {
         </div>
       </div>
     </div>
-    
   );
 }
 

@@ -33,7 +33,7 @@
     /* Estilos del párrafo de texto */
     color: #424038;
     text-align: left; /* Alinea el texto a la izquierda */
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -50,7 +50,6 @@
       width: 100%; /* Ajusta el ancho del contenedor para que se ajuste automáticamente */
     }
   }
-
 
   @media screen and (max-width: 768px) {
     .paragraph {

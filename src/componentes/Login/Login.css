@@ -157,7 +157,6 @@
   }
 }
 
-
 @media (min-width: 769px) and (max-width: 1000px) {
   .white-section {
     background-color: #ffffff;
@@ -209,7 +208,6 @@
   }
 
   .white-section {
-    
     height: 854px;
   } 
 }
@@ -229,12 +227,10 @@
     gap: 30px;
     font-size: 16px;
   }
-  .white-section {
-    
+  .white-section {    
     height: 854px;
   } 
 }
-
 
 @media (min-width: 930px) and (max-width: 978px) {
 

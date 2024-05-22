@@ -78,7 +78,6 @@ body {
 
   .logo p {
     font-size: 12px;
-
   }
 
   .info a {
@@ -111,7 +110,6 @@ body {
     padding-left: 0px; /* Ajusta el valor según la separación deseada */
   }
 }
-
 
 @media (max-width: 999px) {
   .footer {

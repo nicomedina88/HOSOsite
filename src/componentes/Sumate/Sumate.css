@@ -31,7 +31,7 @@
 .section-title2 {
   color: #424038;
   align-self: stretch;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
@@ -42,7 +42,7 @@
 .section-titlemini {
   color: #424038;
   align-self: stretch;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -53,11 +53,11 @@
 .paragraph {
   color: #424038;
   text-align: left; /* Alinea el texto a la izquierda */
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 133.333% */
+  line-height: 32px; 
   letter-spacing: 0.5px;
 }
 
@@ -87,7 +87,6 @@
   margin: 50px; /* Centra el contenedor horizontalmente */
   margin-top: 80px;
 }
-
 
 .application-form {
   background-color: #0F8AA6;
@@ -184,14 +183,10 @@ button[type="submit"]:hover {
   margin: 0 auto;
   }
   .section-title2 {
-    color: #424038;
     align-self: stretch;
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    letter-spacing: 0.5px;
-    text-align: left; /* Alinea el texto a la izquierda */
   }
 
   .section-titlemini {
@@ -199,10 +194,7 @@ button[type="submit"]:hover {
   }
 
   .application-form {
-    background-color: #0F8AA6;
     border-radius: 0px;
-    color: #fff; /* Color del texto */
-    text-align: left; /* Alineación del texto a la izquierda */
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     box-sizing: border-box; 
@@ -225,23 +217,19 @@ button[type="submit"]:hover {
 @media (min-width: 1200px) and (max-width: 1440px) {
 
   .application-form {
-    background-color: #0F8AA6;
     border-radius: 20px;
-    color: #fff; /* Color del texto */
-    text-align: left; /* Alineación del texto a la izquierda */
     font-family: 'Montserrat', sans-serif;
-    width: 90%;
+    width: 100%;
     box-sizing: border-box; 
   }
 
   .application-container {
     width: 100%; /* Cambia el ancho del contenedor para que ocupe todo el ancho disponible */
-    max-width: 600px; /* Establece un ancho máximo para evitar que el formulario se extienda demasiado en pantallas grandes */
+    max-width: 650px; /* Establece un ancho máximo para evitar que el formulario se extienda demasiado en pantallas grandes */
     margin: 10px; /* Centra el contenedor horizontalmente */
     margin-top: 80px;
   }
 }
-
 
 @media (min-width: 1099px) and (max-width: 1999px) {
 
@@ -251,7 +239,7 @@ button[type="submit"]:hover {
 
   .application-container {
     width: 100%; /* Cambia el ancho del contenedor para que ocupe todo el ancho disponible */
-    max-width: 500px; /* Establece un ancho máximo para evitar que el formulario se extienda demasiado en pantallas grandes */
+    max-width: 600px; /* Establece un ancho máximo para evitar que el formulario se extienda demasiado en pantallas grandes */
   }
 
   .estudi {
@@ -294,14 +282,9 @@ button[type="submit"]:hover {
   margin-top: 80px;
 }
 
-
 .application-form {
-  background-color: #0F8AA6;
   border-radius: 10px;
   padding: 20px;
-  color: #fff; /* Color del texto */
-  text-align: left; /* Alineación del texto a la izquierda */
   font-family: 'Montserrat', sans-serif;
 }
-
 }
