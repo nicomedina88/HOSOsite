@@ -97,10 +97,21 @@
   align-items: center;
 }
 
-.ediuni {
+.fotoestudiantes {
   width: 100%; /* Cambia el ancho para que ocupe todo el ancho disponible */
   max-width: 600px; /* Establece un ancho máximo para evitar que la imagen se expanda demasiado en pantallas grandes */
   height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  padding: 20px; /* Agrega un espacio alrededor de la imagen */
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 40px;
+}
+
+.unpaz { 
+  width: 100%;
+  max-width: 600px;
+  height:auto;
+  margin-left:500px;
   padding: 20px; /* Agrega un espacio alrededor de la imagen */
   margin-top: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -123,9 +134,7 @@
   line-height: 28px; /* Puedes ajustar la altura de línea según tus preferencias */
 }
 
-.text-container {
-  padding: 15px; /* Puedes ajustar el relleno según tus preferencias */
-}
+
 
 .title-container1 {
   font-size: 14px; /* Ajusta el tamaño del título según sea necesario */
@@ -133,13 +142,20 @@
   max-width: 100%; /* Ajusta el ancho del contenedor para que se ajuste automáticamente */
 }
 
-.ediuni {
-  width: auto;
+.fotoestudiantes {
+    width: auto;
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 20px; /* Ajusta este valor según sea necesario */
+}
+
+.unpaz { 
+  width: 100%;
   max-width: 90%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  max-height: 200px; /* Ajusta este valor según sea necesario */
+  height:auto;
+  margin-left: 0px;
 }
 
 .section-title1 {
