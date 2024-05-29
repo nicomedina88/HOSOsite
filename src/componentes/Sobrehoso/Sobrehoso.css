@@ -12,6 +12,15 @@
   height: 250px; /* Ajusta la altura según sea necesario */
 }
 
+.mini-banner3 {
+  background-color: #FAC1B8;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left; /* Alinea el texto a la izquierda */
+  height: 180px; /* Ajusta la altura según sea necesario */
+}
+
 .title-container1 {
   color: #000;
   font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
@@ -108,6 +117,12 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-right: 40px;
 
+}
+.unpaz { 
+  width: 100%;
+  max-width: 800px;
+  height:auto;
+  margin-left:250px;
 }
 
 @media screen and (max-width: 768px) {
