@@ -11,7 +11,7 @@ const Resenas = () => {
       <div className="opiniones">
         <div className="opinion">
           <div className="icono-nombre-localidad">
-            <img src={UserIcon} alt="Icono de Usuario" className="icono-usuario" />
+            <img src={UserIcon} alt="Icono de Usuario femenino" className="icono-usuario" />
             <div className="info-usuario">
               <p className="nombre"><strong>Nina Fraga (anfitrión)</strong></p>
               <p className="localidad">José C. Paz</p>
@@ -22,7 +22,7 @@ const Resenas = () => {
         </div>
         <div className="opinion">
         <div className="icono-nombre-localidad">
-            <img src={UserIcon2} alt="Icono de Usuario" className="icono-usuario" />
+            <img src={UserIcon2} alt="Icono de Usuario masculino" className="icono-usuario" />
             <div className="info-usuario">
               <p className="nombre"><strong>Rubén Castro (anfitrión)</strong></p>
               <p className="localidad">Malvinas Arg.</p>
@@ -32,7 +32,7 @@ const Resenas = () => {
         </div>
         <div className="opinion">
         <div className="icono-nombre-localidad">
-            <img src={UserIcon} alt="Icono de Usuario" className="icono-usuario" />
+            <img src={UserIcon} alt="Icono de Usuario femenino" className="icono-usuario" />
             <div className="info-usuario">
               <p className="nombre"><strong>Susana Lopéz (anfitrión)</strong></p>
               <p className="localidad">Muñiz</p>

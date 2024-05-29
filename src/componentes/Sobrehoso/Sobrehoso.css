@@ -1,8 +1,4 @@
 /* Sobrehoso.css */
-.text-with-image-container-mob {
-  display: none;
-}
-
 .mini-banner {
   background-color: #FAC1B8;
   display: flex;
@@ -30,7 +26,7 @@
 .logo-container1 {
   text-align: center; /* Añade esta línea para centrar el texto en el contenedor */
   line-height: 0%;
-  margin-left: 60px; /* Agrega un margen a la izquierda del contenedor de logo */
+  margin-right: 50px; /* Agrega un margen a la izquierda del contenedor de logo */
 }
 
 .logo-container1 img {
@@ -60,12 +56,12 @@
 .text-container {
   background-color: #fff;
   margin: 0; /* Ajusta según sea necesario */
+  
 }
 
 .section-title1 {
   color: #424038;
   align-self: stretch;
-  /* title/large */
   font-family: 'DM Sans', sans-serif;
   font-size: 40px;
   font-style: normal;
@@ -76,7 +72,6 @@
 }
 
 .paragraph {
-  /* Estilos del párrafo de texto */
   color: #424038;
   text-align: left; /* Alinea el texto a la izquierda */
   font-family: 'DM Sans', sans-serif;
@@ -90,14 +85,17 @@
 .text-with-image-container {
   display: flex;
   align-items: center; 
+  
 }
 
 .text-with-image-container1 {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Alinea al principio para asegurar que el logo esté a la derecha del texto */
+  justify-content: space-between; /* Añade esta línea para separar el texto y la imagen del logo */
 }
 
 .fotoestudiantes {
+  order: -1; /* Asegura que la imagen esté antes que el texto */
   width: 100%; /* Cambia el ancho para que ocupe todo el ancho disponible */
   max-width: 600px; /* Establece un ancho máximo para evitar que la imagen se expanda demasiado en pantallas grandes */
   height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
@@ -105,21 +103,6 @@
   margin-top: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-right: 40px;
-}
-.unpaz { 
-  width: 100%;
-  max-width: 800px;
-  height:auto;
-  margin-left:250px;
-}
-
-.mini-banner3 {
-  background-color: #FAC1B8;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  text-align: left; /* Alinea el texto a la izquierda */
-  height: 180px; /* Ajusta la altura según sea necesario */
 }
 
 .unpaz { 
@@ -140,16 +123,10 @@
     height: 150px; /* Añade !important para dar prioridad a esta regla en dispositivos móviles */
   }
 
-.text-with-image-container1 {
-  display: none;
-}
-
 .paragraph {
   font-size: 16px; /* Puedes ajustar el tamaño según tus preferencias */
   line-height: 28px; /* Puedes ajustar la altura de línea según tus preferencias */
 }
-
-
 
 .title-container1 {
   font-size: 14px; /* Ajusta el tamaño del título según sea necesario */
@@ -158,35 +135,44 @@
 }
 
 .fotoestudiantes {
-    width: auto;
-    max-width: 20%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    max-height: 20px; /* Ajusta este valor según sea necesario */
+  order: 1; /* Resetea el order para dispositivos móviles */
+  width: auto;
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-height: 200px; /* Ajusta este valor según sea necesario */
 }
 
 .unpaz { 
-  width: 100%;
-  max-width: 90%;
-  height:auto;
-  margin-left: 0px;
+  width: auto;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 200px; /* Ajusta este valor según sea necesario */
 }
 
 .section-title1 {
   color: #424038;
   align-self: stretch;
   font-family: 'DM Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   letter-spacing: 0.5px;
   text-align: left; /* Alinea el texto a la izquierda */
 }
 
-.text-with-image-container-mob {
-  display: block;
-  flex-direction: column;
+.section-title2 {
+  color: #424038;
+  align-self: stretch;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: left; /* Alinea el texto a la izquierda */
 }
 
 .logo-container1 {
@@ -208,4 +194,66 @@
   font-size: 14px; /* Ajustar el tamaño del slogan */
   margin-top: 50px; /* Ajusta el margen superior del slogan */
 }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+  .unpaz { 
+    width: 100%;
+    max-width: 600px;
+    height:auto;
+    margin-left:100px;
+    padding: 20px; /* Agrega un espacio alrededor de la imagen */
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+  }
+  
+  .fotoestudiantes {
+    order: 1; /* Resetea el order para dispositivos móviles */
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1080px) {
+    
+  .fotoestudiantes {
+    max-width: 100%;
+    max-height: 270px; /* Ajusta este valor según sea necesario */
+  }
+
+  .unpaz { 
+    width: 100%;
+    max-width: 600px;
+    height:auto;
+    margin-left: 150px;
+    padding: 20px; /* Agrega un espacio alrededor de la imagen */
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1200px) {
+
+  .unpaz { 
+    width: 100%;
+    max-width: 600px;
+    height:auto;
+    margin-left: 200px;
+    padding: 20px; /* Agrega un espacio alrededor de la imagen */
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+
+  .unpaz { 
+    width: 100%;
+    max-width: 600px;
+    height:auto;
+    margin-left: 300px;
+    padding: 20px; /* Agrega un espacio alrededor de la imagen */
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
 }

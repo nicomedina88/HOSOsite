@@ -12,6 +12,7 @@ function Carrusel() {
       title: 'Sobre HOSO',
       text: 'El Proyecto surge de la necesidad de responder ante la demanda de Hospedaje Solidario por parte de estudiantes, docentes, investigadores y graduados/as interesandos en realizar un período de intercambio en la UNPAZ...',
       image: foto2,
+      alt: 'Foto de la reunion de la secretaria de relaciones internacionales con varios estudiantes que participan en el programa',
       buttonLabel: 'Ver más',
       link: '/sobre-hoso',
     },
@@ -19,6 +20,7 @@ function Carrusel() {
       title: 'Sumate',
       text: '¿Querés ser parte de una experiencia enriquecedora y brindar un cálido alojamiento a académicos extranjeros que vienen a nuestra universidad? ¡Unite a nosotros como anfitrión solidario y compartí tu hogar con personas de diferentes culturas!',
       image: foto3,
+      alt: 'cinco estudiantes de la Unpaz reunidos para una foto',
       buttonLabel: 'Más información',
       link: '/sumate',
     },
@@ -26,6 +28,7 @@ function Carrusel() {
       title: 'Nuestro programa',
       text: 'El Hospedaje Solidario se encuentra en el marco del programa “La UNPAZ en el mundo, el mundo en la UNPAZ” y tiene como objetivo el intercambio intercultural,  promoviendo así la internacionalización en nuestra comunidad universitaria.',
       image: foto1,
+      alt: 'logo de la secretaria de relaciones internacionales de la UNPAZ con su slogan que dice: la unpaz en el mundo, el mundo en la Unpaz',
       buttonLabel: 'Más información',
       link: '/sobre-hoso',
     },
@@ -69,7 +72,7 @@ function Carrusel() {
           </a>
         </div>
         <div className="carrusel-image carrusel-item">
-          <img src={data[currentIndex].image} alt={data[currentIndex].title} />
+          <img src={data[currentIndex].image} alt={data[currentIndex].alt} />
         </div>
       </div>
       <div className="carrusel-indicators">
