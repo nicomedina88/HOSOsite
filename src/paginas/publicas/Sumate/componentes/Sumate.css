@@ -101,32 +101,6 @@
   margin-bottom: 15px;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #D9D9D9;
-  border-radius: 5px;
-  margin-top: 5px;
-  box-sizing: border-box;
-  color: #000; /* Cambia el color a negro */
-  text-align: left; /* Alineación del texto a la izquierda */
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold; /* Aplicar negrita */
-}
-
-button {
-  background-color: #0F8AA6;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
 .mini-ban {
   display: none;
