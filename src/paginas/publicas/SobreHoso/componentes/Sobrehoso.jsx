@@ -1,8 +1,8 @@
 import React from 'react';
 import './Sobrehoso.css';
-import logo6 from '../../img/hoso7.jpg';
-import img2 from '../../img/RGDI3.jpg';
-import internacionales from '../../img/HOSOPresentaciónoficial.jpg';
+import logo6 from '../../../../img/hoso7.jpg';
+import img2 from '../../../../img/RGDI3.jpg';
+import internacionales from '../../../../img/HOSOPresentaciónoficial.jpg';
 
 const Sobrehoso = () => {
   return (

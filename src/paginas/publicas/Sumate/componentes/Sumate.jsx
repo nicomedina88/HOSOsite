@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sumate.css'; 
-import estudiantes from '../../img/ESTUDIANTES11.jpeg';
+import estudiantes from '../../../../img/ESTUDIANTES11.jpeg';
 
 const Sumate = () => {
   return (

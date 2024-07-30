@@ -1,85 +1,33 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './componentes/Header/Header.jsx';
-import Banner from './componentes/Banner/Banner.jsx';
-import Carrusel from './componentes/Carrusel/Carrusel.jsx';
-import Resenas from './componentes/Reseñas/Resenas.jsx';
-import Contacto from './componentes/Contacto/Contacto.jsx';
-import Footer from './componentes/Footer/Footer.jsx';
-import Sumate from './componentes/Sumate/Sumate.jsx';
-import Sobrehoso from './componentes/Sobrehoso/Sobrehoso.jsx';
-import Condiciones from './componentes/Condiciones/Condiciones.jsx';
-import Privacidad from './componentes/Privacidad/Privacidad.jsx';
-import Login from './componentes/Login/Login.jsx';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./componentes/Header/Header.jsx";
+import Footer from "./componentes/Footer/Footer.jsx";
+import { HomePage } from "./paginas/publicas/Home/HomePage.jsx";
+import {lazy, Suspense } from "react";
+
+const SobreHoso = lazy(()=> import('./paginas/publicas/SobreHoso/SobreHosoPage.jsx'))
+const Sumate = lazy(()=> import('./paginas/publicas/Sumate/SumatePage.jsx'))
+const Condiciones = lazy(()=> import('./paginas/publicas/Condiciones/CondicionesPage.jsx'))
+const Privacidad = lazy(()=> import('./paginas/publicas/Privacidad/PrivacidadPage.jsx'))
+const Login = lazy(()=> import('./paginas/publicas/Login/LoginPage.jsx'))
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/sobre-hoso" element={<SobreHosoPage />} />
-          <Route path="/sumate" element={<SumatePage />} />
-          <Route path="/terminos-y-condiciones" element={<CondicionesPage />} />
-          <Route path="/politicas-de-privacidad" element={<PrivacidadPage />} />
-          <Route path="/login" element={<LoginPage />} />
-        </Routes>
+        <Suspense fallback={<h2>Loading...</h2>}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/sobre-hoso" element={<SobreHoso />} />
+            <Route path="/sumate" element={<Sumate />} />
+            <Route path="/terminos-y-condiciones" element={<Condiciones />} />
+            <Route path="/politicas-de-privacidad" element={<Privacidad />} />
+          </Routes>
+        </Suspense>
         <Footer />
       </div>
     </Router>
-  );
-}
-
-function Home() {
-  return (
-    <div>
-      <Banner />
-      <Carrusel />
-      <Resenas />
-      <Contacto />
-    </div>
-  );
-}
-
-function SobreHosoPage() {
-  return (
-    <div>
-      <Sobrehoso />
-    </div>
-  );
-}
-
-
-function SumatePage() {
-  return (
-    <div>
-      <Sumate />
-    </div>
-  );
-}
-
-function LoginPage() {
-  return (
-    <div>
-      <Login />
-    </div>
-  );
-}
-
-function CondicionesPage() {
-  return (
-    <div>
-      <Condiciones />
-    </div>
-  );
-}
-
-function PrivacidadPage() {
-  return (
-    <div>
-      <Privacidad />
-    </div>
   );
 }
 
