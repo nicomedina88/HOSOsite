@@ -1,7 +1,7 @@
 import React from 'react';
 import './Resenas.css';
-import UserIcon from '../../img/201634.png';
-import UserIcon2 from '../../img/male_man_people_person_avatar_white_tone_icon_159363.png';
+import UserIcon from '../../../../../img/201634.png';
+import UserIcon2 from '../../../../../img/male_man_people_person_avatar_white_tone_icon_159363.png';
 
 const Resenas = () => {
   return (

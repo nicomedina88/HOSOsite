@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contacto.css';
-import {Telefono, MailContacto, Web, Ubicacion} from '../../constantes/IconosHoso';
+import {Telefono, MailContacto, Web, Ubicacion} from '../../../../../constantes/IconosHoso';
 
 const Contacto = () => {
   const validarFormulario = () => {
