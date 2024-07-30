@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Carrusel.css';
-import foto1 from '../../img/HOSOPresentaciónoficial.jpg';
-import foto2 from '../../img/RGDI3.jpg';
-import foto3 from '../../img/ESTUDIANTES11.jpeg';
+import foto1 from '../../../../../img/HOSOPresentaciónoficial.jpg';
+import foto2 from '../../../../../img/RGDI3.jpg';
+import foto3 from '../../../../../img/ESTUDIANTES11.jpeg';
+
 
 function Carrusel() {
   const [currentIndex, setCurrentIndex] = useState(0);
