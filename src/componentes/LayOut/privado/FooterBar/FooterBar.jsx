@@ -1,7 +1,7 @@
 import React from 'react';
 import './FooterBar.css';
 
-const FooterBar = () => {
+function FooterBar() {
     return (
         <div>
             <h1>Footer Bar</h1>

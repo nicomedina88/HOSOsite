@@ -1,9 +1,11 @@
 import Perfil from './componentes/PerfilUsuario';
 
-export default function PerfilUserPage() {
+ function PerfilUserPage() {
     return (
-      <div>
+      <div className='center_presentation'>
         <Perfil />
       </div>
     );
   }
+
+  export default PerfilUserPage;

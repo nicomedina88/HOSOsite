@@ -1,7 +1,7 @@
 import React from 'react';
 import './Politicas.css';
 
-const Politicas = () => {
+function Politicas (){
     return (
         <div>
             <h1>Politicas</h1>

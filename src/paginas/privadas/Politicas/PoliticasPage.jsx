@@ -1,9 +1,11 @@
 import Politicas from './componentes/Politicas';
 
-export default function PoliticasPage() {
-    return (
-      <div>
-        <Politicas />
-      </div>
-    );
-  }
+function PoliticasPage() {
+  return (
+    <div className='center_presentation'>
+      <Politicas />
+    </div>
+  );
+}
+
+export default PoliticasPage;
