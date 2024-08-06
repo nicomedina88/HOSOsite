@@ -1,5 +1,6 @@
-import FooterBar from "./FooterBar/componentes/FooterBar";
-import NavBar from "./NavBar/componentes/NavBar";
+import FooterBar from "./FooterBar/FooterBar";
+import NavBar from "./NavBar/NavBar";
+
 
 const LayoutPrivado = ({ children }) => {
     return (

@@ -11,7 +11,7 @@ function NotFoundPage () {
   
     return <div className="center_presentation">
       <h2>Lo sentimos, no se encontró la ruta :C</h2>
-      {count ? (<Navigate to={"/private/"}/>) : <h2>En instantes serás redireccionado a alojamientos</h2>}
+      {count ? (<Navigate to={"/private/alojamientos"}/>) : <h2>En instantes serás redireccionado a alojamientos</h2>}
     </div>
   }
   

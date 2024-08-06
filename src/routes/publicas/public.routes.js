@@ -19,13 +19,6 @@ const Privacidad = lazy(() =>
 );
 const Login = lazy(() => import("../../paginas/publicas/Login/LoginPage.jsx"));
 
-const Alojamientos = lazy(() =>
-  import("../../paginas/publicas/Alojamientos/AlojamientosPage.jsx")
-);
-
-const DetalleAlojamiento = lazy(() =>
-  import("../../paginas/publicas/DetalleAlojamiento/DetalleAlojamientoPage.jsx")
-);
 
 const RutasPublicas = () => {
   return (
@@ -38,8 +31,6 @@ const RutasPublicas = () => {
           <Route path="/sumate" element={<Sumate />} />
           <Route path="/terminos-y-condiciones" element={<Condiciones />} />
           <Route path="/politicas-de-privacidad" element={<Privacidad />} />
-          <Route path="/alojamientos" element={<Alojamientos />} />
-          <Route path="/alojamientos/detalle/:id" element={<DetalleAlojamiento />}/>
         </RutaNotFound>
       </Suspense>
     </LayoutPublico>

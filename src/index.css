@@ -39,7 +39,6 @@ button {
   cursor: pointer;
 }
 
-
 .center_presentation{
   width: 98vw;
   height:94vh;
@@ -49,7 +48,6 @@ button {
   flex-direction: column;
   margin:auto;
 }
-
 
 @media screen and (max-width: 768px) {
   .header, .footer {

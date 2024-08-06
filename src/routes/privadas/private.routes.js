@@ -1,4 +1,4 @@
-import { Navigate, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import { AdminGuard } from "../guards/AdminGuard.jsx";
 import { Spinner } from "../../constantes/Spinner.jsx";
@@ -20,28 +20,39 @@ const PreReservas = lazy(() =>
 const Terminos = lazy(() =>
   import("../../paginas/privadas/Terminos/TerminosPage.jsx")
 );
+const Alojamientos = lazy(() =>
+  import("../../paginas/privadas/Alojamientos/AlojamientosPage.jsx")
+);
 
- function RutasPrivadas () {
+const DetalleAlojamiento = lazy(() =>
+  import("../../paginas/privadas/DetalleAlojamiento/DetalleAlojamientoPage.jsx")
+);
+
+function RutasPrivadas() {
   return (
     <LayoutPrivado>
       <Suspense fallback={<Spinner />}>
         <RutaNotFound>
-          <Route path="/" element={<Navigate replace to={"/alojamientos"} />} />
           <Route path="/centro-ayuda" element={<CentroAyuda />} />
           <Route path="/politicas" element={<Politicas />} />
           <Route path="/prereservas" element={<PreReservas />} />
           <Route path="/terminos" element={<Terminos />} />
+          <Route path="/alojamientos" element={<Alojamientos />} />
           <Route path="/perfil-usuario/:id" element={<PerfilUsuario />} />
+          <Route path="/alojamientos/detalle/:id" element={<DetalleAlojamiento />}/>
+
           <Route element={<AdminGuard />}>
             <Route
               path="/ejemplo-admin"
-              element={<h1 className="center_presentation">RUTA ADMIN DE EJEMPLO</h1>}
+              element={
+                <h1 className="center_presentation">RUTA ADMIN DE EJEMPLO</h1>
+              }
             />
           </Route>
         </RutaNotFound>
       </Suspense>
     </LayoutPrivado>
   );
-};
+}
 
-export default RutasPrivadas
+export default RutasPrivadas;
