@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../img/hoso1.png';
-import logo2 from '../../img/logo_unpaz_blanco.png';
-import { InstagramIcon } from '../../constantes/IconosHoso';
+import logo from '../../../../img/hoso1.png';
+import logo2 from '../../../../img/logo_unpaz_blanco.png';
+import { InstagramIcon } from '../../../../constantes/IconosHoso'
 import { Link } from 'react-router-dom';
 
 function Footer() {

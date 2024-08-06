@@ -40,6 +40,17 @@ button {
 }
 
 
+.center_presentation{
+  width: 98vw;
+  height:94vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:auto;
+}
+
+
 @media screen and (max-width: 768px) {
   .header, .footer {
     width: 100%; /* Asegura que el encabezado y el pie de página ocupen todo el ancho disponible */

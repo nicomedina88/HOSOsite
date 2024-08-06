@@ -1,9 +1,11 @@
 import Prereservas from './componentes/Prereservas';
 
-export default function PrereservasPage() {
-    return (
-      <div>
-        <Prereservas />
-      </div>
-    );
-  }
+function PrereservasPage() {
+  return (
+    <div className='center_presentation'>
+      <Prereservas />
+    </div>
+  );
+}
+
+export default PrereservasPage;

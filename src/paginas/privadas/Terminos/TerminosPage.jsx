@@ -1,9 +1,11 @@
 import Terminos from './componentes/Terminos';
 
-export default function TerminosPage() {
-    return (
-      <div>
-        <Terminos />
-      </div>
-    );
-  }
+function TerminosPage() {
+  return (
+    <div className='center_presentation'>
+      <Terminos />
+    </div>
+  );
+}
+
+export default TerminosPage;
